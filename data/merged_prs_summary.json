@@ -22748,11 +22748,18 @@
                         "passed": "passed"
                     }
                 ], 
-                "lizard": "inprogress", 
+                "lizard": "found", 
                 "static_checks": "inprogress", 
                 "isIB": true, 
                 "inProgress": false, 
-                "addons": [], 
+                "addons": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/12.0-sun-23/CMSSW_12_0_X_2021-10-17-2300/addOnTests.log", 
+                        "details": {}
+                    }
+                ], 
                 "hlt_tests": "inprogress"
             }, 
             {
@@ -33822,7 +33829,14 @@
                 "static_checks": "not-found", 
                 "isIB": true, 
                 "inProgress": false, 
-                "addons": [], 
+                "addons": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/12.1.ROOT6-sun-23/CMSSW_12_1_ROOT6_X_2021-10-17-2300/addOnTests.log", 
+                        "details": {}
+                    }
+                ], 
                 "hlt_tests": "not-found"
             }, 
             {
@@ -36047,7 +36061,16 @@
                         "details": {}
                     }
                 ], 
-                "invalid_includes": [], 
+                "invalid_includes": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": "failed", 
+                        "file": "/data/sdt/SDT/jenkins-artifacts/invalid-includes/CMSSW_12_1_X_2021-10-17-2300/slc7_amd64_gcc900/summary.json", 
+                        "details": {
+                            "num_fails": "87"
+                        }
+                    }
+                ], 
                 "builds": [
                     {
                         "arch": "slc7_amd64_gcc900", 

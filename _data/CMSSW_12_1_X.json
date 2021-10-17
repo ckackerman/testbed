@@ -229,7 +229,16 @@
                     "details": {}
                 }
             ], 
-            "invalid_includes": [], 
+            "invalid_includes": [
+                {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/SDT/jenkins-artifacts/invalid-includes/CMSSW_12_1_X_2021-10-17-2300/slc7_amd64_gcc900/summary.json", 
+                    "details": {
+                        "num_fails": "87"
+                    }
+                }
+            ], 
             "builds": [
                 {
                     "arch": "slc7_amd64_gcc900", 
