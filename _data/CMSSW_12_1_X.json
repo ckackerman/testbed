@@ -156,22 +156,26 @@
             "utests": [
                 {
                     "arch": "slc7_amd64_gcc900", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/new/logAnalysis.pkl']", 
-                    "details": {}
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "0"
+                    }
                 }, 
                 {
                     "arch": "cc8_amd64_gcc9", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/cc8_amd64_gcc9/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/new/logAnalysis.pkl']", 
-                    "details": {}
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/cc8_amd64_gcc9/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "0"
+                    }
                 }
             ], 
             "ib_date": "2021-10-17-2300-0000", 
             "relvals": [], 
             "release_queue": "CMSSW_12_1_X", 
             "release_name": "CMSSW_12_1_X_2021-10-17-2300", 
-            "comp_baseline": "inprogress", 
+            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_12_1_X_2021-10-17-2300/slc7_amd64_gcc900/-GenuineIntel/matrix-results", 
             "gpu_utests": [], 
             "material_budget_comparison": "not-found", 
             "merged_prs": [
@@ -254,7 +258,7 @@
                 }
             ], 
             "material_budget_v2": "not-found", 
-            "check-headers": "inprogress", 
+            "check-headers": "passed", 
             "static_checks_v2": "inprogress", 
             "valgrind": "not-found", 
             "material_budget": "not-found", 
@@ -355,12 +359,12 @@
             "ib_date": "2021-10-17-0000-0000", 
             "relvals": [
                 {
-                    "done": false, 
+                    "done": true, 
                     "arch": "slc7_amd64_gcc900", 
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/12.1-sun-00/CMSSW_12_1_X_2021-10-17-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 3216, 
+                        "num_passed": 3484, 
                         "known_failed": 0, 
                         "num_failed": 1
                     }
@@ -421,7 +425,10 @@
             ], 
             "material_budget_v2": "not-found", 
             "check-headers": "passed", 
-            "static_checks_v2": "inprogress", 
+            "static_checks_v2": {
+                "status": "passed", 
+                "arch": "slc7_amd64_gcc900"
+            }, 
             "valgrind": "not-found", 
             "material_budget": "not-found", 
             "dupDict": [
@@ -435,7 +442,7 @@
                 }
             ], 
             "lizard": "found", 
-            "static_checks": "inprogress", 
+            "static_checks": "slc7_amd64_gcc900:", 
             "isIB": true, 
             "inProgress": false, 
             "addons": [
