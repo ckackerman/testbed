@@ -1,0 +1,20 @@
+{
+  "crab-dev": {
+    "build_dependencies": [],
+    "checksum": "ee45200778f5b2a53a7bf74ec13de1f9",
+    "dependencies": [],
+    "doc": "",
+    "name": "crab-dev",
+    "package_name": "cms+crab-dev+v3.211006.00",
+    "patches": [],
+    "realversion": "v3.211006.00",
+    "revision": "1",
+    "sources": [
+      "git://github.com/dmwm/CRABClient.git?obj=master/v3.211006&export=CRABClient&output=/CRABClient-v3.211006.tar.gz",
+      "git://github.com/dmwm/WMCore.git?obj=master/1.5.2&export=WMCore&output=/WMCore-1.5.2.tar.gz",
+      "git://github.com/dmwm/CRABServer.git?obj=master/v3.210823&export=CRABServer&output=/CRABServer-v3.210823.tar.gz",
+      "git://github.com/dmwm/DBS.git?obj=master/3.14.0&export=DBS&output=/DBS-3.14.0.tar.gz"
+    ],
+    "version": "v3.211006.00"
+  }
+}
