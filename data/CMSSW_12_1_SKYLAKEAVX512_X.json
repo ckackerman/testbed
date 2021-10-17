@@ -40,13 +40,22 @@
             "material_budget_comparison": "not-found", 
             "merged_prs": [
                 {
-                    "hash": "b7b6fcfdf76790cf19545861aa54880f9332c7c7", 
-                    "title": "introduce unit tests for `CondTools/SiPhase2Tracker`", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/35677", 
-                    "number": "35677", 
+                    "hash": "446ab2fe39289c05b22794795458dfff4f14f5b1", 
+                    "title": "[Online DQM] re-introduce unit tests for visualization", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35642", 
+                    "number": "35642", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "mmusich"
+                }, 
+                {
+                    "hash": "fcdf7aee5c3e6fbd7ed105af32b8f297384222a9", 
+                    "title": "Updating hltDumpStream to work in python3 : 121X", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35709", 
+                    "number": "35709", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Sam-Harper"
                 }, 
                 {
                     "hash": "0209ecde0970a232ac291af70309a4cb87a8ea66", 
@@ -67,6 +76,15 @@
                     "author_login": "guitargeek"
                 }, 
                 {
+                    "hash": "b7b6fcfdf76790cf19545861aa54880f9332c7c7", 
+                    "title": "introduce unit tests for `CondTools/SiPhase2Tracker`", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35677", 
+                    "number": "35677", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mmusich"
+                }, 
+                {
                     "hash": "fddeeefba463a28bf5ddbb053c0918a2aaf63fd2", 
                     "title": "Added esConsumes to module in SimG4Core/DD4hepGeometry", 
                     "url": "https://github.com/cms-sw/cmssw/pull/35676", 
@@ -76,13 +94,13 @@
                     "author_login": "Dr15Jones"
                 }, 
                 {
-                    "hash": "446ab2fe39289c05b22794795458dfff4f14f5b1", 
-                    "title": "[Online DQM] re-introduce unit tests for visualization", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/35642", 
-                    "number": "35642", 
+                    "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
+                    "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35687", 
+                    "number": "35687", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "mmusich"
+                    "author_login": "perrotta"
                 }, 
                 {
                     "hash": "09d56ca6f28566bc2c2d6dc804a3107c7679d16c", 
@@ -121,13 +139,13 @@
                     "author_login": "ChrisMisan"
                 }, 
                 {
-                    "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
-                    "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/35687", 
-                    "number": "35687", 
+                    "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
+                    "title": "Fixed typos on some name and title in GEM onlineDQM", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35690", 
+                    "number": "35690", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "perrotta"
+                    "author_login": "quark2"
                 }, 
                 {
                     "hash": "0607f7a1c38fcdc79a50d87ce629b8b973a0a905", 
@@ -216,7 +234,7 @@
             "ib_date": "2021-10-14-2300-0000", 
             "relvals": [
                 {
-                    "done": false, 
+                    "done": true, 
                     "arch": "slc7_amd64_gcc900", 
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/thu/12.1.SKYLAKEAVX512-thu-23/CMSSW_12_1_SKYLAKEAVX512_X_2021-10-14-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 

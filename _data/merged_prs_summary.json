@@ -61,7 +61,7 @@
                 }, 
                 "cmsdist_compared_tags": {
                     "slc7_amd64_gcc700": "Not Found..IB/CMSSW_10_2_X_2021-10-17-0000/slc7_amd64_gcc700", 
-                    "slc6_amd64_gcc700": "IB/CMSSW_10_2_X_2021-10-10-0000/slc6_amd64_gcc700..IB/CMSSW_10_2_X_2021-10-17-0000/slc6_amd64_gcc700"
+                    "slc6_amd64_gcc700": "Not Found..IB/CMSSW_10_2_X_2021-10-17-0000/slc6_amd64_gcc700"
                 }, 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_10_2_X_2021-10-17-0000/slc7_amd64_gcc700", 
@@ -101,14 +101,14 @@
                 "ib_date": "2021-10-17-0000-0000", 
                 "relvals": [
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "slc7_amd64_gcc700", 
-                        "passed": true, 
+                        "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.2-sun-00/CMSSW_10_2_X_2021-10-17-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2747, 
+                            "num_passed": 2729, 
                             "known_failed": 0, 
-                            "num_failed": 0
+                            "num_failed": 18
                         }
                     }, 
                     {
@@ -200,11 +200,11 @@
                 }, 
                 "cmsdist_compared_tags": {
                     "slc7_amd64_gcc700": "Not Found..Not Found", 
-                    "slc6_amd64_gcc700": "IB/CMSSW_10_2_X_2021-10-10-0000/slc6_amd64_gcc700..IB/CMSSW_10_2_X_2021-10-10-0000/slc6_amd64_gcc700"
+                    "slc6_amd64_gcc700": "Not Found..Not Found"
                 }, 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "Not Found", 
-                    "slc6_amd64_gcc700": "IB/CMSSW_10_2_X_2021-10-10-0000/slc6_amd64_gcc700"
+                    "slc6_amd64_gcc700": "Not Found"
                 }, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -333,56 +333,22 @@
             {
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
-                "tests_archs": [
-                    "slc6_amd64_gcc700"
-                ], 
-                "cmsdist_merged_prs": {
-                    "slc6_amd64_gcc700": []
-                }, 
-                "cmsdist_compared_tags": {
-                    "slc6_amd64_gcc700": "IB/CMSSW_10_2_X_2021-10-10-0000/slc6_amd64_gcc700..IB/CMSSW_10_2_X_2021-10-10-0000/slc6_amd64_gcc700"
-                }, 
+                "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": {}, 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_10_2_X_2021-10-10-0000/slc7_amd64_gcc700", 
                     "slc6_amd64_gcc700": "IB/CMSSW_10_2_X_2021-10-10-0000/slc6_amd64_gcc700"
                 }, 
                 "next_ib": false, 
                 "RVExceptions": null, 
-                "fwlite": [
-                    {
-                        "arch": "slc6_amd64_gcc700", 
-                        "passed": "passed", 
-                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.2-sun-00/CMSSW_10_2_X_2021-10-10-0000/new_FWLITE/logAnalysis.pkl", 
-                        "details": {}
-                    }
-                ], 
+                "fwlite": [], 
                 "profiling": "not-found", 
                 "compared_tags": "CMSSW_10_2_23-->CMSSW_10_2_X_2021-10-10-0000", 
                 "dqm_tests": "found", 
-                "utests": [
-                    {
-                        "arch": "slc6_amd64_gcc700", 
-                        "passed": "failed", 
-                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.2-sun-00/CMSSW_10_2_X_2021-10-10-0000/unitTests-summary.log", 
-                        "details": {
-                            "num_fails": "1"
-                        }
-                    }
-                ], 
+                "utests": [], 
                 "ib_date": "2021-10-10-0000-0000", 
-                "relvals": [
-                    {
-                        "done": true, 
-                        "arch": "slc6_amd64_gcc700", 
-                        "passed": true, 
-                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.2-sun-00/CMSSW_10_2_X_2021-10-10-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                        "details": {
-                            "num_passed": 2727, 
-                            "known_failed": 6, 
-                            "num_failed": 0
-                        }
-                    }
-                ], 
+                "relvals": [], 
                 "igprof": "not-found", 
                 "release_queue": "CMSSW_10_2_X", 
                 "release_name": "CMSSW_10_2_X_2021-10-10-0000", 
@@ -519,40 +485,18 @@
                 ], 
                 "base_branch": "CMSSW_10_2_X", 
                 "invalid_includes": [], 
-                "builds": [
-                    {
-                        "arch": "slc6_amd64_gcc700", 
-                        "passed": "warning", 
-                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.2-sun-00/CMSSW_10_2_X_2021-10-10-0000/new/logAnalysis.pkl", 
-                        "details": {
-                            "compWarning": 5, 
-                            "ignoreWarning": 782
-                        }
-                    }
-                ], 
+                "builds": [], 
                 "material_budget_v2": "not-found", 
                 "check-headers": "not-found", 
                 "static_checks_v2": "not-found", 
                 "valgrind": "not-found", 
                 "material_budget": "not-found", 
-                "dupDict": [
-                    {
-                        "arch": "slc6_amd64_gcc700", 
-                        "passed": "error"
-                    }
-                ], 
+                "dupDict": [], 
                 "static_checks_failures": "not-found", 
                 "static_checks": "not-found", 
                 "isIB": true, 
                 "inProgress": false, 
-                "addons": [
-                    {
-                        "arch": "slc6_amd64_gcc700", 
-                        "passed": true, 
-                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.2-sun-00/CMSSW_10_2_X_2021-10-10-0000/addOnTests.log", 
-                        "details": {}
-                    }
-                ], 
+                "addons": [], 
                 "hlt_tests": "error"
             }, 
             {
@@ -7970,7 +7914,7 @@
                 "ib_date": "2021-10-17-0000-0000", 
                 "relvals": [
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "slc7_amd64_gcc700", 
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.3-sun-00/CMSSW_10_3_X_2021-10-17-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
@@ -11397,7 +11341,19 @@
                     }
                 ], 
                 "ib_date": "2021-10-17-0000-0000", 
-                "relvals": [], 
+                "relvals": [
+                    {
+                        "done": true, 
+                        "arch": "slc7_amd64_gcc700", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.6-sun-00/CMSSW_10_6_X_2021-10-17-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 3041, 
+                            "known_failed": 0, 
+                            "num_failed": 0
+                        }
+                    }
+                ], 
                 "igprof": "not-found", 
                 "release_queue": "CMSSW_10_6_X", 
                 "release_name": "CMSSW_10_6_X_2021-10-17-0000", 
@@ -14194,6 +14150,17 @@
                 "relvals": [
                     {
                         "done": true, 
+                        "arch": "slc7_amd64_gcc820", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/sun/11.1-sun-00/CMSSW_11_1_X_2021-10-17-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 3351, 
+                            "known_failed": 0, 
+                            "num_failed": 0
+                        }
+                    }, 
+                    {
+                        "done": true, 
                         "arch": "cc8_amd64_gcc8", 
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/cc8_amd64_gcc8/www/sun/11.1-sun-00/CMSSW_11_1_X_2021-10-17-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
@@ -15380,7 +15347,19 @@
                     }
                 ], 
                 "ib_date": "2021-10-17-0000-0000", 
-                "relvals": [], 
+                "relvals": [
+                    {
+                        "done": true, 
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.2-sun-00/CMSSW_11_2_X_2021-10-17-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 3394, 
+                            "known_failed": 0, 
+                            "num_failed": 0
+                        }
+                    }
+                ], 
                 "igprof": "not-found", 
                 "release_queue": "CMSSW_11_2_X", 
                 "release_name": "CMSSW_11_2_X_2021-10-17-0000", 
@@ -21725,6 +21704,28 @@
                 "ib_date": "2021-10-17-0000-0000", 
                 "relvals": [
                     {
+                        "done": false, 
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.3-sun-00/CMSSW_11_3_X_2021-10-17-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 1988, 
+                            "known_failed": 0, 
+                            "num_failed": 0
+                        }
+                    }, 
+                    {
+                        "done": true, 
+                        "arch": "slc7_ppc64le_gcc9", 
+                        "passed": false, 
+                        "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/sun/11.3-sun-00/CMSSW_11_3_X_2021-10-17-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 3254, 
+                            "known_failed": 51, 
+                            "num_failed": 2
+                        }
+                    }, 
+                    {
                         "done": true, 
                         "arch": "cc8_amd64_gcc9", 
                         "passed": true, 
@@ -22641,10 +22642,10 @@
                 "reco_event_loop": "inprogress", 
                 "profiling": "inprogress", 
                 "base_branch": "CMSSW_12_0_X", 
-                "compared_tags": "CMSSW_12_0_X_2021-10-17-0000-->CMSSW_12_0_X", 
+                "compared_tags": "CMSSW_12_0_X_2021-10-17-2300-->CMSSW_12_0_X", 
                 "dqm_tests": "not-found", 
                 "utests": [], 
-                "ib_date": "2021-10-17-0000-0001", 
+                "ib_date": "2021-10-17-2300-0001", 
                 "relvals": [], 
                 "release_queue": "CMSSW_12_0_X", 
                 "release_name": "CMSSW_12_0_X", 
@@ -22664,6 +22665,92 @@
                 "lizard": "inprogress", 
                 "static_checks": "inprogress", 
                 "isIB": false, 
+                "inProgress": false, 
+                "addons": [], 
+                "hlt_tests": "inprogress"
+            }, 
+            {
+                "comp_baseline_state": "ok", 
+                "python3_tests": [], 
+                "tests_archs": [
+                    "slc7_amd64_gcc900"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc900": []
+                }, 
+                "cmsdist_compared_tags": {
+                    "slc7_amd64_gcc900": "IB/CMSSW_12_0_X_2021-10-17-0000/slc7_amd64_gcc900..IB/CMSSW_12_0_X_2021-10-17-0000/slc7_amd64_gcc900"
+                }, 
+                "static_checks_failures": "not-found", 
+                "cmsdistTags": {
+                    "slc7_amd64_gcc900": "IB/CMSSW_12_0_X_2021-10-17-0000/slc7_amd64_gcc900"
+                }, 
+                "piechart": "inprogress", 
+                "flawfinder": "found", 
+                "next_ib": false, 
+                "RVExceptions": null, 
+                "igprof": "found", 
+                "reco_event_loop": "inprogress", 
+                "profiling": "inprogress", 
+                "base_branch": "CMSSW_12_0_X", 
+                "compared_tags": "CMSSW_12_0_X_2021-10-17-0000-->CMSSW_12_0_X_2021-10-17-2300", 
+                "dqm_tests": "not-found", 
+                "utests": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/12.0-sun-23/CMSSW_12_0_X_2021-10-17-2300/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }
+                ], 
+                "ib_date": "2021-10-17-2300-0000", 
+                "relvals": [], 
+                "release_queue": "CMSSW_12_0_X", 
+                "release_name": "CMSSW_12_0_X_2021-10-17-2300", 
+                "comp_baseline": "inprogress", 
+                "gpu_utests": [], 
+                "material_budget_comparison": "not-found", 
+                "merged_prs": [], 
+                "fwlite": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/12.0-sun-23/CMSSW_12_0_X_2021-10-17-2300/new_FWLITE/logAnalysis.pkl", 
+                        "details": {}
+                    }
+                ], 
+                "invalid_includes": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": "failed", 
+                        "file": "/data/sdt/SDT/jenkins-artifacts/invalid-includes/CMSSW_12_0_X_2021-10-17-2300/slc7_amd64_gcc900/summary.json", 
+                        "details": {
+                            "num_fails": "157"
+                        }
+                    }
+                ], 
+                "builds": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/12.0-sun-23/CMSSW_12_0_X_2021-10-17-2300/new/logAnalysis.pkl", 
+                        "details": {}
+                    }
+                ], 
+                "material_budget_v2": "not-found", 
+                "check-headers": "inprogress", 
+                "static_checks_v2": "inprogress", 
+                "valgrind": "not-found", 
+                "material_budget": "not-found", 
+                "dupDict": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": "passed"
+                    }
+                ], 
+                "lizard": "inprogress", 
+                "static_checks": "inprogress", 
+                "isIB": true, 
                 "inProgress": false, 
                 "addons": [], 
                 "hlt_tests": "inprogress"
@@ -22725,6 +22812,17 @@
                 "ib_date": "2021-10-17-0000-0000", 
                 "relvals": [
                     {
+                        "done": false, 
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/12.0-sun-00/CMSSW_12_0_X_2021-10-17-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 3251, 
+                            "known_failed": 0, 
+                            "num_failed": 0
+                        }
+                    }, 
+                    {
                         "done": true, 
                         "arch": "cc8_amd64_gcc9", 
                         "passed": true, 
@@ -22780,7 +22878,10 @@
                 ], 
                 "material_budget_v2": "not-found", 
                 "check-headers": "passed", 
-                "static_checks_v2": "inprogress", 
+                "static_checks_v2": {
+                    "status": "passed", 
+                    "arch": "slc7_amd64_gcc900"
+                }, 
                 "valgrind": "not-found", 
                 "material_budget": "not-found", 
                 "dupDict": [
@@ -22794,7 +22895,7 @@
                     }
                 ], 
                 "lizard": "found", 
-                "static_checks": "inprogress", 
+                "static_checks": "slc7_amd64_gcc900:", 
                 "isIB": true, 
                 "inProgress": false, 
                 "addons": [
@@ -24683,24 +24784,20 @@
                 "python3_tests": [], 
                 "tests_archs": [
                     "cc8_amd64_gcc9", 
-                    "slc7_amd64_gcc10", 
-                    "slc7_amd64_gcc900"
+                    "slc7_amd64_gcc10"
                 ], 
                 "cmsdist_merged_prs": {
                     "cc8_amd64_gcc9": [], 
-                    "slc7_amd64_gcc10": [], 
-                    "slc7_amd64_gcc900": []
+                    "slc7_amd64_gcc10": []
                 }, 
                 "cmsdist_compared_tags": {
                     "cc8_amd64_gcc9": "Not Found..Not Found", 
-                    "slc7_amd64_gcc10": "IB/CMSSW_12_0_X_2021-10-10-2300/slc7_amd64_gcc10..IB/CMSSW_12_0_X_2021-10-10-2300/slc7_amd64_gcc10", 
-                    "slc7_amd64_gcc900": "Not Found..Not Found"
+                    "slc7_amd64_gcc10": "IB/CMSSW_12_0_X_2021-10-10-2300/slc7_amd64_gcc10..IB/CMSSW_12_0_X_2021-10-10-2300/slc7_amd64_gcc10"
                 }, 
                 "static_checks_failures": "not-found", 
                 "cmsdistTags": {
                     "cc8_amd64_gcc9": "Not Found", 
-                    "slc7_amd64_gcc10": "IB/CMSSW_12_0_X_2021-10-10-2300/slc7_amd64_gcc10", 
-                    "slc7_amd64_gcc900": "Not Found"
+                    "slc7_amd64_gcc10": "IB/CMSSW_12_0_X_2021-10-10-2300/slc7_amd64_gcc10"
                 }, 
                 "piechart": {
                     "status": "passed", 
@@ -24720,14 +24817,6 @@
                 "dqm_tests": "not-found", 
                 "utests": [
                     {
-                        "arch": "slc7_amd64_gcc900", 
-                        "passed": "passed", 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/12.0-sun-23/CMSSW_12_0_X_2021-10-10-2300/unitTests-summary.log", 
-                        "details": {
-                            "num_fails": "0"
-                        }
-                    }, 
-                    {
                         "arch": "slc7_amd64_gcc10", 
                         "passed": "passed", 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc10/www/sun/12.0-sun-23/CMSSW_12_0_X_2021-10-10-2300/unitTests-summary.log", 
@@ -24746,17 +24835,6 @@
                 ], 
                 "ib_date": "2021-10-10-2300-0000", 
                 "relvals": [
-                    {
-                        "done": true, 
-                        "arch": "slc7_amd64_gcc900", 
-                        "passed": true, 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/12.0-sun-23/CMSSW_12_0_X_2021-10-10-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                        "details": {
-                            "num_passed": 3489, 
-                            "known_failed": 0, 
-                            "num_failed": 0
-                        }
-                    }, 
                     {
                         "done": true, 
                         "arch": "slc7_amd64_gcc10", 
@@ -24805,14 +24883,7 @@
                         "author_login": "fwyzard"
                     }
                 ], 
-                "fwlite": [
-                    {
-                        "arch": "slc7_amd64_gcc900", 
-                        "passed": "passed", 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/12.0-sun-23/CMSSW_12_0_X_2021-10-10-2300/new_FWLITE/logAnalysis.pkl", 
-                        "details": {}
-                    }
-                ], 
+                "fwlite": [], 
                 "invalid_includes": [
                     {
                         "arch": "slc7_amd64_gcc900", 
@@ -24824,12 +24895,6 @@
                     }
                 ], 
                 "builds": [
-                    {
-                        "arch": "slc7_amd64_gcc900", 
-                        "passed": "passed", 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/12.0-sun-23/CMSSW_12_0_X_2021-10-10-2300/new/logAnalysis.pkl", 
-                        "details": {}
-                    }, 
                     {
                         "arch": "slc7_amd64_gcc10", 
                         "passed": "passed", 
@@ -24861,10 +24926,6 @@
                     {
                         "arch": "slc7_amd64_gcc10", 
                         "passed": "passed"
-                    }, 
-                    {
-                        "arch": "slc7_amd64_gcc900", 
-                        "passed": "passed"
                     }
                 ], 
                 "lizard": "found", 
@@ -24872,12 +24933,6 @@
                 "isIB": true, 
                 "inProgress": false, 
                 "addons": [
-                    {
-                        "arch": "slc7_amd64_gcc900", 
-                        "passed": true, 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/12.0-sun-23/CMSSW_12_0_X_2021-10-10-2300/addOnTests.log", 
-                        "details": {}
-                    }, 
                     {
                         "arch": "slc7_amd64_gcc10", 
                         "passed": true, 
@@ -25556,6 +25611,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "fcdf7aee5c3e6fbd7ed105af32b8f297384222a9", 
+                        "title": "Updating hltDumpStream to work in python3 : 121X", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35709", 
+                        "number": "35709", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Sam-Harper"
+                    }, 
+                    {
                         "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
                         "title": "Fix SyntaxWarning in trackselectionRefitting.py", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35702", 
@@ -25563,6 +25627,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
+                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
+                        "number": "35687", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
                     }, 
                     {
                         "hash": "7c571eb933e9fa1a004737c835e7a9f81eea183f", 
@@ -25574,13 +25647,13 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
-                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
-                        "number": "35687", 
+                        "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
+                        "title": "Fixed typos on some name and title in GEM onlineDQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35690", 
+                        "number": "35690", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "perrotta"
+                        "author_login": "quark2"
                     }, 
                     {
                         "hash": "0607f7a1c38fcdc79a50d87ce629b8b973a0a905", 
@@ -26333,6 +26406,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "fcdf7aee5c3e6fbd7ed105af32b8f297384222a9", 
+                        "title": "Updating hltDumpStream to work in python3 : 121X", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35709", 
+                        "number": "35709", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Sam-Harper"
+                    }, 
+                    {
                         "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
                         "title": "Fix SyntaxWarning in trackselectionRefitting.py", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35702", 
@@ -26340,6 +26422,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
+                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
+                        "number": "35687", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
                     }, 
                     {
                         "hash": "7c571eb933e9fa1a004737c835e7a9f81eea183f", 
@@ -26351,13 +26442,13 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
-                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
-                        "number": "35687", 
+                        "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
+                        "title": "Fixed typos on some name and title in GEM onlineDQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35690", 
+                        "number": "35690", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "perrotta"
+                        "author_login": "quark2"
                     }, 
                     {
                         "hash": "0607f7a1c38fcdc79a50d87ce629b8b973a0a905", 
@@ -27450,6 +27541,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
+                        "title": "Fixed typos on some name and title in GEM onlineDQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35690", 
+                        "number": "35690", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "quark2"
+                    }, 
+                    {
                         "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
                         "title": "Fix SyntaxWarning in trackselectionRefitting.py", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35702", 
@@ -27457,6 +27557,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "88a57b694b1a43d76d0ab56385ef6884e9e37759", 
+                        "title": "Added esConsumes to PhysicsTools/PatUtils", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35680", 
+                        "number": "35680", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "0607f7a1c38fcdc79a50d87ce629b8b973a0a905", 
@@ -27468,13 +27577,13 @@
                         "author_login": "antoniovagnerini"
                     }, 
                     {
-                        "hash": "88a57b694b1a43d76d0ab56385ef6884e9e37759", 
-                        "title": "Added esConsumes to PhysicsTools/PatUtils", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35680", 
-                        "number": "35680", 
+                        "hash": "fcdf7aee5c3e6fbd7ed105af32b8f297384222a9", 
+                        "title": "Updating hltDumpStream to work in python3 : 121X", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35709", 
+                        "number": "35709", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "Sam-Harper"
                     }
                 ], 
                 "base_branch": "CMSSW_12_1_X", 
@@ -28167,6 +28276,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "fcdf7aee5c3e6fbd7ed105af32b8f297384222a9", 
+                        "title": "Updating hltDumpStream to work in python3 : 121X", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35709", 
+                        "number": "35709", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Sam-Harper"
+                    }, 
+                    {
                         "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
                         "title": "Fix SyntaxWarning in trackselectionRefitting.py", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35702", 
@@ -28174,6 +28292,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
+                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
+                        "number": "35687", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
                     }, 
                     {
                         "hash": "7c571eb933e9fa1a004737c835e7a9f81eea183f", 
@@ -28185,13 +28312,13 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
-                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
-                        "number": "35687", 
+                        "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
+                        "title": "Fixed typos on some name and title in GEM onlineDQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35690", 
+                        "number": "35690", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "perrotta"
+                        "author_login": "quark2"
                     }, 
                     {
                         "hash": "0607f7a1c38fcdc79a50d87ce629b8b973a0a905", 
@@ -28944,13 +29071,22 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "b7b6fcfdf76790cf19545861aa54880f9332c7c7", 
-                        "title": "introduce unit tests for `CondTools/SiPhase2Tracker`", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35677", 
-                        "number": "35677", 
+                        "hash": "446ab2fe39289c05b22794795458dfff4f14f5b1", 
+                        "title": "[Online DQM] re-introduce unit tests for visualization", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35642", 
+                        "number": "35642", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "mmusich"
+                    }, 
+                    {
+                        "hash": "fcdf7aee5c3e6fbd7ed105af32b8f297384222a9", 
+                        "title": "Updating hltDumpStream to work in python3 : 121X", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35709", 
+                        "number": "35709", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Sam-Harper"
                     }, 
                     {
                         "hash": "0209ecde0970a232ac291af70309a4cb87a8ea66", 
@@ -28971,6 +29107,15 @@
                         "author_login": "guitargeek"
                     }, 
                     {
+                        "hash": "b7b6fcfdf76790cf19545861aa54880f9332c7c7", 
+                        "title": "introduce unit tests for `CondTools/SiPhase2Tracker`", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35677", 
+                        "number": "35677", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
+                    }, 
+                    {
                         "hash": "fddeeefba463a28bf5ddbb053c0918a2aaf63fd2", 
                         "title": "Added esConsumes to module in SimG4Core/DD4hepGeometry", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35676", 
@@ -28980,13 +29125,13 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "446ab2fe39289c05b22794795458dfff4f14f5b1", 
-                        "title": "[Online DQM] re-introduce unit tests for visualization", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35642", 
-                        "number": "35642", 
+                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
+                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
+                        "number": "35687", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "mmusich"
+                        "author_login": "perrotta"
                     }, 
                     {
                         "hash": "09d56ca6f28566bc2c2d6dc804a3107c7679d16c", 
@@ -29025,13 +29170,13 @@
                         "author_login": "ChrisMisan"
                     }, 
                     {
-                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
-                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
-                        "number": "35687", 
+                        "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
+                        "title": "Fixed typos on some name and title in GEM onlineDQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35690", 
+                        "number": "35690", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "perrotta"
+                        "author_login": "quark2"
                     }, 
                     {
                         "hash": "0607f7a1c38fcdc79a50d87ce629b8b973a0a905", 
@@ -29220,6 +29365,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "fcdf7aee5c3e6fbd7ed105af32b8f297384222a9", 
+                        "title": "Updating hltDumpStream to work in python3 : 121X", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35709", 
+                        "number": "35709", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Sam-Harper"
+                    }, 
+                    {
                         "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
                         "title": "Fix SyntaxWarning in trackselectionRefitting.py", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35702", 
@@ -29227,6 +29381,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
+                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
+                        "number": "35687", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
                     }, 
                     {
                         "hash": "7c571eb933e9fa1a004737c835e7a9f81eea183f", 
@@ -29238,13 +29401,13 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
-                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
-                        "number": "35687", 
+                        "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
+                        "title": "Fixed typos on some name and title in GEM onlineDQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35690", 
+                        "number": "35690", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "perrotta"
+                        "author_login": "quark2"
                     }, 
                     {
                         "hash": "0607f7a1c38fcdc79a50d87ce629b8b973a0a905", 
@@ -30347,13 +30510,22 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "b7b6fcfdf76790cf19545861aa54880f9332c7c7", 
-                        "title": "introduce unit tests for `CondTools/SiPhase2Tracker`", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35677", 
-                        "number": "35677", 
+                        "hash": "446ab2fe39289c05b22794795458dfff4f14f5b1", 
+                        "title": "[Online DQM] re-introduce unit tests for visualization", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35642", 
+                        "number": "35642", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "mmusich"
+                    }, 
+                    {
+                        "hash": "fcdf7aee5c3e6fbd7ed105af32b8f297384222a9", 
+                        "title": "Updating hltDumpStream to work in python3 : 121X", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35709", 
+                        "number": "35709", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Sam-Harper"
                     }, 
                     {
                         "hash": "0209ecde0970a232ac291af70309a4cb87a8ea66", 
@@ -30374,6 +30546,15 @@
                         "author_login": "guitargeek"
                     }, 
                     {
+                        "hash": "b7b6fcfdf76790cf19545861aa54880f9332c7c7", 
+                        "title": "introduce unit tests for `CondTools/SiPhase2Tracker`", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35677", 
+                        "number": "35677", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
+                    }, 
+                    {
                         "hash": "fddeeefba463a28bf5ddbb053c0918a2aaf63fd2", 
                         "title": "Added esConsumes to module in SimG4Core/DD4hepGeometry", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35676", 
@@ -30383,13 +30564,13 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "446ab2fe39289c05b22794795458dfff4f14f5b1", 
-                        "title": "[Online DQM] re-introduce unit tests for visualization", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35642", 
-                        "number": "35642", 
+                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
+                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
+                        "number": "35687", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "mmusich"
+                        "author_login": "perrotta"
                     }, 
                     {
                         "hash": "09d56ca6f28566bc2c2d6dc804a3107c7679d16c", 
@@ -30428,13 +30609,13 @@
                         "author_login": "ChrisMisan"
                     }, 
                     {
-                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
-                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
-                        "number": "35687", 
+                        "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
+                        "title": "Fixed typos on some name and title in GEM onlineDQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35690", 
+                        "number": "35690", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "perrotta"
+                        "author_login": "quark2"
                     }, 
                     {
                         "hash": "0607f7a1c38fcdc79a50d87ce629b8b973a0a905", 
@@ -31036,6 +31217,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "fcdf7aee5c3e6fbd7ed105af32b8f297384222a9", 
+                        "title": "Updating hltDumpStream to work in python3 : 121X", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35709", 
+                        "number": "35709", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Sam-Harper"
+                    }, 
+                    {
                         "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
                         "title": "Fix SyntaxWarning in trackselectionRefitting.py", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35702", 
@@ -31043,6 +31233,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
+                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
+                        "number": "35687", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
                     }, 
                     {
                         "hash": "7c571eb933e9fa1a004737c835e7a9f81eea183f", 
@@ -31054,13 +31253,13 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
-                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
-                        "number": "35687", 
+                        "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
+                        "title": "Fixed typos on some name and title in GEM onlineDQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35690", 
+                        "number": "35690", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "perrotta"
+                        "author_login": "quark2"
                     }, 
                     {
                         "hash": "0607f7a1c38fcdc79a50d87ce629b8b973a0a905", 
@@ -31662,6 +31861,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "fcdf7aee5c3e6fbd7ed105af32b8f297384222a9", 
+                        "title": "Updating hltDumpStream to work in python3 : 121X", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35709", 
+                        "number": "35709", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Sam-Harper"
+                    }, 
+                    {
                         "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
                         "title": "Fix SyntaxWarning in trackselectionRefitting.py", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35702", 
@@ -31669,6 +31877,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
+                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
+                        "number": "35687", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
                     }, 
                     {
                         "hash": "7c571eb933e9fa1a004737c835e7a9f81eea183f", 
@@ -31680,13 +31897,13 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
-                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
-                        "number": "35687", 
+                        "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
+                        "title": "Fixed typos on some name and title in GEM onlineDQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35690", 
+                        "number": "35690", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "perrotta"
+                        "author_login": "quark2"
                     }, 
                     {
                         "hash": "0607f7a1c38fcdc79a50d87ce629b8b973a0a905", 
@@ -32747,6 +32964,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "fcdf7aee5c3e6fbd7ed105af32b8f297384222a9", 
+                        "title": "Updating hltDumpStream to work in python3 : 121X", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35709", 
+                        "number": "35709", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Sam-Harper"
+                    }, 
+                    {
                         "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
                         "title": "Fix SyntaxWarning in trackselectionRefitting.py", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35702", 
@@ -32754,6 +32980,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
+                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
+                        "number": "35687", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
                     }, 
                     {
                         "hash": "7c571eb933e9fa1a004737c835e7a9f81eea183f", 
@@ -32765,13 +33000,13 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
-                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
-                        "number": "35687", 
+                        "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
+                        "title": "Fixed typos on some name and title in GEM onlineDQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35690", 
+                        "number": "35690", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "perrotta"
+                        "author_login": "quark2"
                     }, 
                     {
                         "hash": "0607f7a1c38fcdc79a50d87ce629b8b973a0a905", 
@@ -33489,10 +33724,10 @@
                 "RVExceptions": null, 
                 "fwlite": [], 
                 "profiling": "not-found", 
-                "compared_tags": "CMSSW_12_1_ROOT6_X_2021-10-17-0000-->CMSSW_12_1_ROOT6_X", 
+                "compared_tags": "CMSSW_12_1_ROOT6_X_2021-10-17-2300-->CMSSW_12_1_ROOT6_X", 
                 "dqm_tests": "not-found", 
                 "utests": [], 
-                "ib_date": "2021-10-17-0000-0001", 
+                "ib_date": "2021-10-17-2300-0001", 
                 "relvals": [], 
                 "igprof": "not-found", 
                 "release_queue": "CMSSW_12_1_ROOT6_X", 
@@ -33500,35 +33735,7 @@
                 "comp_baseline": "not-found", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [
-                    {
-                        "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
-                        "title": "Fix SyntaxWarning in trackselectionRefitting.py", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35702", 
-                        "number": "35702", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "guitargeek"
-                    }, 
-                    {
-                        "hash": "0607f7a1c38fcdc79a50d87ce629b8b973a0a905", 
-                        "title": "adding ALCARECOTkAlCosmicsCosmicTF0T track collection in Millepede code", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35694", 
-                        "number": "35694", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "antoniovagnerini"
-                    }, 
-                    {
-                        "hash": "88a57b694b1a43d76d0ab56385ef6884e9e37759", 
-                        "title": "Added esConsumes to PhysicsTools/PatUtils", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35680", 
-                        "number": "35680", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
-                    }
-                ], 
+                "merged_prs": [], 
                 "base_branch": "CMSSW_12_1_ROOT6_X", 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -33541,6 +33748,118 @@
                 "static_checks_failures": "not-found", 
                 "static_checks": "not-found", 
                 "isIB": false, 
+                "inProgress": false, 
+                "addons": [], 
+                "hlt_tests": "not-found"
+            }, 
+            {
+                "comp_baseline_state": "errors", 
+                "python3_tests": [], 
+                "tests_archs": [
+                    "slc7_amd64_gcc900"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc900": []
+                }, 
+                "cmsdist_compared_tags": {
+                    "slc7_amd64_gcc900": "IB/CMSSW_12_1_ROOT6_X_2021-10-17-0000/slc7_amd64_gcc900..IB/CMSSW_12_1_ROOT6_X_2021-10-17-0000/slc7_amd64_gcc900"
+                }, 
+                "cmsdistTags": {
+                    "slc7_amd64_gcc900": "IB/CMSSW_12_1_ROOT6_X_2021-10-17-0000/slc7_amd64_gcc900"
+                }, 
+                "next_ib": false, 
+                "RVExceptions": null, 
+                "fwlite": [], 
+                "profiling": "not-found", 
+                "compared_tags": "CMSSW_12_1_ROOT6_X_2021-10-17-0000-->CMSSW_12_1_ROOT6_X_2021-10-17-2300", 
+                "dqm_tests": "not-found", 
+                "utests": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/12.1.ROOT6-sun-23/CMSSW_12_1_ROOT6_X_2021-10-17-2300/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }
+                ], 
+                "ib_date": "2021-10-17-2300-0000", 
+                "relvals": [], 
+                "igprof": "not-found", 
+                "release_queue": "CMSSW_12_1_ROOT6_X", 
+                "release_name": "CMSSW_12_1_ROOT6_X_2021-10-17-2300", 
+                "comp_baseline": "not-found", 
+                "gpu_utests": [], 
+                "material_budget_comparison": "not-found", 
+                "merged_prs": [
+                    {
+                        "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
+                        "title": "Fixed typos on some name and title in GEM onlineDQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35690", 
+                        "number": "35690", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "quark2"
+                    }, 
+                    {
+                        "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
+                        "title": "Fix SyntaxWarning in trackselectionRefitting.py", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35702", 
+                        "number": "35702", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "88a57b694b1a43d76d0ab56385ef6884e9e37759", 
+                        "title": "Added esConsumes to PhysicsTools/PatUtils", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35680", 
+                        "number": "35680", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "0607f7a1c38fcdc79a50d87ce629b8b973a0a905", 
+                        "title": "adding ALCARECOTkAlCosmicsCosmicTF0T track collection in Millepede code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35694", 
+                        "number": "35694", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "antoniovagnerini"
+                    }, 
+                    {
+                        "hash": "fcdf7aee5c3e6fbd7ed105af32b8f297384222a9", 
+                        "title": "Updating hltDumpStream to work in python3 : 121X", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35709", 
+                        "number": "35709", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Sam-Harper"
+                    }
+                ], 
+                "base_branch": "CMSSW_12_1_ROOT6_X", 
+                "invalid_includes": [], 
+                "builds": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/12.1.ROOT6-sun-23/CMSSW_12_1_ROOT6_X_2021-10-17-2300/new/logAnalysis.pkl", 
+                        "details": {}
+                    }
+                ], 
+                "material_budget_v2": "not-found", 
+                "check-headers": "not-found", 
+                "static_checks_v2": "not-found", 
+                "valgrind": "not-found", 
+                "material_budget": "not-found", 
+                "dupDict": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": "passed"
+                    }
+                ], 
+                "static_checks_failures": "not-found", 
+                "static_checks": "not-found", 
+                "isIB": true, 
                 "inProgress": false, 
                 "addons": [], 
                 "hlt_tests": "not-found"
@@ -34797,13 +35116,22 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "b7b6fcfdf76790cf19545861aa54880f9332c7c7", 
-                        "title": "introduce unit tests for `CondTools/SiPhase2Tracker`", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35677", 
-                        "number": "35677", 
+                        "hash": "446ab2fe39289c05b22794795458dfff4f14f5b1", 
+                        "title": "[Online DQM] re-introduce unit tests for visualization", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35642", 
+                        "number": "35642", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "mmusich"
+                    }, 
+                    {
+                        "hash": "fcdf7aee5c3e6fbd7ed105af32b8f297384222a9", 
+                        "title": "Updating hltDumpStream to work in python3 : 121X", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35709", 
+                        "number": "35709", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Sam-Harper"
                     }, 
                     {
                         "hash": "0209ecde0970a232ac291af70309a4cb87a8ea66", 
@@ -34824,6 +35152,15 @@
                         "author_login": "guitargeek"
                     }, 
                     {
+                        "hash": "b7b6fcfdf76790cf19545861aa54880f9332c7c7", 
+                        "title": "introduce unit tests for `CondTools/SiPhase2Tracker`", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35677", 
+                        "number": "35677", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
+                    }, 
+                    {
                         "hash": "fddeeefba463a28bf5ddbb053c0918a2aaf63fd2", 
                         "title": "Added esConsumes to module in SimG4Core/DD4hepGeometry", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35676", 
@@ -34833,13 +35170,13 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "446ab2fe39289c05b22794795458dfff4f14f5b1", 
-                        "title": "[Online DQM] re-introduce unit tests for visualization", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35642", 
-                        "number": "35642", 
+                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
+                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
+                        "number": "35687", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "mmusich"
+                        "author_login": "perrotta"
                     }, 
                     {
                         "hash": "09d56ca6f28566bc2c2d6dc804a3107c7679d16c", 
@@ -34878,13 +35215,13 @@
                         "author_login": "ChrisMisan"
                     }, 
                     {
-                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
-                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
-                        "number": "35687", 
+                        "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
+                        "title": "Fixed typos on some name and title in GEM onlineDQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35690", 
+                        "number": "35690", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "perrotta"
+                        "author_login": "quark2"
                     }, 
                     {
                         "hash": "0607f7a1c38fcdc79a50d87ce629b8b973a0a905", 
@@ -34973,7 +35310,7 @@
                 "ib_date": "2021-10-14-2300-0000", 
                 "relvals": [
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "slc7_amd64_gcc900", 
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/thu/12.1.SKYLAKEAVX512-thu-23/CMSSW_12_1_SKYLAKEAVX512_X_2021-10-14-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
@@ -35072,13 +35409,22 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "b7b6fcfdf76790cf19545861aa54880f9332c7c7", 
-                        "title": "introduce unit tests for `CondTools/SiPhase2Tracker`", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35677", 
-                        "number": "35677", 
+                        "hash": "446ab2fe39289c05b22794795458dfff4f14f5b1", 
+                        "title": "[Online DQM] re-introduce unit tests for visualization", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35642", 
+                        "number": "35642", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "mmusich"
+                    }, 
+                    {
+                        "hash": "fcdf7aee5c3e6fbd7ed105af32b8f297384222a9", 
+                        "title": "Updating hltDumpStream to work in python3 : 121X", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35709", 
+                        "number": "35709", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Sam-Harper"
                     }, 
                     {
                         "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
@@ -35090,13 +35436,22 @@
                         "author_login": "guitargeek"
                     }, 
                     {
-                        "hash": "446ab2fe39289c05b22794795458dfff4f14f5b1", 
-                        "title": "[Online DQM] re-introduce unit tests for visualization", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35642", 
-                        "number": "35642", 
+                        "hash": "b7b6fcfdf76790cf19545861aa54880f9332c7c7", 
+                        "title": "introduce unit tests for `CondTools/SiPhase2Tracker`", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35677", 
+                        "number": "35677", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "mmusich"
+                    }, 
+                    {
+                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
+                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
+                        "number": "35687", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
                     }, 
                     {
                         "hash": "09d56ca6f28566bc2c2d6dc804a3107c7679d16c", 
@@ -35126,13 +35481,13 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
-                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
-                        "number": "35687", 
+                        "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
+                        "title": "Fixed typos on some name and title in GEM onlineDQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35690", 
+                        "number": "35690", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "perrotta"
+                        "author_login": "quark2"
                     }, 
                     {
                         "hash": "0607f7a1c38fcdc79a50d87ce629b8b973a0a905", 
@@ -35319,6 +35674,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "fcdf7aee5c3e6fbd7ed105af32b8f297384222a9", 
+                        "title": "Updating hltDumpStream to work in python3 : 121X", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35709", 
+                        "number": "35709", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Sam-Harper"
+                    }, 
+                    {
                         "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
                         "title": "Fix SyntaxWarning in trackselectionRefitting.py", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35702", 
@@ -35326,6 +35690,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
+                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
+                        "number": "35687", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
                     }, 
                     {
                         "hash": "7c571eb933e9fa1a004737c835e7a9f81eea183f", 
@@ -35337,13 +35710,13 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
-                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
-                        "number": "35687", 
+                        "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
+                        "title": "Fixed typos on some name and title in GEM onlineDQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35690", 
+                        "number": "35690", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "perrotta"
+                        "author_login": "quark2"
                     }, 
                     {
                         "hash": "0607f7a1c38fcdc79a50d87ce629b8b973a0a905", 
@@ -35580,45 +35953,17 @@
                 "reco_event_loop": "inprogress", 
                 "profiling": "inprogress", 
                 "base_branch": "CMSSW_12_1_X", 
-                "compared_tags": "CMSSW_12_1_X_2021-10-17-0000-->CMSSW_12_1_X", 
+                "compared_tags": "CMSSW_12_1_X_2021-10-17-2300-->CMSSW_12_1_X", 
                 "dqm_tests": "not-found", 
                 "utests": [], 
-                "ib_date": "2021-10-17-0000-0001", 
+                "ib_date": "2021-10-17-2300-0001", 
                 "relvals": [], 
                 "release_queue": "CMSSW_12_1_X", 
                 "release_name": "CMSSW_12_1_X", 
                 "comp_baseline": "inprogress", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [
-                    {
-                        "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
-                        "title": "Fix SyntaxWarning in trackselectionRefitting.py", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35702", 
-                        "number": "35702", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "guitargeek"
-                    }, 
-                    {
-                        "hash": "0607f7a1c38fcdc79a50d87ce629b8b973a0a905", 
-                        "title": "adding ALCARECOTkAlCosmicsCosmicTF0T track collection in Millepede code", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35694", 
-                        "number": "35694", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "antoniovagnerini"
-                    }, 
-                    {
-                        "hash": "88a57b694b1a43d76d0ab56385ef6884e9e37759", 
-                        "title": "Added esConsumes to PhysicsTools/PatUtils", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35680", 
-                        "number": "35680", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
-                    }
-                ], 
+                "merged_prs": [], 
                 "fwlite": [], 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -35631,6 +35976,142 @@
                 "lizard": "inprogress", 
                 "static_checks": "inprogress", 
                 "isIB": false, 
+                "inProgress": false, 
+                "addons": [], 
+                "hlt_tests": "inprogress"
+            }, 
+            {
+                "comp_baseline_state": "ok", 
+                "python3_tests": [], 
+                "tests_archs": [
+                    "cc8_amd64_gcc9", 
+                    "slc7_amd64_gcc900"
+                ], 
+                "cmsdist_merged_prs": {
+                    "cc8_amd64_gcc9": [], 
+                    "slc7_amd64_gcc900": []
+                }, 
+                "cmsdist_compared_tags": {
+                    "cc8_amd64_gcc9": "IB/CMSSW_12_1_X_2021-10-17-0000/cc8_amd64_gcc9..IB/CMSSW_12_1_X_2021-10-17-0000/cc8_amd64_gcc9", 
+                    "slc7_amd64_gcc900": "IB/CMSSW_12_1_X_2021-10-17-0000/slc7_amd64_gcc900..IB/CMSSW_12_1_X_2021-10-17-0000/slc7_amd64_gcc900"
+                }, 
+                "static_checks_failures": "not-found", 
+                "cmsdistTags": {
+                    "cc8_amd64_gcc9": "IB/CMSSW_12_1_X_2021-10-17-0000/cc8_amd64_gcc9", 
+                    "slc7_amd64_gcc900": "IB/CMSSW_12_1_X_2021-10-17-0000/slc7_amd64_gcc900"
+                }, 
+                "piechart": "inprogress", 
+                "flawfinder": "found", 
+                "next_ib": false, 
+                "RVExceptions": null, 
+                "igprof": "found", 
+                "reco_event_loop": "inprogress", 
+                "profiling": "inprogress", 
+                "base_branch": "CMSSW_12_1_X", 
+                "compared_tags": "CMSSW_12_1_X_2021-10-17-0000-->CMSSW_12_1_X_2021-10-17-2300", 
+                "dqm_tests": "not-found", 
+                "utests": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }, 
+                    {
+                        "arch": "cc8_amd64_gcc9", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/cc8_amd64_gcc9/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }
+                ], 
+                "ib_date": "2021-10-17-2300-0000", 
+                "relvals": [], 
+                "release_queue": "CMSSW_12_1_X", 
+                "release_name": "CMSSW_12_1_X_2021-10-17-2300", 
+                "comp_baseline": "inprogress", 
+                "gpu_utests": [], 
+                "material_budget_comparison": "not-found", 
+                "merged_prs": [
+                    {
+                        "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
+                        "title": "Fixed typos on some name and title in GEM onlineDQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35690", 
+                        "number": "35690", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "quark2"
+                    }, 
+                    {
+                        "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
+                        "title": "Fix SyntaxWarning in trackselectionRefitting.py", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35702", 
+                        "number": "35702", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "88a57b694b1a43d76d0ab56385ef6884e9e37759", 
+                        "title": "Added esConsumes to PhysicsTools/PatUtils", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35680", 
+                        "number": "35680", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "0607f7a1c38fcdc79a50d87ce629b8b973a0a905", 
+                        "title": "adding ALCARECOTkAlCosmicsCosmicTF0T track collection in Millepede code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35694", 
+                        "number": "35694", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "antoniovagnerini"
+                    }, 
+                    {
+                        "hash": "fcdf7aee5c3e6fbd7ed105af32b8f297384222a9", 
+                        "title": "Updating hltDumpStream to work in python3 : 121X", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35709", 
+                        "number": "35709", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Sam-Harper"
+                    }
+                ], 
+                "fwlite": [], 
+                "invalid_includes": [], 
+                "builds": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/new/logAnalysis.pkl", 
+                        "details": {}
+                    }, 
+                    {
+                        "arch": "cc8_amd64_gcc9", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/cc8_amd64_gcc9/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/new/logAnalysis.pkl", 
+                        "details": {}
+                    }
+                ], 
+                "material_budget_v2": "not-found", 
+                "check-headers": "inprogress", 
+                "static_checks_v2": "inprogress", 
+                "valgrind": "not-found", 
+                "material_budget": "not-found", 
+                "dupDict": [
+                    {
+                        "arch": "cc8_amd64_gcc9", 
+                        "passed": "passed"
+                    }, 
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": "passed"
+                    }
+                ], 
+                "lizard": "inprogress", 
+                "static_checks": "inprogress", 
+                "isIB": true, 
                 "inProgress": false, 
                 "addons": [], 
                 "hlt_tests": "inprogress"
@@ -35665,12 +36146,18 @@
                     "cc8_amd64_gcc9": "IB/CMSSW_12_1_X_2021-10-17-0000/cc8_amd64_gcc9", 
                     "slc7_amd64_gcc900": "IB/CMSSW_12_1_X_2021-10-17-0000/slc7_amd64_gcc900"
                 }, 
-                "piechart": "inprogress", 
+                "piechart": {
+                    "status": "passed", 
+                    "data": "slc7_amd64_gcc900/23434.21/step3_RAW2DIGI_L1Reco_RECO_RECOSIM_PU.resources"
+                }, 
                 "flawfinder": "found", 
                 "next_ib": false, 
                 "RVExceptions": null, 
                 "igprof": "found", 
-                "reco_event_loop": "inprogress", 
+                "reco_event_loop": {
+                    "status": "passed", 
+                    "data": "slc7_amd64_gcc900/profiling/23434.21/sorted_RES_CPU_step3.txt"
+                }, 
                 "profiling": "found", 
                 "base_branch": "CMSSW_12_1_X", 
                 "compared_tags": "CMSSW_12_1_X_2021-10-16-1100-->CMSSW_12_1_X_2021-10-17-0000", 
@@ -35697,11 +36184,22 @@
                 "relvals": [
                     {
                         "done": false, 
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": false, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/12.1-sun-00/CMSSW_12_1_X_2021-10-17-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 3216, 
+                            "known_failed": 0, 
+                            "num_failed": 1
+                        }
+                    }, 
+                    {
+                        "done": false, 
                         "arch": "cc8_amd64_gcc9", 
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/cc8_amd64_gcc9/www/sun/12.1-sun-00/CMSSW_12_1_X_2021-10-17-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 10, 
+                            "num_passed": 3484, 
                             "known_failed": 0, 
                             "num_failed": 1
                         }
@@ -35782,7 +36280,7 @@
                         "details": {}
                     }
                 ], 
-                "hlt_tests": "inprogress"
+                "hlt_tests": "passed"
             }, 
             {
                 "comp_baseline_state": "ok", 
@@ -36063,6 +36561,17 @@
                             "num_passed": 3278, 
                             "known_failed": 54, 
                             "num_failed": 2
+                        }
+                    }, 
+                    {
+                        "done": true, 
+                        "arch": "slc7_ppc64le_gcc9", 
+                        "passed": false, 
+                        "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/fri/12.1-fri-23/CMSSW_12_1_X_2021-10-15-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 3300, 
+                            "known_failed": 54, 
+                            "num_failed": 1
                         }
                     }, 
                     {
@@ -39331,7 +39840,7 @@
                 "ib_date": "2021-10-17-0000-0000", 
                 "relvals": [
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "slc6_amd64_gcc472", 
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc472/www/sun/5.3-sun-00/CMSSW_5_3_X_2021-10-17-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
@@ -41516,7 +42025,7 @@
                         }
                     }, 
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "slc7_amd64_gcc630", 
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/sun/9.4-sun-00/CMSSW_9_4_X_2021-10-17-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
