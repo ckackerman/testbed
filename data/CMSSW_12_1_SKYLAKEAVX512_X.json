@@ -214,7 +214,19 @@
                 }
             ], 
             "ib_date": "2021-10-14-2300-0000", 
-            "relvals": [], 
+            "relvals": [
+                {
+                    "done": false, 
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/thu/12.1.SKYLAKEAVX512-thu-23/CMSSW_12_1_SKYLAKEAVX512_X_2021-10-14-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 3440, 
+                        "known_failed": 0, 
+                        "num_failed": 16
+                    }
+                }
+            ], 
             "igprof": "not-found", 
             "release_queue": "CMSSW_12_1_SKYLAKEAVX512_X", 
             "release_name": "CMSSW_12_1_SKYLAKEAVX512_X_2021-10-14-2300", 
