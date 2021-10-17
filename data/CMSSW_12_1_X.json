@@ -221,7 +221,14 @@
                     "author_login": "Sam-Harper"
                 }
             ], 
-            "fwlite": [], 
+            "fwlite": [
+                {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/new_FWLITE/logAnalysis.pkl", 
+                    "details": {}
+                }
+            ], 
             "invalid_includes": [], 
             "builds": [
                 {
