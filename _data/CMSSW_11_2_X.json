@@ -14,17 +14,17 @@
             "cmsdist_compared_tags": {
                 "slc7_ppc64le_gcc9": "IB/CMSSW_11_2_X_2021-10-11-2300/slc7_ppc64le_gcc9..IB/CMSSW_11_2_X/master", 
                 "slc7_aarch64_gcc9": "IB/CMSSW_11_2_X_2021-10-11-2300/slc7_aarch64_gcc9..IB/CMSSW_11_2_X/master", 
-                "slc7_amd64_gcc900": "IB/CMSSW_11_2_X_2021-10-10-0000/slc7_amd64_gcc900..IB/CMSSW_11_2_X/master"
+                "slc7_amd64_gcc900": "IB/CMSSW_11_2_X_2021-10-17-0000/slc7_amd64_gcc900..IB/CMSSW_11_2_X/master"
             }, 
             "cmsdistTags": {}, 
             "next_ib": true, 
             "RVExceptions": null, 
             "fwlite": [], 
             "profiling": "not-found", 
-            "compared_tags": "CMSSW_11_2_X_2021-10-11-2300-->CMSSW_11_2_X", 
+            "compared_tags": "CMSSW_11_2_X_2021-10-17-0000-->CMSSW_11_2_X", 
             "dqm_tests": "not-found", 
             "utests": [], 
-            "ib_date": "2021-10-11-2300-0001", 
+            "ib_date": "2021-10-17-0000-0001", 
             "relvals": [], 
             "igprof": "not-found", 
             "release_queue": "CMSSW_11_2_X", 
@@ -48,6 +48,90 @@
             "inProgress": false, 
             "addons": [], 
             "hlt_tests": "inprogress"
+        }, 
+        {
+            "comp_baseline_state": "ok", 
+            "python3_tests": [], 
+            "tests_archs": [
+                "slc7_amd64_gcc900"
+            ], 
+            "cmsdist_merged_prs": {
+                "slc7_amd64_gcc900": []
+            }, 
+            "cmsdist_compared_tags": {
+                "slc7_amd64_gcc900": "IB/CMSSW_11_2_X_2021-10-17-0000/slc7_amd64_gcc900..IB/CMSSW_11_2_X_2021-10-17-0000/slc7_amd64_gcc900"
+            }, 
+            "cmsdistTags": {
+                "slc7_amd64_gcc900": "IB/CMSSW_11_2_X_2021-10-17-0000/slc7_amd64_gcc900"
+            }, 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "fwlite": [
+                {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.2-sun-00/CMSSW_11_2_X_2021-10-17-0000/new_FWLITE/logAnalysis.pkl", 
+                    "details": {}
+                }
+            ], 
+            "profiling": "not-found", 
+            "compared_tags": "CMSSW_11_2_X_2021-10-11-2300-->CMSSW_11_2_X_2021-10-17-0000", 
+            "dqm_tests": "not-found", 
+            "utests": [
+                {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.2-sun-00/CMSSW_11_2_X_2021-10-17-0000/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "9"
+                    }
+                }
+            ], 
+            "ib_date": "2021-10-17-0000-0000", 
+            "relvals": [], 
+            "igprof": "not-found", 
+            "release_queue": "CMSSW_11_2_X", 
+            "release_name": "CMSSW_11_2_X_2021-10-17-0000", 
+            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_11_2_X_2021-10-17-0000/slc7_amd64_gcc900/-GenuineIntel/matrix-results", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [], 
+            "base_branch": "CMSSW_11_2_X", 
+            "invalid_includes": [], 
+            "builds": [
+                {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.2-sun-00/CMSSW_11_2_X_2021-10-17-0000/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 3
+                    }
+                }
+            ], 
+            "material_budget_v2": "not-found", 
+            "check-headers": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "dupDict": [
+                {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": "passed"
+                }
+            ], 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "inProgress": false, 
+            "addons": [
+                {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.2-sun-00/CMSSW_11_2_X_2021-10-17-0000/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "hlt_tests": "error"
         }, 
         {
             "comp_baseline_state": "ok", 
@@ -182,55 +266,21 @@
         {
             "comp_baseline_state": "ok", 
             "python3_tests": [], 
-            "tests_archs": [
-                "slc7_amd64_gcc900"
-            ], 
-            "cmsdist_merged_prs": {
-                "slc7_amd64_gcc900": []
-            }, 
-            "cmsdist_compared_tags": {
-                "slc7_amd64_gcc900": "IB/CMSSW_11_2_X_2021-10-10-0000/slc7_amd64_gcc900..IB/CMSSW_11_2_X_2021-10-10-0000/slc7_amd64_gcc900"
-            }, 
+            "tests_archs": [], 
+            "cmsdist_merged_prs": {}, 
+            "cmsdist_compared_tags": {}, 
             "cmsdistTags": {
                 "slc7_amd64_gcc900": "IB/CMSSW_11_2_X_2021-10-10-0000/slc7_amd64_gcc900"
             }, 
             "next_ib": false, 
             "RVExceptions": null, 
-            "fwlite": [
-                {
-                    "arch": "slc7_amd64_gcc900", 
-                    "passed": "passed", 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.2-sun-00/CMSSW_11_2_X_2021-10-10-0000/new_FWLITE/logAnalysis.pkl", 
-                    "details": {}
-                }
-            ], 
+            "fwlite": [], 
             "profiling": "not-found", 
-            "compared_tags": "CMSSW_11_2_X_2021-10-08-2300-->CMSSW_11_2_X_2021-10-10-0000", 
+            "compared_tags": "CMSSW_11_2_5_patch1-->CMSSW_11_2_X_2021-10-10-0000", 
             "dqm_tests": "not-found", 
-            "utests": [
-                {
-                    "arch": "slc7_amd64_gcc900", 
-                    "passed": "failed", 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.2-sun-00/CMSSW_11_2_X_2021-10-10-0000/unitTests-summary.log", 
-                    "details": {
-                        "num_fails": "8"
-                    }
-                }
-            ], 
+            "utests": [], 
             "ib_date": "2021-10-10-0000-0000", 
-            "relvals": [
-                {
-                    "done": true, 
-                    "arch": "slc7_amd64_gcc900", 
-                    "passed": false, 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.2-sun-00/CMSSW_11_2_X_2021-10-10-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                    "details": {
-                        "num_passed": 3391, 
-                        "known_failed": 0, 
-                        "num_failed": 1
-                    }
-                }
-            ], 
+            "relvals": [], 
             "igprof": "not-found", 
             "release_queue": "CMSSW_11_2_X", 
             "release_name": "CMSSW_11_2_X_2021-10-10-0000", 
@@ -240,108 +290,6 @@
             "merged_prs": [], 
             "base_branch": "CMSSW_11_2_X", 
             "invalid_includes": [], 
-            "builds": [
-                {
-                    "arch": "slc7_amd64_gcc900", 
-                    "passed": "passed", 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.2-sun-00/CMSSW_11_2_X_2021-10-10-0000/new/logAnalysis.pkl", 
-                    "details": {
-                        "ignoreWarning": 3
-                    }
-                }
-            ], 
-            "material_budget_v2": "not-found", 
-            "check-headers": "not-found", 
-            "static_checks_v2": "not-found", 
-            "valgrind": "not-found", 
-            "material_budget": "not-found", 
-            "dupDict": [
-                {
-                    "arch": "slc7_amd64_gcc900", 
-                    "passed": "passed"
-                }
-            ], 
-            "static_checks_failures": "not-found", 
-            "static_checks": "not-found", 
-            "isIB": true, 
-            "inProgress": false, 
-            "addons": [
-                {
-                    "arch": "slc7_amd64_gcc900", 
-                    "passed": true, 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.2-sun-00/CMSSW_11_2_X_2021-10-10-0000/addOnTests.log", 
-                    "details": {}
-                }
-            ], 
-            "hlt_tests": "passed"
-        }, 
-        {
-            "comp_baseline_state": "ok", 
-            "python3_tests": [], 
-            "tests_archs": [], 
-            "cmsdist_merged_prs": {}, 
-            "cmsdist_compared_tags": {}, 
-            "cmsdistTags": {
-                "slc7_ppc64le_gcc9": "IB/CMSSW_11_2_X_2021-10-08-2300/slc7_ppc64le_gcc9", 
-                "slc7_aarch64_gcc9": "IB/CMSSW_11_2_X_2021-10-08-2300/slc7_aarch64_gcc9"
-            }, 
-            "next_ib": false, 
-            "RVExceptions": null, 
-            "fwlite": [], 
-            "profiling": "not-found", 
-            "compared_tags": "CMSSW_11_2_X_2021-10-08-1100-->CMSSW_11_2_X_2021-10-08-2300", 
-            "dqm_tests": "not-found", 
-            "utests": [], 
-            "ib_date": "2021-10-08-2300-0000", 
-            "relvals": [], 
-            "igprof": "not-found", 
-            "release_queue": "CMSSW_11_2_X", 
-            "release_name": "CMSSW_11_2_X_2021-10-08-2300", 
-            "comp_baseline": "inprogress", 
-            "gpu_utests": [], 
-            "material_budget_comparison": "not-found", 
-            "merged_prs": [], 
-            "base_branch": "CMSSW_11_2_X", 
-            "invalid_includes": [], 
-            "builds": [], 
-            "material_budget_v2": "not-found", 
-            "check-headers": "not-found", 
-            "static_checks_v2": "not-found", 
-            "valgrind": "not-found", 
-            "material_budget": "not-found", 
-            "dupDict": [], 
-            "static_checks_failures": "not-found", 
-            "static_checks": "not-found", 
-            "isIB": true, 
-            "inProgress": false, 
-            "addons": [], 
-            "hlt_tests": "inprogress"
-        }, 
-        {
-            "comp_baseline_state": "ok", 
-            "python3_tests": [], 
-            "tests_archs": [], 
-            "cmsdist_merged_prs": {}, 
-            "cmsdist_compared_tags": {}, 
-            "cmsdistTags": {}, 
-            "next_ib": false, 
-            "RVExceptions": null, 
-            "fwlite": [], 
-            "profiling": "not-found", 
-            "compared_tags": "CMSSW_11_2_5_patch1-->CMSSW_11_2_X_2021-10-08-1100", 
-            "dqm_tests": "not-found", 
-            "utests": [], 
-            "ib_date": "2021-10-08-1100-0000", 
-            "relvals": [], 
-            "igprof": "not-found", 
-            "release_queue": "CMSSW_11_2_X", 
-            "release_name": "CMSSW_11_2_X_2021-10-08-1100", 
-            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_11_2_X_2021-10-08-1100/slc7_amd64_gcc900/-GenuineIntel/matrix-results", 
-            "gpu_utests": [], 
-            "material_budget_comparison": "not-found", 
-            "merged_prs": [], 
-            "base_branch": "CMSSW_11_2_X", 
-            "invalid_includes": [], 
             "builds": [], 
             "material_budget_v2": "not-found", 
             "check-headers": "not-found", 
@@ -367,10 +315,10 @@
             "RVExceptions": null, 
             "fwlite": [], 
             "profiling": "not-found", 
-            "compared_tags": "CMSSW_11_2_X_2021-10-05-1100-->CMSSW_11_2_5_patch1", 
+            "compared_tags": "CMSSW_11_2_4-->CMSSW_11_2_5_patch1", 
             "dqm_tests": "not-found", 
             "utests": [], 
-            "ib_date": "2021-10-05-1100-0001", 
+            "ib_date": "0004-CMSSW_11_2_5_patch1", 
             "relvals": [], 
             "igprof": "not-found", 
             "release_queue": "CMSSW_11_2_X", 
@@ -387,49 +335,7 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "mandrenguyen"
-                }
-            ], 
-            "base_branch": "CMSSW_11_2_X", 
-            "invalid_includes": [], 
-            "builds": [], 
-            "material_budget_v2": "not-found", 
-            "check-headers": "not-found", 
-            "static_checks_v2": "not-found", 
-            "valgrind": "not-found", 
-            "material_budget": "not-found", 
-            "dupDict": [], 
-            "static_checks_failures": "not-found", 
-            "static_checks": "not-found", 
-            "isIB": false, 
-            "inProgress": false, 
-            "addons": [], 
-            "hlt_tests": "inprogress"
-        }, 
-        {
-            "comp_baseline_state": "ok", 
-            "python3_tests": [], 
-            "tests_archs": [], 
-            "cmsdist_merged_prs": {}, 
-            "cmsdist_compared_tags": {}, 
-            "cmsdistTags": {
-                "slc7_amd64_gcc900": "IB/CMSSW_11_2_X_2021-10-05-1100/slc7_amd64_gcc900"
-            }, 
-            "next_ib": false, 
-            "RVExceptions": null, 
-            "fwlite": [], 
-            "profiling": "not-found", 
-            "compared_tags": "CMSSW_11_2_4-->CMSSW_11_2_X_2021-10-05-1100", 
-            "dqm_tests": "not-found", 
-            "utests": [], 
-            "ib_date": "2021-10-05-1100-0000", 
-            "relvals": [], 
-            "igprof": "not-found", 
-            "release_queue": "CMSSW_11_2_X", 
-            "release_name": "CMSSW_11_2_X_2021-10-05-1100", 
-            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_11_2_X_2021-10-05-1100/slc7_amd64_gcc900/-GenuineIntel/matrix-results", 
-            "gpu_utests": [], 
-            "material_budget_comparison": "not-found", 
-            "merged_prs": [
+                }, 
                 {
                     "hash": "f873a5482cea9a6a3011619f74bfc51138d15e71", 
                     "title": "fix definition override in RecoTrackerP5_cff.py [11.2.X]", 
@@ -568,10 +474,10 @@
             "dupDict": [], 
             "static_checks_failures": "not-found", 
             "static_checks": "not-found", 
-            "isIB": true, 
+            "isIB": false, 
             "inProgress": false, 
             "addons": [], 
-            "hlt_tests": "passed"
+            "hlt_tests": "inprogress"
         }, 
         {
             "comp_baseline_state": "ok", 
