@@ -182,8 +182,24 @@
                     "author_login": "CMSTrackingPOG"
                 }
             ], 
-            "fwlite": [], 
-            "invalid_includes": [], 
+            "fwlite": [
+                {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/12.1-mon-11/CMSSW_12_1_X_2021-10-18-1100/new_FWLITE/logAnalysis.pkl", 
+                    "details": {}
+                }
+            ], 
+            "invalid_includes": [
+                {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/SDT/jenkins-artifacts/invalid-includes/CMSSW_12_1_X_2021-10-18-1100/slc7_amd64_gcc900/summary.json", 
+                    "details": {
+                        "num_fails": "87"
+                    }
+                }
+            ], 
             "builds": [
                 {
                     "arch": "slc7_amd64_gcc900", 
