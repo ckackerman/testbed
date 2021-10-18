@@ -7,7 +7,17 @@
             "python3_tests": [], 
             "tests_archs": [], 
             "cmsdist_merged_prs": {
-                "slc7_amd64_gcc900": []
+                "slc7_amd64_gcc900": [
+                    {
+                        "hash": "4aeda57dfc30d20923cef94ffde71b1c2bff4b43", 
+                        "title": "Update tag for RecoEgamma-PhotonIdentification to V01-02-00", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/7389", 
+                        "number": "7389", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "cms-sw"
+                    }
+                ]
             }, 
             "cmsdist_compared_tags": {
                 "slc7_amd64_gcc900": "IB/CMSSW_12_1_DEVEL_X_2021-10-17-2300/slc7_amd64_gcc900..IB/CMSSW_12_1_X/devel"
@@ -39,6 +49,15 @@
                     "author_login": "Dr15Jones"
                 }, 
                 {
+                    "hash": "66f36541288aa85120afe204729633ae23d73001", 
+                    "title": "Run3-hcx323 Use SimProducer+Analyzer to estimate material budget for HCAL", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35664", 
+                    "number": "35664", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
                     "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
                     "title": "Fix for UBSAN DQM crash", 
                     "url": "https://github.com/cms-sw/cmssw/pull/35658", 
@@ -48,13 +67,13 @@
                     "author_login": "jfernan2"
                 }, 
                 {
-                    "hash": "203a22fd371d2f110ad0483589a681f02c264d1a", 
-                    "title": "Run3-hcx324 Rearrange the code to enable future implementation of SimProducer class", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/35692", 
-                    "number": "35692", 
+                    "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
+                    "title": "Add producers/configs to refit muon tracks with standard TrackRefitter", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35620", 
+                    "number": "35620", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "bsunanda"
+                    "author_login": "CMSTrackingPOG"
                 }, 
                 {
                     "hash": "71e5474950fbf5b4bfffdb7912c72aa1aa5e83be", 
@@ -66,13 +85,13 @@
                     "author_login": "alejands"
                 }, 
                 {
-                    "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
-                    "title": "Add producers/configs to refit muon tracks with standard TrackRefitter", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/35620", 
-                    "number": "35620", 
+                    "hash": "203a22fd371d2f110ad0483589a681f02c264d1a", 
+                    "title": "Run3-hcx324 Rearrange the code to enable future implementation of SimProducer class", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35692", 
+                    "number": "35692", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "CMSTrackingPOG"
+                    "author_login": "bsunanda"
                 }
             ], 
             "base_branch": "CMSSW_12_1_DEVEL_X", 
@@ -135,12 +154,12 @@
             "ib_date": "2021-10-17-2300-0000", 
             "relvals": [
                 {
-                    "done": false, 
+                    "done": true, 
                     "arch": "slc7_amd64_gcc900", 
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/12.1.DEVEL-sun-23/CMSSW_12_1_DEVEL_X_2021-10-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 3374, 
+                        "num_passed": 3484, 
                         "known_failed": 0, 
                         "num_failed": 1
                     }

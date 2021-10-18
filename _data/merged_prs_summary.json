@@ -11341,7 +11341,19 @@
                     }
                 ], 
                 "ib_date": "2021-10-18-1100-0000", 
-                "relvals": [], 
+                "relvals": [
+                    {
+                        "done": false, 
+                        "arch": "slc7_amd64_gcc700", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/10.6-mon-11/CMSSW_10_6_X_2021-10-18-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 2, 
+                            "known_failed": 0, 
+                            "num_failed": 0
+                        }
+                    }
+                ], 
                 "igprof": "not-found", 
                 "release_queue": "CMSSW_10_6_X", 
                 "release_name": "CMSSW_10_6_X_2021-10-18-1100", 
@@ -22859,7 +22871,19 @@
                     }
                 ], 
                 "ib_date": "2021-10-18-1100-0000", 
-                "relvals": [], 
+                "relvals": [
+                    {
+                        "done": false, 
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/12.0-mon-11/CMSSW_12_0_X_2021-10-18-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 19, 
+                            "known_failed": 0, 
+                            "num_failed": 0
+                        }
+                    }
+                ], 
                 "release_queue": "CMSSW_12_0_X", 
                 "release_name": "CMSSW_12_0_X_2021-10-18-1100", 
                 "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_12_0_X_2021-10-18-1100/slc7_amd64_gcc900/-GenuineIntel/matrix-results", 
@@ -25776,6 +25800,15 @@
                 "cmsdist_merged_prs": {
                     "slc7_amd64_gcc10": [
                         {
+                            "hash": "4aeda57dfc30d20923cef94ffde71b1c2bff4b43", 
+                            "title": "Update tag for RecoEgamma-PhotonIdentification to V01-02-00", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/7389", 
+                            "number": "7389", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
                             "hash": "25b2dc6644d0e63313a8c05af0c591322ec85129", 
                             "title": "update crab-dev to v3.211015", 
                             "url": "https://github.com/cms-sw/cmsdist/pull/7390", 
@@ -25834,6 +25867,15 @@
                         "author_login": "guitargeek"
                     }, 
                     {
+                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
+                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
+                        "number": "35687", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
                         "hash": "b35619ff0210d819e71fbe2c85da7c52b75c3ea1", 
                         "title": "Fixed deprecated warnings in some GeneratorInterface packages", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35665", 
@@ -25843,13 +25885,13 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
-                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
-                        "number": "35687", 
+                        "hash": "66f36541288aa85120afe204729633ae23d73001", 
+                        "title": "Run3-hcx323 Use SimProducer+Analyzer to estimate material budget for HCAL", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35664", 
+                        "number": "35664", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "perrotta"
+                        "author_login": "bsunanda"
                     }, 
                     {
                         "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
@@ -26614,7 +26656,17 @@
                 "python3_tests": [], 
                 "tests_archs": [], 
                 "cmsdist_merged_prs": {
-                    "slc7_amd64_gcc900": []
+                    "slc7_amd64_gcc900": [
+                        {
+                            "hash": "4aeda57dfc30d20923cef94ffde71b1c2bff4b43", 
+                            "title": "Update tag for RecoEgamma-PhotonIdentification to V01-02-00", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/7389", 
+                            "number": "7389", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
                 }, 
                 "cmsdist_compared_tags": {
                     "slc7_amd64_gcc900": "IB/CMSSW_12_1_CLANG_X_2021-10-17-2300/slc7_amd64_gcc900..IB/CMSSW_12_1_X/master"
@@ -26646,6 +26698,15 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
+                        "hash": "66f36541288aa85120afe204729633ae23d73001", 
+                        "title": "Run3-hcx323 Use SimProducer+Analyzer to estimate material budget for HCAL", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35664", 
+                        "number": "35664", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
                         "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
                         "title": "Fix for UBSAN DQM crash", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35658", 
@@ -26655,13 +26716,13 @@
                         "author_login": "jfernan2"
                     }, 
                     {
-                        "hash": "203a22fd371d2f110ad0483589a681f02c264d1a", 
-                        "title": "Run3-hcx324 Rearrange the code to enable future implementation of SimProducer class", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35692", 
-                        "number": "35692", 
+                        "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
+                        "title": "Add producers/configs to refit muon tracks with standard TrackRefitter", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35620", 
+                        "number": "35620", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "bsunanda"
+                        "author_login": "CMSTrackingPOG"
                     }, 
                     {
                         "hash": "71e5474950fbf5b4bfffdb7912c72aa1aa5e83be", 
@@ -26673,13 +26734,13 @@
                         "author_login": "alejands"
                     }, 
                     {
-                        "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
-                        "title": "Add producers/configs to refit muon tracks with standard TrackRefitter", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35620", 
-                        "number": "35620", 
+                        "hash": "203a22fd371d2f110ad0483589a681f02c264d1a", 
+                        "title": "Run3-hcx324 Rearrange the code to enable future implementation of SimProducer class", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35692", 
+                        "number": "35692", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "CMSTrackingPOG"
+                        "author_login": "bsunanda"
                     }
                 ], 
                 "base_branch": "CMSSW_12_1_X", 
@@ -27827,7 +27888,17 @@
                 "python3_tests": [], 
                 "tests_archs": [], 
                 "cmsdist_merged_prs": {
-                    "slc7_amd64_gcc900": []
+                    "slc7_amd64_gcc900": [
+                        {
+                            "hash": "4aeda57dfc30d20923cef94ffde71b1c2bff4b43", 
+                            "title": "Update tag for RecoEgamma-PhotonIdentification to V01-02-00", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/7389", 
+                            "number": "7389", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
                 }, 
                 "cmsdist_compared_tags": {
                     "slc7_amd64_gcc900": "IB/CMSSW_12_1_CMSDEPRECATED_X_2021-10-16-1100/slc7_amd64_gcc900..IB/CMSSW_12_1_X/master"
@@ -27875,6 +27946,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "66f36541288aa85120afe204729633ae23d73001", 
+                        "title": "Run3-hcx323 Use SimProducer+Analyzer to estimate material budget for HCAL", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35664", 
+                        "number": "35664", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
                     }, 
                     {
                         "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
@@ -28599,6 +28679,15 @@
                 "cmsdist_merged_prs": {
                     "slc7_amd64_gcc900": [
                         {
+                            "hash": "4aeda57dfc30d20923cef94ffde71b1c2bff4b43", 
+                            "title": "Update tag for RecoEgamma-PhotonIdentification to V01-02-00", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/7389", 
+                            "number": "7389", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
                             "hash": "25b2dc6644d0e63313a8c05af0c591322ec85129", 
                             "title": "update crab-dev to v3.211015", 
                             "url": "https://github.com/cms-sw/cmsdist/pull/7390", 
@@ -28657,6 +28746,15 @@
                         "author_login": "guitargeek"
                     }, 
                     {
+                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
+                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
+                        "number": "35687", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
                         "hash": "b35619ff0210d819e71fbe2c85da7c52b75c3ea1", 
                         "title": "Fixed deprecated warnings in some GeneratorInterface packages", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35665", 
@@ -28666,13 +28764,13 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
-                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
-                        "number": "35687", 
+                        "hash": "66f36541288aa85120afe204729633ae23d73001", 
+                        "title": "Run3-hcx323 Use SimProducer+Analyzer to estimate material budget for HCAL", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35664", 
+                        "number": "35664", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "perrotta"
+                        "author_login": "bsunanda"
                     }, 
                     {
                         "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
@@ -29439,6 +29537,15 @@
                 "cmsdist_merged_prs": {
                     "slc7_amd64_gcc900": [
                         {
+                            "hash": "4aeda57dfc30d20923cef94ffde71b1c2bff4b43", 
+                            "title": "Update tag for RecoEgamma-PhotonIdentification to V01-02-00", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/7389", 
+                            "number": "7389", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
                             "hash": "25b2dc6644d0e63313a8c05af0c591322ec85129", 
                             "title": "update crab-dev to v3.211015", 
                             "url": "https://github.com/cms-sw/cmsdist/pull/7390", 
@@ -29470,24 +29577,6 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "446ab2fe39289c05b22794795458dfff4f14f5b1", 
-                        "title": "[Online DQM] re-introduce unit tests for visualization", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35642", 
-                        "number": "35642", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "mmusich"
-                    }, 
-                    {
-                        "hash": "fddeeefba463a28bf5ddbb053c0918a2aaf63fd2", 
-                        "title": "Added esConsumes to module in SimG4Core/DD4hepGeometry", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35676", 
-                        "number": "35676", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
-                    }, 
-                    {
                         "hash": "fcdf7aee5c3e6fbd7ed105af32b8f297384222a9", 
                         "title": "Updating hltDumpStream to work in python3 : 121X", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35709", 
@@ -29495,24 +29584,6 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Sam-Harper"
-                    }, 
-                    {
-                        "hash": "7c571eb933e9fa1a004737c835e7a9f81eea183f", 
-                        "title": "Removed CMS deprecation warnings from MagneticField/Engine", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35672", 
-                        "number": "35672", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
-                    }, 
-                    {
-                        "hash": "0209ecde0970a232ac291af70309a4cb87a8ea66", 
-                        "title": "HcalDQM: Update hcal FED list for crate 3-FED readout", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35617", 
-                        "number": "35617", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "lwang046"
                     }, 
                     {
                         "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
@@ -29524,15 +29595,6 @@
                         "author_login": "guitargeek"
                     }, 
                     {
-                        "hash": "b7b6fcfdf76790cf19545861aa54880f9332c7c7", 
-                        "title": "introduce unit tests for `CondTools/SiPhase2Tracker`", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35677", 
-                        "number": "35677", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "mmusich"
-                    }, 
-                    {
                         "hash": "b35619ff0210d819e71fbe2c85da7c52b75c3ea1", 
                         "title": "Fixed deprecated warnings in some GeneratorInterface packages", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35665", 
@@ -29542,49 +29604,22 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
-                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
-                        "number": "35687", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "perrotta"
-                    }, 
-                    {
-                        "hash": "09d56ca6f28566bc2c2d6dc804a3107c7679d16c", 
-                        "title": "Do not call the fishbone for events with pixel hits only in BPIX1", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35638", 
-                        "number": "35638", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "fwyzard"
-                    }, 
-                    {
-                        "hash": "d6091aaf0c71a7af8540f4ddccb6c1542278d122", 
-                        "title": "add onlineBeamSpotESProducer to BeamSpot_cfi: fix general Online BS swap case", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35639", 
-                        "number": "35639", 
+                        "hash": "446ab2fe39289c05b22794795458dfff4f14f5b1", 
+                        "title": "[Online DQM] re-introduce unit tests for visualization", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35642", 
+                        "number": "35642", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "mmusich"
                     }, 
                     {
-                        "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
-                        "title": "Fix for UBSAN DQM crash", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35658", 
-                        "number": "35658", 
+                        "hash": "71e5474950fbf5b4bfffdb7912c72aa1aa5e83be", 
+                        "title": "Set equivalence of first/last bx labels used by different subsystems in ECAL DQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35661", 
+                        "number": "35661", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "jfernan2"
-                    }, 
-                    {
-                        "hash": "aa9b785661f7a67008d1985726216a3a98739c6a", 
-                        "title": "Diamond dqm", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35454", 
-                        "number": "35454", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "ChrisMisan"
+                        "author_login": "alejands"
                     }, 
                     {
                         "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
@@ -29605,15 +29640,6 @@
                         "author_login": "quark2"
                     }, 
                     {
-                        "hash": "71e5474950fbf5b4bfffdb7912c72aa1aa5e83be", 
-                        "title": "Set equivalence of first/last bx labels used by different subsystems in ECAL DQM", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35661", 
-                        "number": "35661", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "alejands"
-                    }, 
-                    {
                         "hash": "203a22fd371d2f110ad0483589a681f02c264d1a", 
                         "title": "Run3-hcx324 Rearrange the code to enable future implementation of SimProducer class", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35692", 
@@ -29632,15 +29658,6 @@
                         "author_login": "antoniovagnerini"
                     }, 
                     {
-                        "hash": "8fe41661345d77c6fcba46320b159ab1607fab97", 
-                        "title": "DAQ fix spurious luminosityBlockAuxiliary assertion in HLT (12_1_X)", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35682", 
-                        "number": "35682", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "smorovic"
-                    }, 
-                    {
                         "hash": "4b527f4cbec73634f0ddb69d267bb67727c41929", 
                         "title": "fix typo in `_loadOnlineBeamSpotESProducer`", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35696", 
@@ -29648,6 +29665,105 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "mmusich"
+                    }, 
+                    {
+                        "hash": "0209ecde0970a232ac291af70309a4cb87a8ea66", 
+                        "title": "HcalDQM: Update hcal FED list for crate 3-FED readout", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35617", 
+                        "number": "35617", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "lwang046"
+                    }, 
+                    {
+                        "hash": "fddeeefba463a28bf5ddbb053c0918a2aaf63fd2", 
+                        "title": "Added esConsumes to module in SimG4Core/DD4hepGeometry", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35676", 
+                        "number": "35676", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "b7b6fcfdf76790cf19545861aa54880f9332c7c7", 
+                        "title": "introduce unit tests for `CondTools/SiPhase2Tracker`", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35677", 
+                        "number": "35677", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
+                    }, 
+                    {
+                        "hash": "09d56ca6f28566bc2c2d6dc804a3107c7679d16c", 
+                        "title": "Do not call the fishbone for events with pixel hits only in BPIX1", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35638", 
+                        "number": "35638", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "fwyzard"
+                    }, 
+                    {
+                        "hash": "d6091aaf0c71a7af8540f4ddccb6c1542278d122", 
+                        "title": "add onlineBeamSpotESProducer to BeamSpot_cfi: fix general Online BS swap case", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35639", 
+                        "number": "35639", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
+                    }, 
+                    {
+                        "hash": "7c571eb933e9fa1a004737c835e7a9f81eea183f", 
+                        "title": "Removed CMS deprecation warnings from MagneticField/Engine", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35672", 
+                        "number": "35672", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "aa9b785661f7a67008d1985726216a3a98739c6a", 
+                        "title": "Diamond dqm", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35454", 
+                        "number": "35454", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ChrisMisan"
+                    }, 
+                    {
+                        "hash": "66f36541288aa85120afe204729633ae23d73001", 
+                        "title": "Run3-hcx323 Use SimProducer+Analyzer to estimate material budget for HCAL", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35664", 
+                        "number": "35664", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
+                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
+                        "number": "35687", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
+                        "title": "Fix for UBSAN DQM crash", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35658", 
+                        "number": "35658", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "jfernan2"
+                    }, 
+                    {
+                        "hash": "8fe41661345d77c6fcba46320b159ab1607fab97", 
+                        "title": "DAQ fix spurious luminosityBlockAuxiliary assertion in HLT (12_1_X)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35682", 
+                        "number": "35682", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "smorovic"
                     }, 
                     {
                         "hash": "88a57b694b1a43d76d0ab56385ef6884e9e37759", 
@@ -29776,7 +29892,17 @@
                 "python3_tests": [], 
                 "tests_archs": [], 
                 "cmsdist_merged_prs": {
-                    "slc7_amd64_gcc900": []
+                    "slc7_amd64_gcc900": [
+                        {
+                            "hash": "4aeda57dfc30d20923cef94ffde71b1c2bff4b43", 
+                            "title": "Update tag for RecoEgamma-PhotonIdentification to V01-02-00", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/7389", 
+                            "number": "7389", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
                 }, 
                 "cmsdist_compared_tags": {
                     "slc7_amd64_gcc900": "IB/CMSSW_12_1_DEVEL_X_2021-10-17-2300/slc7_amd64_gcc900..IB/CMSSW_12_1_X/devel"
@@ -29808,6 +29934,15 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
+                        "hash": "66f36541288aa85120afe204729633ae23d73001", 
+                        "title": "Run3-hcx323 Use SimProducer+Analyzer to estimate material budget for HCAL", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35664", 
+                        "number": "35664", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
                         "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
                         "title": "Fix for UBSAN DQM crash", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35658", 
@@ -29817,13 +29952,13 @@
                         "author_login": "jfernan2"
                     }, 
                     {
-                        "hash": "203a22fd371d2f110ad0483589a681f02c264d1a", 
-                        "title": "Run3-hcx324 Rearrange the code to enable future implementation of SimProducer class", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35692", 
-                        "number": "35692", 
+                        "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
+                        "title": "Add producers/configs to refit muon tracks with standard TrackRefitter", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35620", 
+                        "number": "35620", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "bsunanda"
+                        "author_login": "CMSTrackingPOG"
                     }, 
                     {
                         "hash": "71e5474950fbf5b4bfffdb7912c72aa1aa5e83be", 
@@ -29835,13 +29970,13 @@
                         "author_login": "alejands"
                     }, 
                     {
-                        "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
-                        "title": "Add producers/configs to refit muon tracks with standard TrackRefitter", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35620", 
-                        "number": "35620", 
+                        "hash": "203a22fd371d2f110ad0483589a681f02c264d1a", 
+                        "title": "Run3-hcx324 Rearrange the code to enable future implementation of SimProducer class", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35692", 
+                        "number": "35692", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "CMSTrackingPOG"
+                        "author_login": "bsunanda"
                     }
                 ], 
                 "base_branch": "CMSSW_12_1_DEVEL_X", 
@@ -29904,12 +30039,12 @@
                 "ib_date": "2021-10-17-2300-0000", 
                 "relvals": [
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "slc7_amd64_gcc900", 
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/12.1.DEVEL-sun-23/CMSSW_12_1_DEVEL_X_2021-10-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 3374, 
+                            "num_passed": 3484, 
                             "known_failed": 0, 
                             "num_failed": 1
                         }
@@ -30991,6 +31126,15 @@
                 "cmsdist_merged_prs": {
                     "slc7_amd64_gcc900": [
                         {
+                            "hash": "4aeda57dfc30d20923cef94ffde71b1c2bff4b43", 
+                            "title": "Update tag for RecoEgamma-PhotonIdentification to V01-02-00", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/7389", 
+                            "number": "7389", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
                             "hash": "25b2dc6644d0e63313a8c05af0c591322ec85129", 
                             "title": "update crab-dev to v3.211015", 
                             "url": "https://github.com/cms-sw/cmsdist/pull/7390", 
@@ -31022,24 +31166,6 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "446ab2fe39289c05b22794795458dfff4f14f5b1", 
-                        "title": "[Online DQM] re-introduce unit tests for visualization", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35642", 
-                        "number": "35642", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "mmusich"
-                    }, 
-                    {
-                        "hash": "fddeeefba463a28bf5ddbb053c0918a2aaf63fd2", 
-                        "title": "Added esConsumes to module in SimG4Core/DD4hepGeometry", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35676", 
-                        "number": "35676", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
-                    }, 
-                    {
                         "hash": "fcdf7aee5c3e6fbd7ed105af32b8f297384222a9", 
                         "title": "Updating hltDumpStream to work in python3 : 121X", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35709", 
@@ -31047,24 +31173,6 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Sam-Harper"
-                    }, 
-                    {
-                        "hash": "7c571eb933e9fa1a004737c835e7a9f81eea183f", 
-                        "title": "Removed CMS deprecation warnings from MagneticField/Engine", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35672", 
-                        "number": "35672", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
-                    }, 
-                    {
-                        "hash": "0209ecde0970a232ac291af70309a4cb87a8ea66", 
-                        "title": "HcalDQM: Update hcal FED list for crate 3-FED readout", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35617", 
-                        "number": "35617", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "lwang046"
                     }, 
                     {
                         "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
@@ -31076,15 +31184,6 @@
                         "author_login": "guitargeek"
                     }, 
                     {
-                        "hash": "b7b6fcfdf76790cf19545861aa54880f9332c7c7", 
-                        "title": "introduce unit tests for `CondTools/SiPhase2Tracker`", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35677", 
-                        "number": "35677", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "mmusich"
-                    }, 
-                    {
                         "hash": "b35619ff0210d819e71fbe2c85da7c52b75c3ea1", 
                         "title": "Fixed deprecated warnings in some GeneratorInterface packages", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35665", 
@@ -31094,49 +31193,22 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
-                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
-                        "number": "35687", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "perrotta"
-                    }, 
-                    {
-                        "hash": "09d56ca6f28566bc2c2d6dc804a3107c7679d16c", 
-                        "title": "Do not call the fishbone for events with pixel hits only in BPIX1", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35638", 
-                        "number": "35638", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "fwyzard"
-                    }, 
-                    {
-                        "hash": "d6091aaf0c71a7af8540f4ddccb6c1542278d122", 
-                        "title": "add onlineBeamSpotESProducer to BeamSpot_cfi: fix general Online BS swap case", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35639", 
-                        "number": "35639", 
+                        "hash": "446ab2fe39289c05b22794795458dfff4f14f5b1", 
+                        "title": "[Online DQM] re-introduce unit tests for visualization", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35642", 
+                        "number": "35642", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "mmusich"
                     }, 
                     {
-                        "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
-                        "title": "Fix for UBSAN DQM crash", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35658", 
-                        "number": "35658", 
+                        "hash": "71e5474950fbf5b4bfffdb7912c72aa1aa5e83be", 
+                        "title": "Set equivalence of first/last bx labels used by different subsystems in ECAL DQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35661", 
+                        "number": "35661", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "jfernan2"
-                    }, 
-                    {
-                        "hash": "aa9b785661f7a67008d1985726216a3a98739c6a", 
-                        "title": "Diamond dqm", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35454", 
-                        "number": "35454", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "ChrisMisan"
+                        "author_login": "alejands"
                     }, 
                     {
                         "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
@@ -31157,15 +31229,6 @@
                         "author_login": "quark2"
                     }, 
                     {
-                        "hash": "71e5474950fbf5b4bfffdb7912c72aa1aa5e83be", 
-                        "title": "Set equivalence of first/last bx labels used by different subsystems in ECAL DQM", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35661", 
-                        "number": "35661", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "alejands"
-                    }, 
-                    {
                         "hash": "203a22fd371d2f110ad0483589a681f02c264d1a", 
                         "title": "Run3-hcx324 Rearrange the code to enable future implementation of SimProducer class", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35692", 
@@ -31184,15 +31247,6 @@
                         "author_login": "antoniovagnerini"
                     }, 
                     {
-                        "hash": "8fe41661345d77c6fcba46320b159ab1607fab97", 
-                        "title": "DAQ fix spurious luminosityBlockAuxiliary assertion in HLT (12_1_X)", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35682", 
-                        "number": "35682", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "smorovic"
-                    }, 
-                    {
                         "hash": "4b527f4cbec73634f0ddb69d267bb67727c41929", 
                         "title": "fix typo in `_loadOnlineBeamSpotESProducer`", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35696", 
@@ -31200,6 +31254,105 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "mmusich"
+                    }, 
+                    {
+                        "hash": "0209ecde0970a232ac291af70309a4cb87a8ea66", 
+                        "title": "HcalDQM: Update hcal FED list for crate 3-FED readout", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35617", 
+                        "number": "35617", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "lwang046"
+                    }, 
+                    {
+                        "hash": "fddeeefba463a28bf5ddbb053c0918a2aaf63fd2", 
+                        "title": "Added esConsumes to module in SimG4Core/DD4hepGeometry", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35676", 
+                        "number": "35676", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "b7b6fcfdf76790cf19545861aa54880f9332c7c7", 
+                        "title": "introduce unit tests for `CondTools/SiPhase2Tracker`", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35677", 
+                        "number": "35677", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
+                    }, 
+                    {
+                        "hash": "09d56ca6f28566bc2c2d6dc804a3107c7679d16c", 
+                        "title": "Do not call the fishbone for events with pixel hits only in BPIX1", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35638", 
+                        "number": "35638", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "fwyzard"
+                    }, 
+                    {
+                        "hash": "d6091aaf0c71a7af8540f4ddccb6c1542278d122", 
+                        "title": "add onlineBeamSpotESProducer to BeamSpot_cfi: fix general Online BS swap case", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35639", 
+                        "number": "35639", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
+                    }, 
+                    {
+                        "hash": "7c571eb933e9fa1a004737c835e7a9f81eea183f", 
+                        "title": "Removed CMS deprecation warnings from MagneticField/Engine", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35672", 
+                        "number": "35672", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "aa9b785661f7a67008d1985726216a3a98739c6a", 
+                        "title": "Diamond dqm", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35454", 
+                        "number": "35454", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ChrisMisan"
+                    }, 
+                    {
+                        "hash": "66f36541288aa85120afe204729633ae23d73001", 
+                        "title": "Run3-hcx323 Use SimProducer+Analyzer to estimate material budget for HCAL", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35664", 
+                        "number": "35664", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
+                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
+                        "number": "35687", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
+                        "title": "Fix for UBSAN DQM crash", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35658", 
+                        "number": "35658", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "jfernan2"
+                    }, 
+                    {
+                        "hash": "8fe41661345d77c6fcba46320b159ab1607fab97", 
+                        "title": "DAQ fix spurious luminosityBlockAuxiliary assertion in HLT (12_1_X)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35682", 
+                        "number": "35682", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "smorovic"
                     }, 
                     {
                         "hash": "88a57b694b1a43d76d0ab56385ef6884e9e37759", 
@@ -31743,6 +31896,15 @@
                 "cmsdist_merged_prs": {
                     "slc7_amd64_gcc900": [
                         {
+                            "hash": "4aeda57dfc30d20923cef94ffde71b1c2bff4b43", 
+                            "title": "Update tag for RecoEgamma-PhotonIdentification to V01-02-00", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/7389", 
+                            "number": "7389", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
                             "hash": "25b2dc6644d0e63313a8c05af0c591322ec85129", 
                             "title": "update crab-dev to v3.211015", 
                             "url": "https://github.com/cms-sw/cmsdist/pull/7390", 
@@ -31801,6 +31963,15 @@
                         "author_login": "guitargeek"
                     }, 
                     {
+                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
+                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
+                        "number": "35687", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
                         "hash": "b35619ff0210d819e71fbe2c85da7c52b75c3ea1", 
                         "title": "Fixed deprecated warnings in some GeneratorInterface packages", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35665", 
@@ -31810,13 +31981,13 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
-                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
-                        "number": "35687", 
+                        "hash": "66f36541288aa85120afe204729633ae23d73001", 
+                        "title": "Run3-hcx323 Use SimProducer+Analyzer to estimate material budget for HCAL", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35664", 
+                        "number": "35664", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "perrotta"
+                        "author_login": "bsunanda"
                     }, 
                     {
                         "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
@@ -32430,7 +32601,17 @@
                 "python3_tests": [], 
                 "tests_archs": [], 
                 "cmsdist_merged_prs": {
-                    "slc7_amd64_gcc900": []
+                    "slc7_amd64_gcc900": [
+                        {
+                            "hash": "4aeda57dfc30d20923cef94ffde71b1c2bff4b43", 
+                            "title": "Update tag for RecoEgamma-PhotonIdentification to V01-02-00", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/7389", 
+                            "number": "7389", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
                 }, 
                 "cmsdist_compared_tags": {
                     "slc7_amd64_gcc900": "IB/CMSSW_12_1_GPU_X_2021-10-17-2300/slc7_amd64_gcc900..IB/CMSSW_12_1_X/master"
@@ -32462,6 +32643,15 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
+                        "hash": "66f36541288aa85120afe204729633ae23d73001", 
+                        "title": "Run3-hcx323 Use SimProducer+Analyzer to estimate material budget for HCAL", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35664", 
+                        "number": "35664", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
                         "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
                         "title": "Fix for UBSAN DQM crash", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35658", 
@@ -32471,13 +32661,13 @@
                         "author_login": "jfernan2"
                     }, 
                     {
-                        "hash": "203a22fd371d2f110ad0483589a681f02c264d1a", 
-                        "title": "Run3-hcx324 Rearrange the code to enable future implementation of SimProducer class", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35692", 
-                        "number": "35692", 
+                        "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
+                        "title": "Add producers/configs to refit muon tracks with standard TrackRefitter", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35620", 
+                        "number": "35620", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "bsunanda"
+                        "author_login": "CMSTrackingPOG"
                     }, 
                     {
                         "hash": "71e5474950fbf5b4bfffdb7912c72aa1aa5e83be", 
@@ -32489,13 +32679,13 @@
                         "author_login": "alejands"
                     }, 
                     {
-                        "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
-                        "title": "Add producers/configs to refit muon tracks with standard TrackRefitter", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35620", 
-                        "number": "35620", 
+                        "hash": "203a22fd371d2f110ad0483589a681f02c264d1a", 
+                        "title": "Run3-hcx324 Rearrange the code to enable future implementation of SimProducer class", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35692", 
+                        "number": "35692", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "CMSTrackingPOG"
+                        "author_login": "bsunanda"
                     }
                 ], 
                 "base_branch": "CMSSW_12_1_X", 
@@ -33603,6 +33793,15 @@
                 "cmsdist_merged_prs": {
                     "slc7_amd64_gcc900": [
                         {
+                            "hash": "4aeda57dfc30d20923cef94ffde71b1c2bff4b43", 
+                            "title": "Update tag for RecoEgamma-PhotonIdentification to V01-02-00", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/7389", 
+                            "number": "7389", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
                             "hash": "25b2dc6644d0e63313a8c05af0c591322ec85129", 
                             "title": "update crab-dev to v3.211015", 
                             "url": "https://github.com/cms-sw/cmsdist/pull/7390", 
@@ -33661,6 +33860,15 @@
                         "author_login": "guitargeek"
                     }, 
                     {
+                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
+                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
+                        "number": "35687", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
                         "hash": "b35619ff0210d819e71fbe2c85da7c52b75c3ea1", 
                         "title": "Fixed deprecated warnings in some GeneratorInterface packages", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35665", 
@@ -33670,13 +33878,13 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
-                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
-                        "number": "35687", 
+                        "hash": "66f36541288aa85120afe204729633ae23d73001", 
+                        "title": "Run3-hcx323 Use SimProducer+Analyzer to estimate material budget for HCAL", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35664", 
+                        "number": "35664", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "perrotta"
+                        "author_login": "bsunanda"
                     }, 
                     {
                         "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
@@ -34429,7 +34637,17 @@
                 "python3_tests": [], 
                 "tests_archs": [], 
                 "cmsdist_merged_prs": {
-                    "slc7_amd64_gcc900": []
+                    "slc7_amd64_gcc900": [
+                        {
+                            "hash": "4aeda57dfc30d20923cef94ffde71b1c2bff4b43", 
+                            "title": "Update tag for RecoEgamma-PhotonIdentification to V01-02-00", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/7389", 
+                            "number": "7389", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
                 }, 
                 "cmsdist_compared_tags": {
                     "slc7_amd64_gcc900": "IB/CMSSW_12_1_ROOT6_X_2021-10-17-0000/slc7_amd64_gcc900..IB/CMSSW_12_1_X/rootmaster"
@@ -34461,6 +34679,15 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
+                        "hash": "66f36541288aa85120afe204729633ae23d73001", 
+                        "title": "Run3-hcx323 Use SimProducer+Analyzer to estimate material budget for HCAL", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35664", 
+                        "number": "35664", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
                         "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
                         "title": "Fix for UBSAN DQM crash", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35658", 
@@ -34470,13 +34697,13 @@
                         "author_login": "jfernan2"
                     }, 
                     {
-                        "hash": "203a22fd371d2f110ad0483589a681f02c264d1a", 
-                        "title": "Run3-hcx324 Rearrange the code to enable future implementation of SimProducer class", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35692", 
-                        "number": "35692", 
+                        "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
+                        "title": "Add producers/configs to refit muon tracks with standard TrackRefitter", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35620", 
+                        "number": "35620", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "bsunanda"
+                        "author_login": "CMSTrackingPOG"
                     }, 
                     {
                         "hash": "71e5474950fbf5b4bfffdb7912c72aa1aa5e83be", 
@@ -34488,13 +34715,13 @@
                         "author_login": "alejands"
                     }, 
                     {
-                        "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
-                        "title": "Add producers/configs to refit muon tracks with standard TrackRefitter", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35620", 
-                        "number": "35620", 
+                        "hash": "203a22fd371d2f110ad0483589a681f02c264d1a", 
+                        "title": "Run3-hcx324 Rearrange the code to enable future implementation of SimProducer class", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35692", 
+                        "number": "35692", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "CMSTrackingPOG"
+                        "author_login": "bsunanda"
                     }
                 ], 
                 "base_branch": "CMSSW_12_1_ROOT6_X", 
@@ -35829,6 +36056,15 @@
                 "cmsdist_merged_prs": {
                     "slc7_amd64_gcc900": [
                         {
+                            "hash": "4aeda57dfc30d20923cef94ffde71b1c2bff4b43", 
+                            "title": "Update tag for RecoEgamma-PhotonIdentification to V01-02-00", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/7389", 
+                            "number": "7389", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
                             "hash": "25b2dc6644d0e63313a8c05af0c591322ec85129", 
                             "title": "update crab-dev to v3.211015", 
                             "url": "https://github.com/cms-sw/cmsdist/pull/7390", 
@@ -35860,24 +36096,6 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "446ab2fe39289c05b22794795458dfff4f14f5b1", 
-                        "title": "[Online DQM] re-introduce unit tests for visualization", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35642", 
-                        "number": "35642", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "mmusich"
-                    }, 
-                    {
-                        "hash": "fddeeefba463a28bf5ddbb053c0918a2aaf63fd2", 
-                        "title": "Added esConsumes to module in SimG4Core/DD4hepGeometry", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35676", 
-                        "number": "35676", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
-                    }, 
-                    {
                         "hash": "fcdf7aee5c3e6fbd7ed105af32b8f297384222a9", 
                         "title": "Updating hltDumpStream to work in python3 : 121X", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35709", 
@@ -35885,24 +36103,6 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Sam-Harper"
-                    }, 
-                    {
-                        "hash": "7c571eb933e9fa1a004737c835e7a9f81eea183f", 
-                        "title": "Removed CMS deprecation warnings from MagneticField/Engine", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35672", 
-                        "number": "35672", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
-                    }, 
-                    {
-                        "hash": "0209ecde0970a232ac291af70309a4cb87a8ea66", 
-                        "title": "HcalDQM: Update hcal FED list for crate 3-FED readout", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35617", 
-                        "number": "35617", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "lwang046"
                     }, 
                     {
                         "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
@@ -35914,15 +36114,6 @@
                         "author_login": "guitargeek"
                     }, 
                     {
-                        "hash": "b7b6fcfdf76790cf19545861aa54880f9332c7c7", 
-                        "title": "introduce unit tests for `CondTools/SiPhase2Tracker`", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35677", 
-                        "number": "35677", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "mmusich"
-                    }, 
-                    {
                         "hash": "b35619ff0210d819e71fbe2c85da7c52b75c3ea1", 
                         "title": "Fixed deprecated warnings in some GeneratorInterface packages", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35665", 
@@ -35932,49 +36123,22 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
-                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
-                        "number": "35687", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "perrotta"
-                    }, 
-                    {
-                        "hash": "09d56ca6f28566bc2c2d6dc804a3107c7679d16c", 
-                        "title": "Do not call the fishbone for events with pixel hits only in BPIX1", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35638", 
-                        "number": "35638", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "fwyzard"
-                    }, 
-                    {
-                        "hash": "d6091aaf0c71a7af8540f4ddccb6c1542278d122", 
-                        "title": "add onlineBeamSpotESProducer to BeamSpot_cfi: fix general Online BS swap case", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35639", 
-                        "number": "35639", 
+                        "hash": "446ab2fe39289c05b22794795458dfff4f14f5b1", 
+                        "title": "[Online DQM] re-introduce unit tests for visualization", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35642", 
+                        "number": "35642", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "mmusich"
                     }, 
                     {
-                        "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
-                        "title": "Fix for UBSAN DQM crash", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35658", 
-                        "number": "35658", 
+                        "hash": "71e5474950fbf5b4bfffdb7912c72aa1aa5e83be", 
+                        "title": "Set equivalence of first/last bx labels used by different subsystems in ECAL DQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35661", 
+                        "number": "35661", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "jfernan2"
-                    }, 
-                    {
-                        "hash": "aa9b785661f7a67008d1985726216a3a98739c6a", 
-                        "title": "Diamond dqm", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35454", 
-                        "number": "35454", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "ChrisMisan"
+                        "author_login": "alejands"
                     }, 
                     {
                         "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
@@ -35995,15 +36159,6 @@
                         "author_login": "quark2"
                     }, 
                     {
-                        "hash": "71e5474950fbf5b4bfffdb7912c72aa1aa5e83be", 
-                        "title": "Set equivalence of first/last bx labels used by different subsystems in ECAL DQM", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35661", 
-                        "number": "35661", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "alejands"
-                    }, 
-                    {
                         "hash": "203a22fd371d2f110ad0483589a681f02c264d1a", 
                         "title": "Run3-hcx324 Rearrange the code to enable future implementation of SimProducer class", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35692", 
@@ -36022,15 +36177,6 @@
                         "author_login": "antoniovagnerini"
                     }, 
                     {
-                        "hash": "8fe41661345d77c6fcba46320b159ab1607fab97", 
-                        "title": "DAQ fix spurious luminosityBlockAuxiliary assertion in HLT (12_1_X)", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35682", 
-                        "number": "35682", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "smorovic"
-                    }, 
-                    {
                         "hash": "4b527f4cbec73634f0ddb69d267bb67727c41929", 
                         "title": "fix typo in `_loadOnlineBeamSpotESProducer`", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35696", 
@@ -36038,6 +36184,105 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "mmusich"
+                    }, 
+                    {
+                        "hash": "0209ecde0970a232ac291af70309a4cb87a8ea66", 
+                        "title": "HcalDQM: Update hcal FED list for crate 3-FED readout", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35617", 
+                        "number": "35617", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "lwang046"
+                    }, 
+                    {
+                        "hash": "fddeeefba463a28bf5ddbb053c0918a2aaf63fd2", 
+                        "title": "Added esConsumes to module in SimG4Core/DD4hepGeometry", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35676", 
+                        "number": "35676", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "b7b6fcfdf76790cf19545861aa54880f9332c7c7", 
+                        "title": "introduce unit tests for `CondTools/SiPhase2Tracker`", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35677", 
+                        "number": "35677", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
+                    }, 
+                    {
+                        "hash": "09d56ca6f28566bc2c2d6dc804a3107c7679d16c", 
+                        "title": "Do not call the fishbone for events with pixel hits only in BPIX1", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35638", 
+                        "number": "35638", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "fwyzard"
+                    }, 
+                    {
+                        "hash": "d6091aaf0c71a7af8540f4ddccb6c1542278d122", 
+                        "title": "add onlineBeamSpotESProducer to BeamSpot_cfi: fix general Online BS swap case", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35639", 
+                        "number": "35639", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
+                    }, 
+                    {
+                        "hash": "7c571eb933e9fa1a004737c835e7a9f81eea183f", 
+                        "title": "Removed CMS deprecation warnings from MagneticField/Engine", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35672", 
+                        "number": "35672", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "aa9b785661f7a67008d1985726216a3a98739c6a", 
+                        "title": "Diamond dqm", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35454", 
+                        "number": "35454", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ChrisMisan"
+                    }, 
+                    {
+                        "hash": "66f36541288aa85120afe204729633ae23d73001", 
+                        "title": "Run3-hcx323 Use SimProducer+Analyzer to estimate material budget for HCAL", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35664", 
+                        "number": "35664", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
+                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
+                        "number": "35687", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
+                        "title": "Fix for UBSAN DQM crash", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35658", 
+                        "number": "35658", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "jfernan2"
+                    }, 
+                    {
+                        "hash": "8fe41661345d77c6fcba46320b159ab1607fab97", 
+                        "title": "DAQ fix spurious luminosityBlockAuxiliary assertion in HLT (12_1_X)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35682", 
+                        "number": "35682", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "smorovic"
                     }, 
                     {
                         "hash": "88a57b694b1a43d76d0ab56385ef6884e9e37759", 
@@ -36167,6 +36412,15 @@
                 "cmsdist_merged_prs": {
                     "slc7_amd64_gcc10": [
                         {
+                            "hash": "4aeda57dfc30d20923cef94ffde71b1c2bff4b43", 
+                            "title": "Update tag for RecoEgamma-PhotonIdentification to V01-02-00", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/7389", 
+                            "number": "7389", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
                             "hash": "25b2dc6644d0e63313a8c05af0c591322ec85129", 
                             "title": "update crab-dev to v3.211015", 
                             "url": "https://github.com/cms-sw/cmsdist/pull/7390", 
@@ -36234,6 +36488,15 @@
                         "author_login": "guitargeek"
                     }, 
                     {
+                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
+                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
+                        "number": "35687", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
                         "hash": "b7b6fcfdf76790cf19545861aa54880f9332c7c7", 
                         "title": "introduce unit tests for `CondTools/SiPhase2Tracker`", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35677", 
@@ -36252,13 +36515,13 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
-                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
-                        "number": "35687", 
+                        "hash": "66f36541288aa85120afe204729633ae23d73001", 
+                        "title": "Run3-hcx323 Use SimProducer+Analyzer to estimate material budget for HCAL", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35664", 
+                        "number": "35664", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "perrotta"
+                        "author_login": "bsunanda"
                     }, 
                     {
                         "hash": "09d56ca6f28566bc2c2d6dc804a3107c7679d16c", 
@@ -36477,6 +36740,15 @@
                 "cmsdist_merged_prs": {
                     "slc7_amd64_gcc10": [
                         {
+                            "hash": "4aeda57dfc30d20923cef94ffde71b1c2bff4b43", 
+                            "title": "Update tag for RecoEgamma-PhotonIdentification to V01-02-00", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/7389", 
+                            "number": "7389", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
                             "hash": "25b2dc6644d0e63313a8c05af0c591322ec85129", 
                             "title": "update crab-dev to v3.211015", 
                             "url": "https://github.com/cms-sw/cmsdist/pull/7390", 
@@ -36535,6 +36807,15 @@
                         "author_login": "guitargeek"
                     }, 
                     {
+                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
+                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
+                        "number": "35687", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
                         "hash": "b35619ff0210d819e71fbe2c85da7c52b75c3ea1", 
                         "title": "Fixed deprecated warnings in some GeneratorInterface packages", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35665", 
@@ -36544,13 +36825,13 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
-                        "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35687", 
-                        "number": "35687", 
+                        "hash": "66f36541288aa85120afe204729633ae23d73001", 
+                        "title": "Run3-hcx323 Use SimProducer+Analyzer to estimate material budget for HCAL", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35664", 
+                        "number": "35664", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "perrotta"
+                        "author_login": "bsunanda"
                     }, 
                     {
                         "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
@@ -36743,9 +37024,28 @@
                 "python3_tests": [], 
                 "tests_archs": [], 
                 "cmsdist_merged_prs": {
-                    "cc8_amd64_gcc9": [], 
+                    "cc8_amd64_gcc9": [
+                        {
+                            "hash": "4aeda57dfc30d20923cef94ffde71b1c2bff4b43", 
+                            "title": "Update tag for RecoEgamma-PhotonIdentification to V01-02-00", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/7389", 
+                            "number": "7389", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }
+                    ], 
                     "cc8_aarch64_gcc9": [
                         {
+                            "hash": "4aeda57dfc30d20923cef94ffde71b1c2bff4b43", 
+                            "title": "Update tag for RecoEgamma-PhotonIdentification to V01-02-00", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/7389", 
+                            "number": "7389", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
                             "hash": "25b2dc6644d0e63313a8c05af0c591322ec85129", 
                             "title": "update crab-dev to v3.211015", 
                             "url": "https://github.com/cms-sw/cmsdist/pull/7390", 
@@ -36755,21 +37055,27 @@
                             "author_login": "cms-sw"
                         }
                     ], 
-                    "slc7_aarch64_gcc9": [], 
+                    "slc7_aarch64_gcc9": [
+                        {
+                            "hash": "4aeda57dfc30d20923cef94ffde71b1c2bff4b43", 
+                            "title": "Update tag for RecoEgamma-PhotonIdentification to V01-02-00", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/7389", 
+                            "number": "7389", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ], 
                     "slc7_amd64_gcc11": [
                         {
-                            "hash": "25b2dc6644d0e63313a8c05af0c591322ec85129", 
-                            "title": "update crab-dev to v3.211015", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/7390", 
-                            "number": "7390", 
+                            "hash": "4aeda57dfc30d20923cef94ffde71b1c2bff4b43", 
+                            "title": "Update tag for RecoEgamma-PhotonIdentification to V01-02-00", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/7389", 
+                            "number": "7389", 
                             "is_merge_commit": false, 
                             "from_merge_commit": true, 
                             "author_login": "cms-sw"
-                        }
-                    ], 
-                    "slc7_amd64_gcc10": [], 
-                    "slc7_amd64_gcc900": [], 
-                    "cc8_ppc64le_gcc9": [
+                        }, 
                         {
                             "hash": "25b2dc6644d0e63313a8c05af0c591322ec85129", 
                             "title": "update crab-dev to v3.211015", 
@@ -36780,7 +37086,59 @@
                             "author_login": "cms-sw"
                         }
                     ], 
-                    "slc7_ppc64le_gcc9": []
+                    "slc7_amd64_gcc10": [
+                        {
+                            "hash": "4aeda57dfc30d20923cef94ffde71b1c2bff4b43", 
+                            "title": "Update tag for RecoEgamma-PhotonIdentification to V01-02-00", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/7389", 
+                            "number": "7389", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }
+                    ], 
+                    "slc7_amd64_gcc900": [
+                        {
+                            "hash": "4aeda57dfc30d20923cef94ffde71b1c2bff4b43", 
+                            "title": "Update tag for RecoEgamma-PhotonIdentification to V01-02-00", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/7389", 
+                            "number": "7389", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ], 
+                    "cc8_ppc64le_gcc9": [
+                        {
+                            "hash": "4aeda57dfc30d20923cef94ffde71b1c2bff4b43", 
+                            "title": "Update tag for RecoEgamma-PhotonIdentification to V01-02-00", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/7389", 
+                            "number": "7389", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
+                            "hash": "25b2dc6644d0e63313a8c05af0c591322ec85129", 
+                            "title": "update crab-dev to v3.211015", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/7390", 
+                            "number": "7390", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }
+                    ], 
+                    "slc7_ppc64le_gcc9": [
+                        {
+                            "hash": "4aeda57dfc30d20923cef94ffde71b1c2bff4b43", 
+                            "title": "Update tag for RecoEgamma-PhotonIdentification to V01-02-00", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/7389", 
+                            "number": "7389", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
                 }, 
                 "cmsdist_compared_tags": {
                     "cc8_amd64_gcc9": "IB/CMSSW_12_1_X_2021-10-17-0000/cc8_amd64_gcc9..IB/CMSSW_12_1_X/cc8", 
@@ -36813,6 +37171,15 @@
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
+                    {
+                        "hash": "66f36541288aa85120afe204729633ae23d73001", 
+                        "title": "Run3-hcx323 Use SimProducer+Analyzer to estimate material budget for HCAL", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35664", 
+                        "number": "35664", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
                     {
                         "hash": "203a22fd371d2f110ad0483589a681f02c264d1a", 
                         "title": "Run3-hcx324 Rearrange the code to enable future implementation of SimProducer class", 
@@ -36883,7 +37250,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/12.1-mon-11/CMSSW_12_1_X_2021-10-18-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1, 
+                            "num_passed": 6, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -37133,18 +37500,18 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1984, 
+                            "num_passed": 1999, 
                             "known_failed": 54, 
                             "num_failed": 3
                         }
                     }, 
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "slc7_ppc64le_gcc9", 
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2719, 
+                            "num_passed": 3300, 
                             "known_failed": 54, 
                             "num_failed": 1
                         }
