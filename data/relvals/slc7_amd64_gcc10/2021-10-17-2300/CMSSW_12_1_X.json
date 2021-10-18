@@ -19,6 +19,162 @@
     },
     {
         "exitcode": 0,
+        "id": "103.0",
+        "known_error": 0,
+        "name": "InclusiveppMuX+InclusiveppMuX+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 15
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "110.0",
+        "known_error": 0,
+        "name": "SingleTauPt50Pythia+SingleTauPt50Pythia+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 6
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 30
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 91
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "111.0",
+        "known_error": 0,
+        "name": "JpsiMM_Pt_20_inf+JpsiMM_Pt_20_inf+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 45
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 9
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 12
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "112.0",
+        "known_error": 0,
+        "name": "QCD_Pt_15_20+QCD_Pt_15_20+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 14
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 37
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 96
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "121.0",
+        "known_error": 0,
+        "name": "TTbar+TTbar2HS+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 20
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 55
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 169
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "125.0",
+        "known_error": 0,
+        "name": "ZPrime5000Dijet+ZPrime5000Dijet+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 18
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 54
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 127
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "144.6",
+        "known_error": 0,
+        "name": "MinimumBias2010A+MinimumBias2010A+RECOSKIMALCAR1",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 443
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "1325.6",
         "known_error": 0,
         "name": "TTbar_13_94Xv1NanoAODINPUT+TTbar_13_94Xv1NanoAODINPUT+NANOAODMC2017_94XMiniAODv1",
@@ -32,6 +188,113 @@
                 "errors": 1,
                 "status": "PASSED",
                 "warnings": 189
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4003.0",
+        "known_error": 0,
+        "name": "ZMM+ZMMINPUT+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 139
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 423
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4006.0",
+        "known_error": 0,
+        "name": "SingleElectronFlatPt1To100+SingleElectronFlatPt1To100+DIGIPU1+RECOPU1",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 11
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 51
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 48
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4008.0",
+        "known_error": 0,
+        "name": "QCD_Pt_80_170_BCtoE_8TeV+QCD_Pt_80_170_BCtoE_8TeV+DIGIPU1+RECOPUDBG",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 22
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 5
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 6
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "10026.0",
+        "known_error": 0,
+        "name": "QCD_Pt_600_800_13+2017+QCD_Pt_600_800_13TeV_TuneCUETP8M1_GenSimINPUT+Digi+RecoFakeHLT+HARVESTFakeHLT+ALCA+Nano",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 54
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 300
+            },
+            {
+                "errors": 22,
+                "status": "PASSED",
+                "warnings": 6
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 44
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 62
             }
         ]
     },
