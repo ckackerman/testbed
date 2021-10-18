@@ -11351,7 +11351,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/sun/10.6-sun-23/CMSSW_10_6_X_2021-10-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1, 
+                            "num_passed": 6, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -22796,6 +22796,17 @@
                             "known_failed": 0, 
                             "num_failed": 0
                         }
+                    }, 
+                    {
+                        "done": false, 
+                        "arch": "slc7_amd64_gcc10", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc10/www/sun/12.0-sun-23/CMSSW_12_0_X_2021-10-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 1, 
+                            "known_failed": 0, 
+                            "num_failed": 0
+                        }
                     }
                 ], 
                 "release_queue": "CMSSW_12_0_X", 
@@ -26524,7 +26535,19 @@
                     }
                 ], 
                 "ib_date": "2021-10-17-2300-0000", 
-                "relvals": [], 
+                "relvals": [
+                    {
+                        "done": false, 
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/12.1.CLANG-sun-23/CMSSW_12_1_CLANG_X_2021-10-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 6, 
+                            "known_failed": 0, 
+                            "num_failed": 0
+                        }
+                    }
+                ], 
                 "igprof": "not-found", 
                 "release_queue": "CMSSW_12_1_CLANG_X", 
                 "release_name": "CMSSW_12_1_CLANG_X_2021-10-17-2300", 
@@ -36408,8 +36431,8 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 221, 
-                            "known_failed": 0, 
+                            "num_passed": 582, 
+                            "known_failed": 12, 
                             "num_failed": 0
                         }
                     }, 
