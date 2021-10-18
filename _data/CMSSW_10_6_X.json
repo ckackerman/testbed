@@ -74,13 +74,15 @@
             ], 
             "profiling": "not-found", 
             "compared_tags": "CMSSW_10_6_X_2021-10-17-2300-->CMSSW_10_6_X_2021-10-18-1100", 
-            "dqm_tests": "not-found", 
+            "dqm_tests": "found", 
             "utests": [
                 {
                     "arch": "slc7_amd64_gcc700", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/10.6-mon-11/CMSSW_10_6_X_2021-10-18-1100/new/logAnalysis.pkl']", 
-                    "details": {}
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/10.6-mon-11/CMSSW_10_6_X_2021-10-18-1100/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "1"
+                    }
                 }
             ], 
             "ib_date": "2021-10-18-1100-0000", 
@@ -88,7 +90,7 @@
             "igprof": "not-found", 
             "release_queue": "CMSSW_10_6_X", 
             "release_name": "CMSSW_10_6_X_2021-10-18-1100", 
-            "comp_baseline": "inprogress", 
+            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_10_6_X_2021-10-18-1100/slc7_amd64_gcc700/-GenuineIntel/matrix-results", 
             "gpu_utests": [
                 {
                     "arch": "slc7_amd64_gcc700", 
