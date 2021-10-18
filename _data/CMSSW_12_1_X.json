@@ -330,22 +330,35 @@
                 }, 
                 {
                     "arch": "cc8_aarch64_gcc9", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/cc8_aarch64_gcc9/www/mon/12.1-mon-11/CMSSW_12_1_X_2021-10-18-1100/new/logAnalysis.pkl']", 
-                    "details": {}
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/cc8_aarch64_gcc9/www/mon/12.1-mon-11/CMSSW_12_1_X_2021-10-18-1100/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "2"
+                    }
                 }
             ], 
             "ib_date": "2021-10-18-1100-0000", 
             "relvals": [
                 {
-                    "done": false, 
+                    "done": true, 
                     "arch": "slc7_amd64_gcc900", 
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/12.1-mon-11/CMSSW_12_1_X_2021-10-18-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 3101, 
+                        "num_passed": 3486, 
                         "known_failed": 0, 
                         "num_failed": 0
+                    }
+                }, 
+                {
+                    "done": false, 
+                    "arch": "cc8_aarch64_gcc9", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/cc8_aarch64_gcc9/www/mon/12.1-mon-11/CMSSW_12_1_X_2021-10-18-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 0, 
+                        "known_failed": 0, 
+                        "num_failed": 7
                     }
                 }
             ], 
@@ -611,7 +624,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 3076, 
+                        "num_passed": 3218, 
                         "known_failed": 0, 
                         "num_failed": 56
                     }
