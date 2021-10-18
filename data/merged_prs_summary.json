@@ -11287,6 +11287,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "b530c8f64f4864edd985d25d3507d5bedcb6062b", 
+                        "title": "Better handling of strings in ExternalGeneratorFilter [10_6]", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35610", 
+                        "number": "35610", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "577aa2b21c8dfb9144bbb01d792870aa7120c3ca", 
                         "title": "[106X Backport] BugFix: HitFit MET resolution", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35625", 
@@ -11351,7 +11360,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/sun/10.6-sun-23/CMSSW_10_6_X_2021-10-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 156, 
+                            "num_passed": 1052, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -22712,6 +22721,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Sam-Harper"
+                    }, 
+                    {
+                        "hash": "1e002674a35b90dc2c627336f49d26b1fc5355b0", 
+                        "title": "[Online DQM] re-introduce unit tests for visualization: 12.0.X", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35689", 
+                        "number": "35689", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
                     }
                 ], 
                 "fwlite": [], 
@@ -22803,7 +22821,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc10/www/sun/12.0-sun-23/CMSSW_12_0_X_2021-10-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1616, 
+                            "num_passed": 3142, 
                             "known_failed": 0, 
                             "num_failed": 2
                         }
@@ -25665,6 +25683,15 @@
                         "author_login": "Sam-Harper"
                     }, 
                     {
+                        "hash": "7c571eb933e9fa1a004737c835e7a9f81eea183f", 
+                        "title": "Removed CMS deprecation warnings from MagneticField/Engine", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35672", 
+                        "number": "35672", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
                         "title": "Fix SyntaxWarning in trackselectionRefitting.py", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35702", 
@@ -25692,13 +25719,22 @@
                         "author_login": "perrotta"
                     }, 
                     {
-                        "hash": "7c571eb933e9fa1a004737c835e7a9f81eea183f", 
-                        "title": "Removed CMS deprecation warnings from MagneticField/Engine", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35672", 
-                        "number": "35672", 
+                        "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
+                        "title": "Fix for UBSAN DQM crash", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35658", 
+                        "number": "35658", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "jfernan2"
+                    }, 
+                    {
+                        "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
+                        "title": "Add producers/configs to refit muon tracks with standard TrackRefitter", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35620", 
+                        "number": "35620", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CMSTrackingPOG"
                     }, 
                     {
                         "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
@@ -25710,13 +25746,13 @@
                         "author_login": "quark2"
                     }, 
                     {
-                        "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
-                        "title": "Add producers/configs to refit muon tracks with standard TrackRefitter", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35620", 
-                        "number": "35620", 
+                        "hash": "71e5474950fbf5b4bfffdb7912c72aa1aa5e83be", 
+                        "title": "Set equivalence of first/last bx labels used by different subsystems in ECAL DQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35661", 
+                        "number": "35661", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "CMSTrackingPOG"
+                        "author_login": "alejands"
                     }, 
                     {
                         "hash": "0607f7a1c38fcdc79a50d87ce629b8b973a0a905", 
@@ -26468,6 +26504,24 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
+                        "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
+                        "title": "Fix for UBSAN DQM crash", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35658", 
+                        "number": "35658", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "jfernan2"
+                    }, 
+                    {
+                        "hash": "71e5474950fbf5b4bfffdb7912c72aa1aa5e83be", 
+                        "title": "Set equivalence of first/last bx labels used by different subsystems in ECAL DQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35661", 
+                        "number": "35661", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "alejands"
+                    }, 
+                    {
                         "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
                         "title": "Add producers/configs to refit muon tracks with standard TrackRefitter", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35620", 
@@ -26542,7 +26596,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/12.1.CLANG-sun-23/CMSSW_12_1_CLANG_X_2021-10-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1833, 
+                            "num_passed": 3293, 
                             "known_failed": 0, 
                             "num_failed": 1
                         }
@@ -27672,13 +27726,13 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
-                        "title": "Fixed typos on some name and title in GEM onlineDQM", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35690", 
-                        "number": "35690", 
+                        "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
+                        "title": "Fix for UBSAN DQM crash", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35658", 
+                        "number": "35658", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "quark2"
+                        "author_login": "jfernan2"
                     }, 
                     {
                         "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
@@ -27688,6 +27742,24 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "CMSTrackingPOG"
+                    }, 
+                    {
+                        "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
+                        "title": "Fixed typos on some name and title in GEM onlineDQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35690", 
+                        "number": "35690", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "quark2"
+                    }, 
+                    {
+                        "hash": "71e5474950fbf5b4bfffdb7912c72aa1aa5e83be", 
+                        "title": "Set equivalence of first/last bx labels used by different subsystems in ECAL DQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35661", 
+                        "number": "35661", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "alejands"
                     }, 
                     {
                         "hash": "0607f7a1c38fcdc79a50d87ce629b8b973a0a905", 
@@ -28407,6 +28479,15 @@
                         "author_login": "Sam-Harper"
                     }, 
                     {
+                        "hash": "7c571eb933e9fa1a004737c835e7a9f81eea183f", 
+                        "title": "Removed CMS deprecation warnings from MagneticField/Engine", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35672", 
+                        "number": "35672", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
                         "title": "Fix SyntaxWarning in trackselectionRefitting.py", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35702", 
@@ -28434,13 +28515,22 @@
                         "author_login": "perrotta"
                     }, 
                     {
-                        "hash": "7c571eb933e9fa1a004737c835e7a9f81eea183f", 
-                        "title": "Removed CMS deprecation warnings from MagneticField/Engine", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35672", 
-                        "number": "35672", 
+                        "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
+                        "title": "Fix for UBSAN DQM crash", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35658", 
+                        "number": "35658", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "jfernan2"
+                    }, 
+                    {
+                        "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
+                        "title": "Add producers/configs to refit muon tracks with standard TrackRefitter", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35620", 
+                        "number": "35620", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CMSTrackingPOG"
                     }, 
                     {
                         "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
@@ -28452,13 +28542,13 @@
                         "author_login": "quark2"
                     }, 
                     {
-                        "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
-                        "title": "Add producers/configs to refit muon tracks with standard TrackRefitter", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35620", 
-                        "number": "35620", 
+                        "hash": "71e5474950fbf5b4bfffdb7912c72aa1aa5e83be", 
+                        "title": "Set equivalence of first/last bx labels used by different subsystems in ECAL DQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35661", 
+                        "number": "35661", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "CMSTrackingPOG"
+                        "author_login": "alejands"
                     }, 
                     {
                         "hash": "0607f7a1c38fcdc79a50d87ce629b8b973a0a905", 
@@ -29238,6 +29328,15 @@
                         "author_login": "Sam-Harper"
                     }, 
                     {
+                        "hash": "7c571eb933e9fa1a004737c835e7a9f81eea183f", 
+                        "title": "Removed CMS deprecation warnings from MagneticField/Engine", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35672", 
+                        "number": "35672", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "0209ecde0970a232ac291af70309a4cb87a8ea66", 
                         "title": "HcalDQM: Update hcal FED list for crate 3-FED readout", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35617", 
@@ -29301,13 +29400,13 @@
                         "author_login": "mmusich"
                     }, 
                     {
-                        "hash": "7c571eb933e9fa1a004737c835e7a9f81eea183f", 
-                        "title": "Removed CMS deprecation warnings from MagneticField/Engine", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35672", 
-                        "number": "35672", 
+                        "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
+                        "title": "Fix for UBSAN DQM crash", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35658", 
+                        "number": "35658", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "jfernan2"
                     }, 
                     {
                         "hash": "aa9b785661f7a67008d1985726216a3a98739c6a", 
@@ -29319,6 +29418,15 @@
                         "author_login": "ChrisMisan"
                     }, 
                     {
+                        "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
+                        "title": "Add producers/configs to refit muon tracks with standard TrackRefitter", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35620", 
+                        "number": "35620", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CMSTrackingPOG"
+                    }, 
+                    {
                         "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
                         "title": "Fixed typos on some name and title in GEM onlineDQM", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35690", 
@@ -29328,13 +29436,13 @@
                         "author_login": "quark2"
                     }, 
                     {
-                        "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
-                        "title": "Add producers/configs to refit muon tracks with standard TrackRefitter", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35620", 
-                        "number": "35620", 
+                        "hash": "71e5474950fbf5b4bfffdb7912c72aa1aa5e83be", 
+                        "title": "Set equivalence of first/last bx labels used by different subsystems in ECAL DQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35661", 
+                        "number": "35661", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "CMSTrackingPOG"
+                        "author_login": "alejands"
                     }, 
                     {
                         "hash": "0607f7a1c38fcdc79a50d87ce629b8b973a0a905", 
@@ -29522,6 +29630,24 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
+                        "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
+                        "title": "Fix for UBSAN DQM crash", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35658", 
+                        "number": "35658", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "jfernan2"
+                    }, 
+                    {
+                        "hash": "71e5474950fbf5b4bfffdb7912c72aa1aa5e83be", 
+                        "title": "Set equivalence of first/last bx labels used by different subsystems in ECAL DQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35661", 
+                        "number": "35661", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "alejands"
+                    }, 
+                    {
                         "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
                         "title": "Add producers/configs to refit muon tracks with standard TrackRefitter", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35620", 
@@ -29581,9 +29707,11 @@
                 "utests": [
                     {
                         "arch": "slc7_amd64_gcc900", 
-                        "passed": "unknown", 
-                        "file": "['/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/12.1.DEVEL-sun-23/CMSSW_12_1_DEVEL_X_2021-10-17-2300/new/logAnalysis.pkl']", 
-                        "details": {}
+                        "passed": "failed", 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/12.1.DEVEL-sun-23/CMSSW_12_1_DEVEL_X_2021-10-17-2300/unitTests-summary.log", 
+                        "details": {
+                            "num_fails": "1"
+                        }
                     }
                 ], 
                 "ib_date": "2021-10-17-2300-0000", 
@@ -30722,6 +30850,15 @@
                         "author_login": "Sam-Harper"
                     }, 
                     {
+                        "hash": "7c571eb933e9fa1a004737c835e7a9f81eea183f", 
+                        "title": "Removed CMS deprecation warnings from MagneticField/Engine", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35672", 
+                        "number": "35672", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "0209ecde0970a232ac291af70309a4cb87a8ea66", 
                         "title": "HcalDQM: Update hcal FED list for crate 3-FED readout", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35617", 
@@ -30785,13 +30922,13 @@
                         "author_login": "mmusich"
                     }, 
                     {
-                        "hash": "7c571eb933e9fa1a004737c835e7a9f81eea183f", 
-                        "title": "Removed CMS deprecation warnings from MagneticField/Engine", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35672", 
-                        "number": "35672", 
+                        "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
+                        "title": "Fix for UBSAN DQM crash", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35658", 
+                        "number": "35658", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "jfernan2"
                     }, 
                     {
                         "hash": "aa9b785661f7a67008d1985726216a3a98739c6a", 
@@ -30803,6 +30940,15 @@
                         "author_login": "ChrisMisan"
                     }, 
                     {
+                        "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
+                        "title": "Add producers/configs to refit muon tracks with standard TrackRefitter", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35620", 
+                        "number": "35620", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CMSTrackingPOG"
+                    }, 
+                    {
                         "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
                         "title": "Fixed typos on some name and title in GEM onlineDQM", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35690", 
@@ -30812,13 +30958,13 @@
                         "author_login": "quark2"
                     }, 
                     {
-                        "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
-                        "title": "Add producers/configs to refit muon tracks with standard TrackRefitter", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35620", 
-                        "number": "35620", 
+                        "hash": "71e5474950fbf5b4bfffdb7912c72aa1aa5e83be", 
+                        "title": "Set equivalence of first/last bx labels used by different subsystems in ECAL DQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35661", 
+                        "number": "35661", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "CMSTrackingPOG"
+                        "author_login": "alejands"
                     }, 
                     {
                         "hash": "0607f7a1c38fcdc79a50d87ce629b8b973a0a905", 
@@ -31429,6 +31575,15 @@
                         "author_login": "Sam-Harper"
                     }, 
                     {
+                        "hash": "7c571eb933e9fa1a004737c835e7a9f81eea183f", 
+                        "title": "Removed CMS deprecation warnings from MagneticField/Engine", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35672", 
+                        "number": "35672", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
                         "title": "Fix SyntaxWarning in trackselectionRefitting.py", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35702", 
@@ -31456,13 +31611,22 @@
                         "author_login": "perrotta"
                     }, 
                     {
-                        "hash": "7c571eb933e9fa1a004737c835e7a9f81eea183f", 
-                        "title": "Removed CMS deprecation warnings from MagneticField/Engine", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35672", 
-                        "number": "35672", 
+                        "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
+                        "title": "Fix for UBSAN DQM crash", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35658", 
+                        "number": "35658", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "jfernan2"
+                    }, 
+                    {
+                        "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
+                        "title": "Add producers/configs to refit muon tracks with standard TrackRefitter", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35620", 
+                        "number": "35620", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CMSTrackingPOG"
                     }, 
                     {
                         "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
@@ -31474,13 +31638,13 @@
                         "author_login": "quark2"
                     }, 
                     {
-                        "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
-                        "title": "Add producers/configs to refit muon tracks with standard TrackRefitter", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35620", 
-                        "number": "35620", 
+                        "hash": "71e5474950fbf5b4bfffdb7912c72aa1aa5e83be", 
+                        "title": "Set equivalence of first/last bx labels used by different subsystems in ECAL DQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35661", 
+                        "number": "35661", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "CMSTrackingPOG"
+                        "author_login": "alejands"
                     }, 
                     {
                         "hash": "0607f7a1c38fcdc79a50d87ce629b8b973a0a905", 
@@ -32079,6 +32243,24 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
+                        "title": "Fix for UBSAN DQM crash", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35658", 
+                        "number": "35658", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "jfernan2"
+                    }, 
+                    {
+                        "hash": "71e5474950fbf5b4bfffdb7912c72aa1aa5e83be", 
+                        "title": "Set equivalence of first/last bx labels used by different subsystems in ECAL DQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35661", 
+                        "number": "35661", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "alejands"
                     }, 
                     {
                         "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
@@ -33235,6 +33417,15 @@
                         "author_login": "Sam-Harper"
                     }, 
                     {
+                        "hash": "7c571eb933e9fa1a004737c835e7a9f81eea183f", 
+                        "title": "Removed CMS deprecation warnings from MagneticField/Engine", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35672", 
+                        "number": "35672", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
                         "title": "Fix SyntaxWarning in trackselectionRefitting.py", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35702", 
@@ -33262,13 +33453,22 @@
                         "author_login": "perrotta"
                     }, 
                     {
-                        "hash": "7c571eb933e9fa1a004737c835e7a9f81eea183f", 
-                        "title": "Removed CMS deprecation warnings from MagneticField/Engine", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35672", 
-                        "number": "35672", 
+                        "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
+                        "title": "Fix for UBSAN DQM crash", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35658", 
+                        "number": "35658", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "jfernan2"
+                    }, 
+                    {
+                        "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
+                        "title": "Add producers/configs to refit muon tracks with standard TrackRefitter", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35620", 
+                        "number": "35620", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CMSTrackingPOG"
                     }, 
                     {
                         "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
@@ -33280,13 +33480,13 @@
                         "author_login": "quark2"
                     }, 
                     {
-                        "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
-                        "title": "Add producers/configs to refit muon tracks with standard TrackRefitter", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35620", 
-                        "number": "35620", 
+                        "hash": "71e5474950fbf5b4bfffdb7912c72aa1aa5e83be", 
+                        "title": "Set equivalence of first/last bx labels used by different subsystems in ECAL DQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35661", 
+                        "number": "35661", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "CMSTrackingPOG"
+                        "author_login": "alejands"
                     }, 
                     {
                         "hash": "0607f7a1c38fcdc79a50d87ce629b8b973a0a905", 
@@ -34024,6 +34224,24 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
+                        "title": "Fix for UBSAN DQM crash", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35658", 
+                        "number": "35658", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "jfernan2"
+                    }, 
+                    {
+                        "hash": "71e5474950fbf5b4bfffdb7912c72aa1aa5e83be", 
+                        "title": "Set equivalence of first/last bx labels used by different subsystems in ECAL DQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35661", 
+                        "number": "35661", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "alejands"
                     }, 
                     {
                         "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
@@ -35425,6 +35643,15 @@
                         "author_login": "Sam-Harper"
                     }, 
                     {
+                        "hash": "7c571eb933e9fa1a004737c835e7a9f81eea183f", 
+                        "title": "Removed CMS deprecation warnings from MagneticField/Engine", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35672", 
+                        "number": "35672", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "0209ecde0970a232ac291af70309a4cb87a8ea66", 
                         "title": "HcalDQM: Update hcal FED list for crate 3-FED readout", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35617", 
@@ -35488,13 +35715,13 @@
                         "author_login": "mmusich"
                     }, 
                     {
-                        "hash": "7c571eb933e9fa1a004737c835e7a9f81eea183f", 
-                        "title": "Removed CMS deprecation warnings from MagneticField/Engine", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35672", 
-                        "number": "35672", 
+                        "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
+                        "title": "Fix for UBSAN DQM crash", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35658", 
+                        "number": "35658", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "jfernan2"
                     }, 
                     {
                         "hash": "aa9b785661f7a67008d1985726216a3a98739c6a", 
@@ -35506,6 +35733,15 @@
                         "author_login": "ChrisMisan"
                     }, 
                     {
+                        "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
+                        "title": "Add producers/configs to refit muon tracks with standard TrackRefitter", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35620", 
+                        "number": "35620", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CMSTrackingPOG"
+                    }, 
+                    {
                         "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
                         "title": "Fixed typos on some name and title in GEM onlineDQM", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35690", 
@@ -35515,13 +35751,13 @@
                         "author_login": "quark2"
                     }, 
                     {
-                        "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
-                        "title": "Add producers/configs to refit muon tracks with standard TrackRefitter", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35620", 
-                        "number": "35620", 
+                        "hash": "71e5474950fbf5b4bfffdb7912c72aa1aa5e83be", 
+                        "title": "Set equivalence of first/last bx labels used by different subsystems in ECAL DQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35661", 
+                        "number": "35661", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "CMSTrackingPOG"
+                        "author_login": "alejands"
                     }, 
                     {
                         "hash": "0607f7a1c38fcdc79a50d87ce629b8b973a0a905", 
@@ -35727,6 +35963,15 @@
                         "author_login": "Sam-Harper"
                     }, 
                     {
+                        "hash": "7c571eb933e9fa1a004737c835e7a9f81eea183f", 
+                        "title": "Removed CMS deprecation warnings from MagneticField/Engine", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35672", 
+                        "number": "35672", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
                         "title": "Fix SyntaxWarning in trackselectionRefitting.py", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35702", 
@@ -35781,13 +36026,22 @@
                         "author_login": "mmusich"
                     }, 
                     {
-                        "hash": "7c571eb933e9fa1a004737c835e7a9f81eea183f", 
-                        "title": "Removed CMS deprecation warnings from MagneticField/Engine", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35672", 
-                        "number": "35672", 
+                        "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
+                        "title": "Fix for UBSAN DQM crash", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35658", 
+                        "number": "35658", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "jfernan2"
+                    }, 
+                    {
+                        "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
+                        "title": "Add producers/configs to refit muon tracks with standard TrackRefitter", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35620", 
+                        "number": "35620", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CMSTrackingPOG"
                     }, 
                     {
                         "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
@@ -35799,13 +36053,13 @@
                         "author_login": "quark2"
                     }, 
                     {
-                        "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
-                        "title": "Add producers/configs to refit muon tracks with standard TrackRefitter", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35620", 
-                        "number": "35620", 
+                        "hash": "71e5474950fbf5b4bfffdb7912c72aa1aa5e83be", 
+                        "title": "Set equivalence of first/last bx labels used by different subsystems in ECAL DQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35661", 
+                        "number": "35661", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "CMSTrackingPOG"
+                        "author_login": "alejands"
                     }, 
                     {
                         "hash": "0607f7a1c38fcdc79a50d87ce629b8b973a0a905", 
@@ -36001,6 +36255,15 @@
                         "author_login": "Sam-Harper"
                     }, 
                     {
+                        "hash": "7c571eb933e9fa1a004737c835e7a9f81eea183f", 
+                        "title": "Removed CMS deprecation warnings from MagneticField/Engine", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35672", 
+                        "number": "35672", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
                         "title": "Fix SyntaxWarning in trackselectionRefitting.py", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35702", 
@@ -36028,13 +36291,22 @@
                         "author_login": "perrotta"
                     }, 
                     {
-                        "hash": "7c571eb933e9fa1a004737c835e7a9f81eea183f", 
-                        "title": "Removed CMS deprecation warnings from MagneticField/Engine", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35672", 
-                        "number": "35672", 
+                        "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
+                        "title": "Fix for UBSAN DQM crash", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35658", 
+                        "number": "35658", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "jfernan2"
+                    }, 
+                    {
+                        "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
+                        "title": "Add producers/configs to refit muon tracks with standard TrackRefitter", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35620", 
+                        "number": "35620", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CMSTrackingPOG"
                     }, 
                     {
                         "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
@@ -36046,13 +36318,13 @@
                         "author_login": "quark2"
                     }, 
                     {
-                        "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
-                        "title": "Add producers/configs to refit muon tracks with standard TrackRefitter", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35620", 
-                        "number": "35620", 
+                        "hash": "71e5474950fbf5b4bfffdb7912c72aa1aa5e83be", 
+                        "title": "Set equivalence of first/last bx labels used by different subsystems in ECAL DQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35661", 
+                        "number": "35661", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "CMSTrackingPOG"
+                        "author_login": "alejands"
                     }, 
                     {
                         "hash": "0607f7a1c38fcdc79a50d87ce629b8b973a0a905", 
@@ -36280,6 +36552,24 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
+                        "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
+                        "title": "Fix for UBSAN DQM crash", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35658", 
+                        "number": "35658", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "jfernan2"
+                    }, 
+                    {
+                        "hash": "71e5474950fbf5b4bfffdb7912c72aa1aa5e83be", 
+                        "title": "Set equivalence of first/last bx labels used by different subsystems in ECAL DQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35661", 
+                        "number": "35661", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "alejands"
+                    }, 
+                    {
                         "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
                         "title": "Add producers/configs to refit muon tracks with standard TrackRefitter", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35620", 
@@ -36393,6 +36683,14 @@
                         }
                     }, 
                     {
+                        "arch": "slc7_amd64_gcc10", 
+                        "passed": "failed", 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc10/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/unitTests-summary.log", 
+                        "details": {
+                            "num_fails": "1"
+                        }
+                    }, 
+                    {
                         "arch": "slc7_aarch64_gcc9", 
                         "passed": "failed", 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/unitTests-summary.log", 
@@ -36407,12 +36705,6 @@
                         "details": {
                             "num_fails": "0"
                         }
-                    }, 
-                    {
-                        "arch": "slc7_amd64_gcc10", 
-                        "passed": "unknown", 
-                        "file": "['/data/sdt/buildlogs/slc7_amd64_gcc10/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/new/logAnalysis.pkl']", 
-                        "details": {}
                     }, 
                     {
                         "arch": "slc7_ppc64le_gcc9", 
@@ -36440,9 +36732,20 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1266, 
-                            "known_failed": 54, 
-                            "num_failed": 1
+                            "num_passed": 1587, 
+                            "known_failed": 0, 
+                            "num_failed": 56
+                        }
+                    }, 
+                    {
+                        "done": false, 
+                        "arch": "slc7_ppc64le_gcc9", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 2, 
+                            "known_failed": 0, 
+                            "num_failed": 0
                         }
                     }, 
                     {

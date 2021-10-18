@@ -87,6 +87,24 @@
                     "author_login": "Dr15Jones"
                 }, 
                 {
+                    "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
+                    "title": "Fix for UBSAN DQM crash", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35658", 
+                    "number": "35658", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "jfernan2"
+                }, 
+                {
+                    "hash": "71e5474950fbf5b4bfffdb7912c72aa1aa5e83be", 
+                    "title": "Set equivalence of first/last bx labels used by different subsystems in ECAL DQM", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35661", 
+                    "number": "35661", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "alejands"
+                }, 
+                {
                     "hash": "cc5cb4a5ac12966e065479ead5598da4480975a3", 
                     "title": "Add producers/configs to refit muon tracks with standard TrackRefitter", 
                     "url": "https://github.com/cms-sw/cmssw/pull/35620", 
@@ -200,6 +218,14 @@
                     }
                 }, 
                 {
+                    "arch": "slc7_amd64_gcc10", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc10/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "1"
+                    }
+                }, 
+                {
                     "arch": "slc7_aarch64_gcc9", 
                     "passed": "failed", 
                     "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/unitTests-summary.log", 
@@ -214,12 +240,6 @@
                     "details": {
                         "num_fails": "0"
                     }
-                }, 
-                {
-                    "arch": "slc7_amd64_gcc10", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/slc7_amd64_gcc10/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/new/logAnalysis.pkl']", 
-                    "details": {}
                 }, 
                 {
                     "arch": "slc7_ppc64le_gcc9", 
@@ -247,9 +267,20 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1266, 
-                        "known_failed": 54, 
-                        "num_failed": 1
+                        "num_passed": 1587, 
+                        "known_failed": 0, 
+                        "num_failed": 56
+                    }
+                }, 
+                {
+                    "done": false, 
+                    "arch": "slc7_ppc64le_gcc9", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 2, 
+                        "known_failed": 0, 
+                        "num_failed": 0
                     }
                 }, 
                 {
