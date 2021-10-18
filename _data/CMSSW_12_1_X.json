@@ -138,19 +138,23 @@
             "python3_tests": [], 
             "tests_archs": [
                 "cc8_amd64_gcc9", 
+                "slc7_aarch64_gcc9", 
                 "slc7_amd64_gcc900"
             ], 
             "cmsdist_merged_prs": {
                 "cc8_amd64_gcc9": [], 
+                "slc7_aarch64_gcc9": [], 
                 "slc7_amd64_gcc900": []
             }, 
             "cmsdist_compared_tags": {
                 "cc8_amd64_gcc9": "IB/CMSSW_12_1_X_2021-10-17-0000/cc8_amd64_gcc9..IB/CMSSW_12_1_X_2021-10-17-0000/cc8_amd64_gcc9", 
+                "slc7_aarch64_gcc9": "IB/CMSSW_12_1_X_2021-10-14-2300/slc7_aarch64_gcc9..IB/CMSSW_12_1_X_2021-10-14-2300/slc7_aarch64_gcc9", 
                 "slc7_amd64_gcc900": "IB/CMSSW_12_1_X_2021-10-17-0000/slc7_amd64_gcc900..IB/CMSSW_12_1_X_2021-10-17-0000/slc7_amd64_gcc900"
             }, 
             "static_checks_failures": "not-found", 
             "cmsdistTags": {
                 "cc8_amd64_gcc9": "IB/CMSSW_12_1_X_2021-10-17-0000/cc8_amd64_gcc9", 
+                "slc7_aarch64_gcc9": "IB/CMSSW_12_1_X_2021-10-14-2300/slc7_aarch64_gcc9", 
                 "slc7_amd64_gcc900": "IB/CMSSW_12_1_X_2021-10-17-0000/slc7_amd64_gcc900"
             }, 
             "piechart": "inprogress", 
@@ -179,6 +183,12 @@
                     "details": {
                         "num_fails": "0"
                     }
+                }, 
+                {
+                    "arch": "slc7_aarch64_gcc9", 
+                    "passed": "unknown", 
+                    "file": "['/data/sdt/buildlogs/slc7_aarch64_gcc9/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/new/logAnalysis.pkl']", 
+                    "details": {}
                 }
             ], 
             "ib_date": "2021-10-17-2300-0000", 
@@ -284,6 +294,14 @@
                     "details": {}
                 }, 
                 {
+                    "arch": "slc7_aarch64_gcc9", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 19
+                    }
+                }, 
+                {
                     "arch": "cc8_amd64_gcc9", 
                     "passed": "passed", 
                     "file": "/data/sdt/buildlogs/cc8_amd64_gcc9/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/new/logAnalysis.pkl", 
@@ -298,6 +316,10 @@
             "dupDict": [
                 {
                     "arch": "cc8_amd64_gcc9", 
+                    "passed": "passed"
+                }, 
+                {
+                    "arch": "slc7_aarch64_gcc9", 
                     "passed": "passed"
                 }, 
                 {
