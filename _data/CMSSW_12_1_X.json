@@ -85,15 +85,6 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": true, 
                         "author_login": "cms-sw"
-                    }, 
-                    {
-                        "hash": "25b2dc6644d0e63313a8c05af0c591322ec85129", 
-                        "title": "update crab-dev to v3.211015", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/7390", 
-                        "number": "7390", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "cms-sw"
                     }
                 ], 
                 "slc7_amd64_gcc10": [
@@ -190,7 +181,7 @@
                 "cc8_amd64_gcc9": "IB/CMSSW_12_1_X_2021-10-17-0000/cc8_amd64_gcc9..IB/CMSSW_12_1_X/cc8", 
                 "cc8_aarch64_gcc9": "IB/CMSSW_12_1_X_2021-10-18-1100/cc8_aarch64_gcc9..IB/CMSSW_12_1_X/cc8", 
                 "slc7_aarch64_gcc9": "IB/CMSSW_12_1_X_2021-10-17-2300/slc7_aarch64_gcc9..IB/CMSSW_12_1_X/master", 
-                "slc7_amd64_gcc11": "IB/CMSSW_12_1_X_2021-10-13-1100/slc7_amd64_gcc11..IB/CMSSW_12_1_X/gcc11", 
+                "slc7_amd64_gcc11": "IB/CMSSW_12_1_X_2021-10-18-1100/slc7_amd64_gcc11..IB/CMSSW_12_1_X/gcc11", 
                 "slc7_amd64_gcc10": "IB/CMSSW_12_1_X_2021-10-17-2300/slc7_amd64_gcc10..IB/CMSSW_12_1_X/gcc10", 
                 "slc7_amd64_gcc900": "IB/CMSSW_12_1_X_2021-10-17-0000/slc7_amd64_gcc900..IB/CMSSW_12_1_X/master", 
                 "cc8_ppc64le_gcc9": "IB/CMSSW_12_1_X_2021-10-11-2300/cc8_ppc64le_gcc9..IB/CMSSW_12_1_X/cc8", 
@@ -283,10 +274,22 @@
             "comp_baseline_state": "ok", 
             "python3_tests": [], 
             "tests_archs": [
+                "slc7_amd64_gcc11", 
                 "cc8_aarch64_gcc9", 
                 "slc7_amd64_gcc900"
             ], 
             "cmsdist_merged_prs": {
+                "slc7_amd64_gcc11": [
+                    {
+                        "hash": "25b2dc6644d0e63313a8c05af0c591322ec85129", 
+                        "title": "update crab-dev to v3.211015", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/7390", 
+                        "number": "7390", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "cms-sw"
+                    }
+                ], 
                 "cc8_aarch64_gcc9": [
                     {
                         "hash": "25b2dc6644d0e63313a8c05af0c591322ec85129", 
@@ -301,11 +304,13 @@
                 "slc7_amd64_gcc900": []
             }, 
             "cmsdist_compared_tags": {
+                "slc7_amd64_gcc11": "IB/CMSSW_12_1_X_2021-10-13-1100/slc7_amd64_gcc11..IB/CMSSW_12_1_X_2021-10-18-1100/slc7_amd64_gcc11", 
                 "cc8_aarch64_gcc9": "IB/CMSSW_12_1_X_2021-10-15-1100/cc8_aarch64_gcc9..IB/CMSSW_12_1_X_2021-10-18-1100/cc8_aarch64_gcc9", 
                 "slc7_amd64_gcc900": "IB/CMSSW_12_1_X_2021-10-17-0000/slc7_amd64_gcc900..IB/CMSSW_12_1_X_2021-10-17-0000/slc7_amd64_gcc900"
             }, 
             "static_checks_failures": "not-found", 
             "cmsdistTags": {
+                "slc7_amd64_gcc11": "IB/CMSSW_12_1_X_2021-10-18-1100/slc7_amd64_gcc11", 
                 "cc8_aarch64_gcc9": "IB/CMSSW_12_1_X_2021-10-18-1100/cc8_aarch64_gcc9", 
                 "slc7_amd64_gcc900": "IB/CMSSW_12_1_X_2021-10-17-0000/slc7_amd64_gcc900"
             }, 
@@ -341,6 +346,12 @@
                     "details": {
                         "num_fails": "2"
                     }
+                }, 
+                {
+                    "arch": "slc7_amd64_gcc11", 
+                    "passed": "unknown", 
+                    "file": "['/data/sdt/buildlogs/slc7_amd64_gcc11/www/mon/12.1-mon-11/CMSSW_12_1_X_2021-10-18-1100/new/logAnalysis.pkl']", 
+                    "details": {}
                 }
             ], 
             "ib_date": "2021-10-18-1100-0000", 
@@ -362,7 +373,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/cc8_aarch64_gcc9/www/mon/12.1-mon-11/CMSSW_12_1_X_2021-10-18-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1663, 
+                        "num_passed": 2050, 
                         "known_failed": 54, 
                         "num_failed": 2
                     }
@@ -437,6 +448,14 @@
                     "details": {}
                 }, 
                 {
+                    "arch": "slc7_amd64_gcc11", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc11/www/mon/12.1-mon-11/CMSSW_12_1_X_2021-10-18-1100/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 33
+                    }
+                }, 
+                {
                     "arch": "cc8_aarch64_gcc9", 
                     "passed": "passed", 
                     "file": "/data/sdt/buildlogs/cc8_aarch64_gcc9/www/mon/12.1-mon-11/CMSSW_12_1_X_2021-10-18-1100/new/logAnalysis.pkl", 
@@ -451,6 +470,10 @@
             "valgrind": "not-found", 
             "material_budget": "not-found", 
             "dupDict": [
+                {
+                    "arch": "slc7_amd64_gcc11", 
+                    "passed": "passed"
+                }, 
                 {
                     "arch": "cc8_aarch64_gcc9", 
                     "passed": "passed"
