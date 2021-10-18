@@ -1811,6 +1811,34 @@
     },
     {
         "exitcode": 0,
+        "id": "27.0",
+        "known_error": 0,
+        "name": "WM+WMINPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 95
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 648
+            },
+            {
+                "errors": 34,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "28.0",
         "known_error": 0,
         "name": "QCD_Pt_80_120+QCD_Pt_80_120INPUT+DIGI+RECO+HARVEST",
@@ -4010,6 +4038,62 @@
             },
             {
                 "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.727",
+        "known_error": 0,
+        "name": "RunDoubleEGPrpt2016B+RunDoubleEGPrpt2016B+HLTDR2_2016+RECODR2_2016reHLT_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 132
+            },
+            {
+                "errors": 204,
+                "status": "PASSED",
+                "warnings": 10734
+            },
+            {
+                "errors": 1294,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.728",
+        "known_error": 0,
+        "name": "RunSingleMuPrpt2016B+RunSingleMuPrpt2016B+HLTDR2_2016+RECODR2_2016reHLT_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 585
+            },
+            {
+                "errors": 204,
+                "status": "PASSED",
+                "warnings": 9752
+            },
+            {
+                "errors": 1294,
                 "status": "PASSED",
                 "warnings": 0
             }
@@ -7580,6 +7664,34 @@
             },
             {
                 "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.853",
+        "known_error": 0,
+        "name": "RunMET2018A+RunMET2018A+HLTDR2_2018+RECODR2_2018reHLT_skimMET_Offline+HARVEST2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 792
+            },
+            {
+                "errors": 18,
+                "status": "PASSED",
+                "warnings": 1261
+            },
+            {
+                "errors": 35,
                 "status": "PASSED",
                 "warnings": 0
             }
@@ -13379,6 +13491,34 @@
             },
             {
                 "errors": 39,
+                "status": "PASSED",
+                "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "1362.17",
+        "known_error": 0,
+        "name": "VBFHToZZTo4Nu_M125_Pow_py8_Evt_13UP17+VBFHToZZTo4Nu_M125_Pow_py8_Evt_13UP17+DIGIUP17+RECOUP17+HARVESTUP17",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 15
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 37
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 238
+            },
+            {
+                "errors": 36,
                 "status": "PASSED",
                 "warnings": 2
             }
