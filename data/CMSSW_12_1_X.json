@@ -236,6 +236,15 @@
                     "author_login": "bsunanda"
                 }, 
                 {
+                    "hash": "c2c990bbaf0e2ee23ebb8c9bd21905b7b0ab06c2", 
+                    "title": "esConsumes migration of DT calibration codes", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35695", 
+                    "number": "35695", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "swagata87"
+                }, 
+                {
                     "hash": "f45b48ac2d03f08ea01c7f3bc0b139e6d850351e", 
                     "title": "Egamma PFID based on Tensorflow DNNs ", 
                     "url": "https://github.com/cms-sw/cmssw/pull/35403", 
@@ -325,7 +334,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/12.1-mon-11/CMSSW_12_1_X_2021-10-18-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 730, 
+                        "num_passed": 1634, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -587,9 +596,9 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 2474, 
+                        "num_passed": 2666, 
                         "known_failed": 54, 
-                        "num_failed": 3
+                        "num_failed": 2
                     }
                 }, 
                 {

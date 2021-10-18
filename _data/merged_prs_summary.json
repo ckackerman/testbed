@@ -11348,7 +11348,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/10.6-mon-11/CMSSW_10_6_X_2021-10-18-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2, 
+                            "num_passed": 122, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -22850,12 +22850,18 @@
                 "cmsdistTags": {
                     "slc7_amd64_gcc900": "IB/CMSSW_12_0_X_2021-10-17-0000/slc7_amd64_gcc900"
                 }, 
-                "piechart": "inprogress", 
+                "piechart": {
+                    "status": "passed", 
+                    "data": "slc7_amd64_gcc900/23434.21/step3_RAW2DIGI_L1Reco_RECO_RECOSIM_PU.resources"
+                }, 
                 "flawfinder": "found", 
                 "next_ib": false, 
                 "RVExceptions": null, 
                 "igprof": "found", 
-                "reco_event_loop": "inprogress", 
+                "reco_event_loop": {
+                    "status": "passed", 
+                    "data": "slc7_amd64_gcc900/profiling/23434.21/sorted_RES_CPU_step3.txt"
+                }, 
                 "profiling": "found", 
                 "base_branch": "CMSSW_12_0_X", 
                 "compared_tags": "CMSSW_12_0_X_2021-10-17-2300-->CMSSW_12_0_X_2021-10-18-1100", 
@@ -22878,7 +22884,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/12.0-mon-11/CMSSW_12_0_X_2021-10-18-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1756, 
+                            "num_passed": 3148, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -25966,6 +25972,15 @@
                         "author_login": "antoniovagnerini"
                     }, 
                     {
+                        "hash": "c2c990bbaf0e2ee23ebb8c9bd21905b7b0ab06c2", 
+                        "title": "esConsumes migration of DT calibration codes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35695", 
+                        "number": "35695", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "swagata87"
+                    }, 
+                    {
                         "hash": "4b527f4cbec73634f0ddb69d267bb67727c41929", 
                         "title": "fix typo in `_loadOnlineBeamSpotESProducer`", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35696", 
@@ -26777,6 +26792,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "c2c990bbaf0e2ee23ebb8c9bd21905b7b0ab06c2", 
+                        "title": "esConsumes migration of DT calibration codes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35695", 
+                        "number": "35695", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "swagata87"
                     }
                 ], 
                 "base_branch": "CMSSW_12_1_X", 
@@ -28065,6 +28089,15 @@
                         "author_login": "antoniovagnerini"
                     }, 
                     {
+                        "hash": "c2c990bbaf0e2ee23ebb8c9bd21905b7b0ab06c2", 
+                        "title": "esConsumes migration of DT calibration codes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35695", 
+                        "number": "35695", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "swagata87"
+                    }, 
+                    {
                         "hash": "88a57b694b1a43d76d0ab56385ef6884e9e37759", 
                         "title": "Added esConsumes to PhysicsTools/PatUtils", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35680", 
@@ -28897,6 +28930,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "antoniovagnerini"
+                    }, 
+                    {
+                        "hash": "c2c990bbaf0e2ee23ebb8c9bd21905b7b0ab06c2", 
+                        "title": "esConsumes migration of DT calibration codes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35695", 
+                        "number": "35695", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "swagata87"
                     }, 
                     {
                         "hash": "4b527f4cbec73634f0ddb69d267bb67727c41929", 
@@ -29748,6 +29790,15 @@
                         "author_login": "antoniovagnerini"
                     }, 
                     {
+                        "hash": "c2c990bbaf0e2ee23ebb8c9bd21905b7b0ab06c2", 
+                        "title": "esConsumes migration of DT calibration codes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35695", 
+                        "number": "35695", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "swagata87"
+                    }, 
+                    {
                         "hash": "4b527f4cbec73634f0ddb69d267bb67727c41929", 
                         "title": "fix typo in `_loadOnlineBeamSpotESProducer`", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35696", 
@@ -30085,6 +30136,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "c2c990bbaf0e2ee23ebb8c9bd21905b7b0ab06c2", 
+                        "title": "esConsumes migration of DT calibration codes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35695", 
+                        "number": "35695", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "swagata87"
                     }
                 ], 
                 "base_branch": "CMSSW_12_1_DEVEL_X", 
@@ -31373,6 +31433,15 @@
                         "author_login": "antoniovagnerini"
                     }, 
                     {
+                        "hash": "c2c990bbaf0e2ee23ebb8c9bd21905b7b0ab06c2", 
+                        "title": "esConsumes migration of DT calibration codes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35695", 
+                        "number": "35695", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "swagata87"
+                    }, 
+                    {
                         "hash": "4b527f4cbec73634f0ddb69d267bb67727c41929", 
                         "title": "fix typo in `_loadOnlineBeamSpotESProducer`", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35696", 
@@ -32188,6 +32257,15 @@
                         "author_login": "antoniovagnerini"
                     }, 
                     {
+                        "hash": "c2c990bbaf0e2ee23ebb8c9bd21905b7b0ab06c2", 
+                        "title": "esConsumes migration of DT calibration codes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35695", 
+                        "number": "35695", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "swagata87"
+                    }, 
+                    {
                         "hash": "4b527f4cbec73634f0ddb69d267bb67727c41929", 
                         "title": "fix typo in `_loadOnlineBeamSpotESProducer`", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35696", 
@@ -32848,6 +32926,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "c2c990bbaf0e2ee23ebb8c9bd21905b7b0ab06c2", 
+                        "title": "esConsumes migration of DT calibration codes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35695", 
+                        "number": "35695", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "swagata87"
                     }
                 ], 
                 "base_branch": "CMSSW_12_1_X", 
@@ -34121,6 +34208,15 @@
                         "author_login": "antoniovagnerini"
                     }, 
                     {
+                        "hash": "c2c990bbaf0e2ee23ebb8c9bd21905b7b0ab06c2", 
+                        "title": "esConsumes migration of DT calibration codes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35695", 
+                        "number": "35695", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "swagata87"
+                    }, 
+                    {
                         "hash": "4b527f4cbec73634f0ddb69d267bb67727c41929", 
                         "title": "fix typo in `_loadOnlineBeamSpotESProducer`", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35696", 
@@ -34920,6 +35016,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "c2c990bbaf0e2ee23ebb8c9bd21905b7b0ab06c2", 
+                        "title": "esConsumes migration of DT calibration codes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35695", 
+                        "number": "35695", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "swagata87"
                     }
                 ], 
                 "base_branch": "CMSSW_12_1_ROOT6_X", 
@@ -36393,6 +36498,15 @@
                         "author_login": "antoniovagnerini"
                     }, 
                     {
+                        "hash": "c2c990bbaf0e2ee23ebb8c9bd21905b7b0ab06c2", 
+                        "title": "esConsumes migration of DT calibration codes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35695", 
+                        "number": "35695", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "swagata87"
+                    }, 
+                    {
                         "hash": "4b527f4cbec73634f0ddb69d267bb67727c41929", 
                         "title": "fix typo in `_loadOnlineBeamSpotESProducer`", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35696", 
@@ -36731,6 +36845,15 @@
                         "author_login": "mmusich"
                     }, 
                     {
+                        "hash": "8fe41661345d77c6fcba46320b159ab1607fab97", 
+                        "title": "DAQ fix spurious luminosityBlockAuxiliary assertion in HLT (12_1_X)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35682", 
+                        "number": "35682", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "smorovic"
+                    }, 
+                    {
                         "hash": "b35619ff0210d819e71fbe2c85da7c52b75c3ea1", 
                         "title": "Fixed deprecated warnings in some GeneratorInterface packages", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35665", 
@@ -36830,13 +36953,13 @@
                         "author_login": "antoniovagnerini"
                     }, 
                     {
-                        "hash": "8fe41661345d77c6fcba46320b159ab1607fab97", 
-                        "title": "DAQ fix spurious luminosityBlockAuxiliary assertion in HLT (12_1_X)", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35682", 
-                        "number": "35682", 
+                        "hash": "c2c990bbaf0e2ee23ebb8c9bd21905b7b0ab06c2", 
+                        "title": "esConsumes migration of DT calibration codes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35695", 
+                        "number": "35695", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "smorovic"
+                        "author_login": "swagata87"
                     }, 
                     {
                         "hash": "4b527f4cbec73634f0ddb69d267bb67727c41929", 
@@ -37138,6 +37261,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "antoniovagnerini"
+                    }, 
+                    {
+                        "hash": "c2c990bbaf0e2ee23ebb8c9bd21905b7b0ab06c2", 
+                        "title": "esConsumes migration of DT calibration codes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35695", 
+                        "number": "35695", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "swagata87"
                     }, 
                     {
                         "hash": "4b527f4cbec73634f0ddb69d267bb67727c41929", 
@@ -37505,6 +37637,15 @@
                         "author_login": "bsunanda"
                     }, 
                     {
+                        "hash": "c2c990bbaf0e2ee23ebb8c9bd21905b7b0ab06c2", 
+                        "title": "esConsumes migration of DT calibration codes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35695", 
+                        "number": "35695", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "swagata87"
+                    }, 
+                    {
                         "hash": "f45b48ac2d03f08ea01c7f3bc0b139e6d850351e", 
                         "title": "Egamma PFID based on Tensorflow DNNs ", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35403", 
@@ -37594,7 +37735,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/12.1-mon-11/CMSSW_12_1_X_2021-10-18-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 730, 
+                            "num_passed": 1634, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -37856,9 +37997,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2474, 
+                            "num_passed": 2666, 
                             "known_failed": 54, 
-                            "num_failed": 3
+                            "num_failed": 2
                         }
                     }, 
                     {
