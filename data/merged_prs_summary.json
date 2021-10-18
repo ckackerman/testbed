@@ -23010,7 +23010,7 @@
                     }
                 ], 
                 "material_budget_v2": "not-found", 
-                "check-headers": "inprogress", 
+                "check-headers": "passed", 
                 "static_checks_v2": "inprogress", 
                 "valgrind": "not-found", 
                 "material_budget": "not-found", 
@@ -23037,6 +23037,12 @@
                         "arch": "slc7_amd64_gcc900", 
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/12.0-mon-23/CMSSW_12_0_X_2021-10-18-2300/addOnTests.log", 
+                        "details": {}
+                    }, 
+                    {
+                        "arch": "slc7_amd64_gcc10", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc10/www/mon/12.0-mon-23/CMSSW_12_0_X_2021-10-18-2300/addOnTests.log", 
                         "details": {}
                     }
                 ], 
