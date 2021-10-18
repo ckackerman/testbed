@@ -22733,7 +22733,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/12.0-sun-23/CMSSW_12_0_X_2021-10-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 900, 
+                            "num_passed": 1714, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -33845,7 +33845,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/12.1.ROOT6-sun-23/CMSSW_12_1_ROOT6_X_2021-10-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 779, 
+                            "num_passed": 1557, 
                             "known_failed": 0, 
                             "num_failed": 1
                         }
@@ -36002,17 +36002,7 @@
                             "author_login": "cms-sw"
                         }
                     ], 
-                    "slc7_amd64_gcc10": [
-                        {
-                            "hash": "25b2dc6644d0e63313a8c05af0c591322ec85129", 
-                            "title": "update crab-dev to v3.211015", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/7390", 
-                            "number": "7390", 
-                            "is_merge_commit": false, 
-                            "from_merge_commit": true, 
-                            "author_login": "cms-sw"
-                        }
-                    ], 
+                    "slc7_amd64_gcc10": [], 
                     "slc7_amd64_gcc900": [], 
                     "cc8_ppc64le_gcc9": [
                         {
@@ -36032,7 +36022,7 @@
                     "cc8_aarch64_gcc9": "IB/CMSSW_12_1_X_2021-10-15-1100/cc8_aarch64_gcc9..IB/CMSSW_12_1_X/cc8", 
                     "slc7_aarch64_gcc9": "IB/CMSSW_12_1_X_2021-10-17-2300/slc7_aarch64_gcc9..IB/CMSSW_12_1_X/master", 
                     "slc7_amd64_gcc11": "IB/CMSSW_12_1_X_2021-10-13-1100/slc7_amd64_gcc11..IB/CMSSW_12_1_X/gcc11", 
-                    "slc7_amd64_gcc10": "IB/CMSSW_12_1_X_2021-10-11-2300/slc7_amd64_gcc10..IB/CMSSW_12_1_X/gcc10", 
+                    "slc7_amd64_gcc10": "IB/CMSSW_12_1_X_2021-10-17-2300/slc7_amd64_gcc10..IB/CMSSW_12_1_X/gcc10", 
                     "slc7_amd64_gcc900": "IB/CMSSW_12_1_X_2021-10-17-0000/slc7_amd64_gcc900..IB/CMSSW_12_1_X/master", 
                     "cc8_ppc64le_gcc9": "IB/CMSSW_12_1_X_2021-10-11-2300/cc8_ppc64le_gcc9..IB/CMSSW_12_1_X/cc8", 
                     "slc7_ppc64le_gcc9": "IB/CMSSW_12_1_X_2021-10-17-2300/slc7_ppc64le_gcc9..IB/CMSSW_12_1_X/master"
@@ -36088,24 +36078,13 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [
+                    "slc7_ppc64le_gcc9", 
                     "cc8_amd64_gcc9", 
                     "slc7_aarch64_gcc9", 
-                    "slc7_ppc64le_gcc9", 
+                    "slc7_amd64_gcc10", 
                     "slc7_amd64_gcc900"
                 ], 
                 "cmsdist_merged_prs": {
-                    "cc8_amd64_gcc9": [], 
-                    "slc7_aarch64_gcc9": [
-                        {
-                            "hash": "25b2dc6644d0e63313a8c05af0c591322ec85129", 
-                            "title": "update crab-dev to v3.211015", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/7390", 
-                            "number": "7390", 
-                            "is_merge_commit": false, 
-                            "from_merge_commit": false, 
-                            "author_login": "cms-sw"
-                        }
-                    ], 
                     "slc7_ppc64le_gcc9": [
                         {
                             "hash": "25b2dc6644d0e63313a8c05af0c591322ec85129", 
@@ -36117,19 +36096,44 @@
                             "author_login": "cms-sw"
                         }
                     ], 
-                    "slc7_amd64_gcc900": []
+                    "slc7_aarch64_gcc9": [
+                        {
+                            "hash": "25b2dc6644d0e63313a8c05af0c591322ec85129", 
+                            "title": "update crab-dev to v3.211015", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/7390", 
+                            "number": "7390", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ], 
+                    "cc8_amd64_gcc9": [], 
+                    "slc7_amd64_gcc900": [], 
+                    "slc7_amd64_gcc10": [
+                        {
+                            "hash": "25b2dc6644d0e63313a8c05af0c591322ec85129", 
+                            "title": "update crab-dev to v3.211015", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/7390", 
+                            "number": "7390", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
                 }, 
                 "cmsdist_compared_tags": {
-                    "cc8_amd64_gcc9": "IB/CMSSW_12_1_X_2021-10-17-0000/cc8_amd64_gcc9..IB/CMSSW_12_1_X_2021-10-17-0000/cc8_amd64_gcc9", 
-                    "slc7_aarch64_gcc9": "IB/CMSSW_12_1_X_2021-10-14-2300/slc7_aarch64_gcc9..IB/CMSSW_12_1_X_2021-10-17-2300/slc7_aarch64_gcc9", 
                     "slc7_ppc64le_gcc9": "IB/CMSSW_12_1_X_2021-10-11-2300/slc7_ppc64le_gcc9..IB/CMSSW_12_1_X_2021-10-17-2300/slc7_ppc64le_gcc9", 
-                    "slc7_amd64_gcc900": "IB/CMSSW_12_1_X_2021-10-17-0000/slc7_amd64_gcc900..IB/CMSSW_12_1_X_2021-10-17-0000/slc7_amd64_gcc900"
+                    "slc7_aarch64_gcc9": "IB/CMSSW_12_1_X_2021-10-14-2300/slc7_aarch64_gcc9..IB/CMSSW_12_1_X_2021-10-17-2300/slc7_aarch64_gcc9", 
+                    "cc8_amd64_gcc9": "IB/CMSSW_12_1_X_2021-10-17-0000/cc8_amd64_gcc9..IB/CMSSW_12_1_X_2021-10-17-0000/cc8_amd64_gcc9", 
+                    "slc7_amd64_gcc900": "IB/CMSSW_12_1_X_2021-10-17-0000/slc7_amd64_gcc900..IB/CMSSW_12_1_X_2021-10-17-0000/slc7_amd64_gcc900", 
+                    "slc7_amd64_gcc10": "IB/CMSSW_12_1_X_2021-10-11-2300/slc7_amd64_gcc10..IB/CMSSW_12_1_X_2021-10-17-2300/slc7_amd64_gcc10"
                 }, 
                 "static_checks_failures": "not-found", 
                 "cmsdistTags": {
+                    "cc8_amd64_gcc9": "IB/CMSSW_12_1_X_2021-10-17-0000/cc8_amd64_gcc9", 
                     "slc7_ppc64le_gcc9": "IB/CMSSW_12_1_X_2021-10-17-2300/slc7_ppc64le_gcc9", 
                     "slc7_aarch64_gcc9": "IB/CMSSW_12_1_X_2021-10-17-2300/slc7_aarch64_gcc9", 
-                    "cc8_amd64_gcc9": "IB/CMSSW_12_1_X_2021-10-17-0000/cc8_amd64_gcc9", 
+                    "slc7_amd64_gcc10": "IB/CMSSW_12_1_X_2021-10-17-2300/slc7_amd64_gcc10", 
                     "slc7_amd64_gcc900": "IB/CMSSW_12_1_X_2021-10-17-0000/slc7_amd64_gcc900"
                 }, 
                 "piechart": "inprogress", 
@@ -36160,6 +36164,12 @@
                         }
                     }, 
                     {
+                        "arch": "slc7_amd64_gcc10", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc7_amd64_gcc10/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }, 
+                    {
                         "arch": "slc7_aarch64_gcc9", 
                         "passed": "unknown", 
                         "file": "['/data/sdt/buildlogs/slc7_aarch64_gcc9/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/new/logAnalysis.pkl']", 
@@ -36180,7 +36190,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 595, 
+                            "num_passed": 1530, 
                             "known_failed": 0, 
                             "num_failed": 1
                         }
@@ -36191,7 +36201,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/cc8_amd64_gcc9/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 602, 
+                            "num_passed": 1489, 
                             "known_failed": 0, 
                             "num_failed": 1
                         }
@@ -36275,6 +36285,14 @@
                         "details": {}
                     }, 
                     {
+                        "arch": "slc7_amd64_gcc10", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc10/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/new/logAnalysis.pkl", 
+                        "details": {
+                            "ignoreWarning": 19
+                        }
+                    }, 
+                    {
                         "arch": "slc7_aarch64_gcc9", 
                         "passed": "passed", 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/new/logAnalysis.pkl", 
@@ -36304,6 +36322,10 @@
                 "material_budget": "not-found", 
                 "dupDict": [
                     {
+                        "arch": "slc7_ppc64le_gcc9", 
+                        "passed": "passed"
+                    }, 
+                    {
                         "arch": "cc8_amd64_gcc9", 
                         "passed": "passed"
                     }, 
@@ -36312,7 +36334,7 @@
                         "passed": "passed"
                     }, 
                     {
-                        "arch": "slc7_ppc64le_gcc9", 
+                        "arch": "slc7_amd64_gcc10", 
                         "passed": "passed"
                     }, 
                     {
