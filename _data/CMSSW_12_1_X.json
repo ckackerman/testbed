@@ -96,6 +96,15 @@
                     "author_login": "jfernan2"
                 }, 
                 {
+                    "hash": "203a22fd371d2f110ad0483589a681f02c264d1a", 
+                    "title": "Run3-hcx324 Rearrange the code to enable future implementation of SimProducer class", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35692", 
+                    "number": "35692", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
                     "hash": "71e5474950fbf5b4bfffdb7912c72aa1aa5e83be", 
                     "title": "Set equivalence of first/last bx labels used by different subsystems in ECAL DQM", 
                     "url": "https://github.com/cms-sw/cmssw/pull/35661", 
@@ -269,7 +278,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc10/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 45, 
+                        "num_passed": 611, 
                         "known_failed": 0, 
                         "num_failed": 1
                     }
@@ -280,20 +289,20 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1889, 
-                        "known_failed": 54, 
-                        "num_failed": 2
+                        "num_passed": 1933, 
+                        "known_failed": 0, 
+                        "num_failed": 57
                     }
                 }, 
                 {
                     "done": false, 
                     "arch": "slc7_ppc64le_gcc9", 
-                    "passed": true, 
+                    "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/sun/12.1-sun-23/CMSSW_12_1_X_2021-10-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 453, 
+                        "num_passed": 863, 
                         "known_failed": 0, 
-                        "num_failed": 0
+                        "num_failed": 4
                     }
                 }, 
                 {
