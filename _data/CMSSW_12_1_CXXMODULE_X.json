@@ -9,6 +9,15 @@
             "cmsdist_merged_prs": {
                 "slc7_amd64_gcc900": [
                     {
+                        "hash": "5aedf41d9d9bd38e7368d8d89185c1ccf8fd2ff7", 
+                        "title": "Update tag for RecoTracker-MkFit to V00-06-00", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/7398", 
+                        "number": "7398", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "cms-sw"
+                    }, 
+                    {
                         "hash": "765705eeb840eb086dd058f5cf08d4d9a11bd866", 
                         "title": "rootmodule: Updated root to tip of branch master", 
                         "url": "https://github.com/cms-sw/cmsdist/pull/7393", 
@@ -16,6 +25,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "ddaina"
+                    }, 
+                    {
+                        "hash": "43e60ab1e12d99238322801b66b57c1263b2ff2a", 
+                        "title": "Update mkFit to V3.4.0-0", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/7387", 
+                        "number": "7387", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "mmasciov"
                     }
                 ]
             }, 
@@ -40,10 +58,10 @@
             "material_budget_comparison": "not-found", 
             "merged_prs": [
                 {
-                    "hash": "e8502684f2b2e3029fb18f60d079c415f2d6bb1f", 
-                    "title": "Add esConsumes to modules in Validation/EventGenerator", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/35716", 
-                    "number": "35716", 
+                    "hash": "ef94ed374ad56a8cac3269298d8023a4983e76ac", 
+                    "title": "Avoid use of uninitalized values in GBRForestTools", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35705", 
+                    "number": "35705", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "Dr15Jones"
@@ -58,13 +76,22 @@
                     "author_login": "bsunanda"
                 }, 
                 {
-                    "hash": "ef94ed374ad56a8cac3269298d8023a4983e76ac", 
-                    "title": "Avoid use of uninitalized values in GBRForestTools", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/35705", 
-                    "number": "35705", 
+                    "hash": "e8502684f2b2e3029fb18f60d079c415f2d6bb1f", 
+                    "title": "Add esConsumes to modules in Validation/EventGenerator", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35716", 
+                    "number": "35716", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "e7137372dd0305bf01b0eacb14ad81bcc55d4501", 
+                    "title": "Merge .h files with .icc files in `TrackingTools/GsfTools/plugins`", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35703", 
+                    "number": "35703", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "guitargeek"
                 }, 
                 {
                     "hash": "99a1dc4e5ec82d3e8153e9e27e51dc4da0296d74", 
@@ -92,6 +119,15 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "ChrisMisan"
+                }, 
+                {
+                    "hash": "b32639d5a2aa73392c0f62cb9492c9ad2ade9c64", 
+                    "title": "Update mkFit for 12_1_0_pre5", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35652", 
+                    "number": "35652", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "trackreco"
                 }, 
                 {
                     "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
@@ -184,7 +220,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/12.1.CXXMODULE-mon-23/CMSSW_12_1_CXXMODULE_X_2021-10-18-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 733, 
+                        "num_passed": 732, 
                         "known_failed": 0, 
                         "num_failed": 467
                     }
