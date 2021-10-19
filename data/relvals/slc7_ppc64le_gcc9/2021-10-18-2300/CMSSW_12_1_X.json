@@ -1410,6 +1410,34 @@
     },
     {
         "exitcode": 0,
+        "id": "30.0",
+        "known_error": 0,
+        "name": "ZMM+ZMMINPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 103
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 77
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 5
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "36.0",
         "known_error": 0,
         "name": "Wjet_Pt_3000_3500+Wjet_Pt_3000_3500INPUT+DIGI+RECO+HARVEST",
@@ -1528,6 +1556,29 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 1
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "108.0",
+        "known_error": 0,
+        "name": "H165WW2L+H165WW2L+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 17
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 26
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 47
             }
         ]
     },
@@ -7228,6 +7279,34 @@
     },
     {
         "exitcode": 0,
+        "id": "202.0",
+        "known_error": 0,
+        "name": "TTbar+TTbarINPUT+DIGIPU1+RECOPU1+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 19
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 23
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 5
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "503.0",
         "known_error": 0,
         "name": "MinBias_13TeV_pythia8+MinBias_13TeV_pythia8+HARVESTGEN",
@@ -8393,6 +8472,24 @@
                 "errors": 1,
                 "status": "PASSED",
                 "warnings": 111
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "1325.61",
+        "known_error": 0,
+        "name": "TTbar_13_106Xv1NanoAODINPUT+TTbar_13_106Xv1NanoAODINPUT+NANOAODMC2017_106XMiniAODv1",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 5,
+                "status": "PASSED",
+                "warnings": 92
             }
         ]
     },
@@ -11462,6 +11559,52 @@
     },
     {
         "exitcode": 0,
+        "id": "25406.17",
+        "known_error": 0,
+        "name": "ZMM_13+FS_ZMM_13_UP17_PU50+HARVESTUP17FS+MINIAODMCUP17FS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 294
+            },
+            {
+                "errors": 21,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 30
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "25407.0",
+        "known_error": 0,
+        "name": "NuGun_UP15+FS_NuGun_UP15_UP15_PU25+HARVESTUP15FS+MINIAODMCUP15FS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 72
+            },
+            {
+                "errors": 21,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 45
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "25407.17",
         "known_error": 0,
         "name": "NuGun_UP17+FS_NuGun_UP17_UP17_PU50+HARVESTUP17FS+MINIAODMCUP17FS",
@@ -12168,6 +12311,19 @@
         "id": "250199.17",
         "known_error": 0,
         "name": "PREMIXUP17_PU25+PREMIXUP17_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 15
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250199.18",
+        "known_error": 0,
+        "name": "PREMIXUP18_PU25+PREMIXUP18_PU25",
         "steps": [
             {
                 "errors": 0,
@@ -13342,6 +13498,29 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 67
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250402.17",
+        "known_error": 0,
+        "name": "TTbar_13+FS_TTbar_13_PRMXUP17_PU50+HARVESTUP17FS+MINIAODMCUP17FS",
+        "steps": [
+            {
+                "errors": 23386,
+                "status": "PASSED",
+                "warnings": 16
+            },
+            {
+                "errors": 21,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 32
             }
         ]
     },
