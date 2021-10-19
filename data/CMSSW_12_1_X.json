@@ -291,6 +291,14 @@
             "dqm_tests": "not-found", 
             "utests": [
                 {
+                    "arch": "slc7_aarch64_gcc9", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/mon/12.1-mon-23/CMSSW_12_1_X_2021-10-18-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "3"
+                    }
+                }, 
+                {
                     "arch": "slc7_amd64_gcc900", 
                     "passed": "unknown", 
                     "file": "['/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/12.1-mon-23/CMSSW_12_1_X_2021-10-18-2300/new/logAnalysis.pkl']", 
@@ -300,12 +308,6 @@
                     "arch": "slc7_amd64_gcc10", 
                     "passed": "unknown", 
                     "file": "['/data/sdt/buildlogs/slc7_amd64_gcc10/www/mon/12.1-mon-23/CMSSW_12_1_X_2021-10-18-2300/new/logAnalysis.pkl']", 
-                    "details": {}
-                }, 
-                {
-                    "arch": "slc7_aarch64_gcc9", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/slc7_aarch64_gcc9/www/mon/12.1-mon-23/CMSSW_12_1_X_2021-10-18-2300/new/logAnalysis.pkl']", 
                     "details": {}
                 }, 
                 {
