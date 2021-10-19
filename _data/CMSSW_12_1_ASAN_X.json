@@ -7,6 +7,79 @@
             "python3_tests": [], 
             "tests_archs": [], 
             "cmsdist_merged_prs": {
+                "slc7_amd64_gcc10": []
+            }, 
+            "cmsdist_compared_tags": {
+                "slc7_amd64_gcc10": "IB/CMSSW_12_1_ASAN_X_2021-10-18-2300/slc7_amd64_gcc10..IB/CMSSW_12_1_X/gcc10"
+            }, 
+            "cmsdistTags": {}, 
+            "next_ib": true, 
+            "RVExceptions": null, 
+            "fwlite": [], 
+            "profiling": "not-found", 
+            "compared_tags": "CMSSW_12_1_ASAN_X_2021-10-18-2300-->CMSSW_12_1_X", 
+            "dqm_tests": "not-found", 
+            "utests": [], 
+            "ib_date": "2021-10-18-2300-0001", 
+            "relvals": [], 
+            "igprof": "not-found", 
+            "release_queue": "CMSSW_12_1_ASAN_X", 
+            "release_name": "CMSSW_12_1_X", 
+            "comp_baseline": "not-found", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [
+                {
+                    "hash": "f4b31e47c0fb916091fbf0e5539c79e477e5a18f", 
+                    "title": "Fix reading from unaligned address in TotemSampicFrame", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35654", 
+                    "number": "35654", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ChrisMisan"
+                }, 
+                {
+                    "hash": "ef94ed374ad56a8cac3269298d8023a4983e76ac", 
+                    "title": "Avoid use of uninitalized values in GBRForestTools", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35705", 
+                    "number": "35705", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
+                    "title": "Added esConsumes calls to more Muon related code", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35697", 
+                    "number": "35697", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }
+            ], 
+            "base_branch": "CMSSW_12_1_X", 
+            "invalid_includes": [], 
+            "builds": [], 
+            "material_budget_v2": "not-found", 
+            "check-headers": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "dupDict": [], 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": false, 
+            "inProgress": false, 
+            "addons": [], 
+            "hlt_tests": "not-found"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "python3_tests": [], 
+            "tests_archs": [
+                "slc7_amd64_gcc10"
+            ], 
+            "cmsdist_merged_prs": {
                 "slc7_amd64_gcc10": [
                     {
                         "hash": "128c408a9506e9d732da0cb21d81a713ee598117", 
@@ -38,25 +111,43 @@
                 ]
             }, 
             "cmsdist_compared_tags": {
-                "slc7_amd64_gcc10": "IB/CMSSW_12_1_ASAN_X_2021-10-11-2300/slc7_amd64_gcc10..IB/CMSSW_12_1_X/gcc10"
+                "slc7_amd64_gcc10": "IB/CMSSW_12_1_ASAN_X_2021-10-11-2300/slc7_amd64_gcc10..IB/CMSSW_12_1_ASAN_X_2021-10-18-2300/slc7_amd64_gcc10"
             }, 
-            "cmsdistTags": {}, 
-            "next_ib": true, 
+            "cmsdistTags": {
+                "slc7_amd64_gcc10": "IB/CMSSW_12_1_ASAN_X_2021-10-18-2300/slc7_amd64_gcc10"
+            }, 
+            "next_ib": false, 
             "RVExceptions": null, 
             "fwlite": [], 
             "profiling": "not-found", 
-            "compared_tags": "CMSSW_12_1_ASAN_X_2021-10-15-2300-->CMSSW_12_1_X", 
+            "compared_tags": "CMSSW_12_1_ASAN_X_2021-10-15-2300-->CMSSW_12_1_ASAN_X_2021-10-18-2300", 
             "dqm_tests": "not-found", 
-            "utests": [], 
-            "ib_date": "2021-10-15-2300-0001", 
+            "utests": [
+                {
+                    "arch": "slc7_amd64_gcc10", 
+                    "passed": "unknown", 
+                    "file": "['/data/sdt/buildlogs/slc7_amd64_gcc10/www/mon/12.1.ASAN-mon-23/CMSSW_12_1_ASAN_X_2021-10-18-2300/new/logAnalysis.pkl']", 
+                    "details": {}
+                }
+            ], 
+            "ib_date": "2021-10-18-2300-0000", 
             "relvals": [], 
             "igprof": "not-found", 
             "release_queue": "CMSSW_12_1_ASAN_X", 
-            "release_name": "CMSSW_12_1_X", 
+            "release_name": "CMSSW_12_1_ASAN_X_2021-10-18-2300", 
             "comp_baseline": "not-found", 
             "gpu_utests": [], 
             "material_budget_comparison": "not-found", 
             "merged_prs": [
+                {
+                    "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
+                    "title": "Fix SyntaxWarning in trackselectionRefitting.py", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35702", 
+                    "number": "35702", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "guitargeek"
+                }, 
                 {
                     "hash": "fcdf7aee5c3e6fbd7ed105af32b8f297384222a9", 
                     "title": "Updating hltDumpStream to work in python3 : 121X", 
@@ -67,22 +158,40 @@
                     "author_login": "Sam-Harper"
                 }, 
                 {
-                    "hash": "ef94ed374ad56a8cac3269298d8023a4983e76ac", 
-                    "title": "Avoid use of uninitalized values in GBRForestTools", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/35705", 
-                    "number": "35705", 
+                    "hash": "7c571eb933e9fa1a004737c835e7a9f81eea183f", 
+                    "title": "Removed CMS deprecation warnings from MagneticField/Engine", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35672", 
+                    "number": "35672", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "Dr15Jones"
                 }, 
                 {
-                    "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
-                    "title": "Fix SyntaxWarning in trackselectionRefitting.py", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/35702", 
-                    "number": "35702", 
+                    "hash": "b13a1b3ffc3e6c3c372a96162e3815be39b99426", 
+                    "title": "Updates towards enabling deepTauID at HLT", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35619", 
+                    "number": "35619", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "guitargeek"
+                    "author_login": "cms-tau-pog"
+                }, 
+                {
+                    "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
+                    "title": "Fix for UBSAN DQM crash", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35658", 
+                    "number": "35658", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "jfernan2"
+                }, 
+                {
+                    "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
+                    "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35687", 
+                    "number": "35687", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "perrotta"
                 }, 
                 {
                     "hash": "b35619ff0210d819e71fbe2c85da7c52b75c3ea1", 
@@ -110,6 +219,15 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "alejands"
+                }, 
+                {
+                    "hash": "4b527f4cbec73634f0ddb69d267bb67727c41929", 
+                    "title": "fix typo in `_loadOnlineBeamSpotESProducer`", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35696", 
+                    "number": "35696", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mmusich"
                 }, 
                 {
                     "hash": "f45b48ac2d03f08ea01c7f3bc0b139e6d850351e", 
@@ -175,69 +293,6 @@
                     "author_login": "swagata87"
                 }, 
                 {
-                    "hash": "4b527f4cbec73634f0ddb69d267bb67727c41929", 
-                    "title": "fix typo in `_loadOnlineBeamSpotESProducer`", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/35696", 
-                    "number": "35696", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "mmusich"
-                }, 
-                {
-                    "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
-                    "title": "Added esConsumes calls to more Muon related code", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/35697", 
-                    "number": "35697", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "Dr15Jones"
-                }, 
-                {
-                    "hash": "b13a1b3ffc3e6c3c372a96162e3815be39b99426", 
-                    "title": "Updates towards enabling deepTauID at HLT", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/35619", 
-                    "number": "35619", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "cms-tau-pog"
-                }, 
-                {
-                    "hash": "7c571eb933e9fa1a004737c835e7a9f81eea183f", 
-                    "title": "Removed CMS deprecation warnings from MagneticField/Engine", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/35672", 
-                    "number": "35672", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "Dr15Jones"
-                }, 
-                {
-                    "hash": "f4b31e47c0fb916091fbf0e5539c79e477e5a18f", 
-                    "title": "Fix reading from unaligned address in TotemSampicFrame", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/35654", 
-                    "number": "35654", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "ChrisMisan"
-                }, 
-                {
-                    "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
-                    "title": "Clean up and avoid possible misuse of the numOfBins variable in DiamondSampicDQMSource", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/35687", 
-                    "number": "35687", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "perrotta"
-                }, 
-                {
-                    "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
-                    "title": "Fix for UBSAN DQM crash", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/35658", 
-                    "number": "35658", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "jfernan2"
-                }, 
-                {
                     "hash": "18da2f88bfd78581aa724cf7385a11c7beb1f830", 
                     "title": "Fix CMS deprecated warnings in JetMetCorrections/Modules", 
                     "url": "https://github.com/cms-sw/cmssw/pull/35681", 
@@ -258,16 +313,30 @@
             ], 
             "base_branch": "CMSSW_12_1_X", 
             "invalid_includes": [], 
-            "builds": [], 
+            "builds": [
+                {
+                    "arch": "slc7_amd64_gcc10", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc10/www/mon/12.1.ASAN-mon-23/CMSSW_12_1_ASAN_X_2021-10-18-2300/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 20
+                    }
+                }
+            ], 
             "material_budget_v2": "not-found", 
             "check-headers": "not-found", 
             "static_checks_v2": "not-found", 
             "valgrind": "not-found", 
             "material_budget": "not-found", 
-            "dupDict": [], 
+            "dupDict": [
+                {
+                    "arch": "slc7_amd64_gcc10", 
+                    "passed": "passed"
+                }
+            ], 
             "static_checks_failures": "not-found", 
             "static_checks": "not-found", 
-            "isIB": false, 
+            "isIB": true, 
             "inProgress": false, 
             "addons": [], 
             "hlt_tests": "not-found"
