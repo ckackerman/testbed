@@ -98,7 +98,19 @@
                 }
             ], 
             "ib_date": "2021-10-19-1100-0000", 
-            "relvals": [], 
+            "relvals": [
+                {
+                    "done": false, 
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/tue/12.0-tue-11/CMSSW_12_0_X_2021-10-19-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 2, 
+                        "known_failed": 0, 
+                        "num_failed": 0
+                    }
+                }
+            ], 
             "release_queue": "CMSSW_12_0_X", 
             "release_name": "CMSSW_12_0_X_2021-10-19-1100", 
             "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_12_0_X_2021-10-19-1100/slc7_amd64_gcc900/-GenuineIntel/matrix-results", 
@@ -115,7 +127,14 @@
                     "author_login": "mmusich"
                 }
             ], 
-            "fwlite": [], 
+            "fwlite": [
+                {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/tue/12.0-tue-11/CMSSW_12_0_X_2021-10-19-1100/new_FWLITE/logAnalysis.pkl", 
+                    "details": {}
+                }
+            ], 
             "invalid_includes": [
                 {
                     "arch": "slc7_amd64_gcc900", 
