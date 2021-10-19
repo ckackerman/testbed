@@ -1,6 +1,45 @@
 [
     {
         "exitcode": 256,
+        "id": "575.0",
+        "known_error": 0,
+        "name": "AMPT_PPb_5020GeV_MinimumBias_ExtGen+AMPT_PPb_5020GeV_MinimumBias_ExtGen+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 256,
+        "id": "576.0",
+        "known_error": 0,
+        "name": "EPOS_PPb_8160GeV_MinimumBias_ExtGen+EPOS_PPb_8160GeV_MinimumBias_ExtGen+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 256,
+        "id": "577.0",
+        "known_error": 0,
+        "name": "Pyquen_ZeemumuJets_pt10_2760GeV_ExtGen+Pyquen_ZeemumuJets_pt10_2760GeV_ExtGen+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 256,
         "id": "140.56",
         "known_error": 0,
         "name": "RunHI2018+RunHI2018+RECOHID18+HARVESTDHI18",
@@ -32,6 +71,204 @@
                 "errors": 0,
                 "status": "FAILED",
                 "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
+        "id": "11602.0",
+        "known_error": 0,
+        "name": "SingleElectronPt35+2021+SingleElectronPt35_pythia8_GenSimINPUT+Digi+RecNan+HARVESTRecNan+ALCA",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 1
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
+        "id": "11603.0",
+        "known_error": 0,
+        "name": "SingleElectronPt1000+2021+SingleElectronPt1000_pythia8_GenSimINPUT+Digi+RecNan+HARVESTRecNan+ALCA",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 1
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
+        "id": "11608.0",
+        "known_error": 0,
+        "name": "SingleMuPt100+2021+SingleMuPt100_Eta2p85_GenSimINPUT+Digi+RecNan+HARVESTRecNan+ALCA",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 1
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
+        "id": "11609.0",
+        "known_error": 0,
+        "name": "SingleMuPt1000+2021+SingleMuPt1000_Eta2p85_GenSimINPUT+Digi+RecNan+HARVESTRecNan+ALCA",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 1
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
+        "id": "11630.0",
+        "known_error": 0,
+        "name": "QCD_Pt_3000_3500_14TeV+2021+QCD_Pt_3000_3500_14TeV_TuneCUETP8M1_GenSimINPUT+Digi+RecNan+HARVESTRecNan+ALCA",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 1
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
+        "id": "11634.0",
+        "known_error": 0,
+        "name": "TTbar_14TeV+2021+TTbar_14TeV_TuneCP5_GenSimINPUT+Digi+RecNan+HARVESTRecNan+ALCA",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 1
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
+        "id": "11634.24",
+        "known_error": 0,
+        "name": "TTbar_14TeV+2021_0T+TTbar_14TeV_TuneCP5_GenSimINPUT+Digi+Reco+HARVEST+ALCA",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 1
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
+        "id": "11634.91",
+        "known_error": 0,
+        "name": "TTbar_14TeV+2021_trackdnn+TTbar_14TeV_TuneCP5_GenSimINPUT+Digi+Reco+HARVEST+ALCA",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 1
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
+        "id": "11640.0",
+        "known_error": 0,
+        "name": "MinBias_14TeV+2021+MinBias_14TeV_pythia8_TuneCP5_GenSimINPUT+Digi+RecNan+HARVESTRecNan+ALCA",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 1
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
+        "id": "11643.0",
+        "known_error": 0,
+        "name": "QCD_FlatPt_15_3000HS_14+2021+QCDForPF_14TeV_TuneCP5_GenSimINPUT+Digi+RecNan+HARVESTRecNan+ALCA",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 1
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
+        "id": "11723.17",
+        "known_error": 0,
+        "name": "QCD_Pt_1800_2400_14+2021_seedingDeepCore+QCD_Pt_1800_2400_14TeV_TuneCP5_GenSimINPUT+Digi+Reco+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 1
             }
         ]
     },
@@ -127,9 +364,45 @@
     },
     {
         "exitcode": 16640,
+        "id": "12434.0",
+        "known_error": 0,
+        "name": "TTbar_14TeV+2023+TTbar_14TeV_TuneCP5_GenSimINPUT+Digi+RecNan+HARVESTRecNan+ALCA",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 1
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
         "id": "12634.0",
         "known_error": 0,
         "name": "TTbar_14TeV+2023PU+TTbar_14TeV_TuneCP5_GenSimINPUT+DigiPU+RecoPU+HARVESTPU+Nano",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 1
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
+        "id": "12834.0",
+        "known_error": 0,
+        "name": "TTbar_14TeV+2024+TTbar_14TeV_TuneCP5_GenSimINPUT+Digi+RecNan+HARVESTRecNan+ALCA",
         "steps": [
             {
                 "errors": 0,
@@ -168,6 +441,29 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
+        "id": "11834.99",
+        "known_error": 0,
+        "name": "TTbar_14TeV+2021PU_PMXS1S2+TTbar_14TeV_TuneCP5_GenSimINPUT+PREMIX_PremixPU+DigiPU+RecoPU+HARVESTPU+Nano",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 30
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 1
             }
         ]
     }
