@@ -142,9 +142,11 @@
                 }, 
                 {
                     "arch": "cc8_ppc64le_gcc9", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/cc8_ppc64le_gcc9/www/mon/12.0-mon-23/CMSSW_12_0_X_2021-10-18-2300/new/logAnalysis.pkl']", 
-                    "details": {}
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/cc8_ppc64le_gcc9/www/mon/12.0-mon-23/CMSSW_12_0_X_2021-10-18-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "10"
+                    }
                 }
             ], 
             "ib_date": "2021-10-18-2300-0000", 
