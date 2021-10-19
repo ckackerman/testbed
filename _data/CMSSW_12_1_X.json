@@ -86,6 +86,15 @@
             "material_budget_comparison": "not-found", 
             "merged_prs": [
                 {
+                    "hash": "99a1dc4e5ec82d3e8153e9e27e51dc4da0296d74", 
+                    "title": "Change bx constant to centrally defined value in RawDataTask.cc", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35725", 
+                    "number": "35725", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "perrotta"
+                }, 
+                {
                     "hash": "e8502684f2b2e3029fb18f60d079c415f2d6bb1f", 
                     "title": "Add esConsumes to modules in Validation/EventGenerator", 
                     "url": "https://github.com/cms-sw/cmssw/pull/35716", 
@@ -102,6 +111,15 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "tvami"
+                }, 
+                {
+                    "hash": "6333f7370146950db05f7e67d8d49aa2735e338d", 
+                    "title": "Run3-sim93 Use ESGetToken in getting objects from EventSetup", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35718", 
+                    "number": "35718", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
                 }
             ], 
             "fwlite": [], 
@@ -458,7 +476,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/12.1-mon-23/CMSSW_12_1_X_2021-10-18-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 3322, 
+                        "num_passed": 3338, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
