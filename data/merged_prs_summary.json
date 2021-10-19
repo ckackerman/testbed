@@ -23043,7 +23043,7 @@
                 "RVExceptions": null, 
                 "igprof": "found", 
                 "reco_event_loop": "inprogress", 
-                "profiling": "inprogress", 
+                "profiling": "found", 
                 "base_branch": "CMSSW_12_0_X", 
                 "compared_tags": "CMSSW_12_0_X_2021-10-19-1100-->CMSSW_12_0_X_2021-10-19-2300", 
                 "dqm_tests": "not-found", 
@@ -23272,8 +23272,8 @@
                         "file": "/data/sdt/buildlogs/cc8_aarch64_gcc9/www/tue/12.0-tue-11/CMSSW_12_0_X_2021-10-19-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
                             "num_passed": 1481, 
-                            "known_failed": 0, 
-                            "num_failed": 55
+                            "known_failed": 54, 
+                            "num_failed": 1
                         }
                     }
                 ], 
@@ -41146,12 +41146,12 @@
                     {
                         "done": false, 
                         "arch": "cc8_ppc64le_gcc9", 
-                        "passed": true, 
+                        "passed": false, 
                         "file": "/data/sdt/buildlogs/cc8_ppc64le_gcc9/www/mon/12.1-mon-23/CMSSW_12_1_X_2021-10-18-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1339, 
+                            "num_passed": 1510, 
                             "known_failed": 54, 
-                            "num_failed": 0
+                            "num_failed": 1
                         }
                     }
                 ], 
