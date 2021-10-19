@@ -285,7 +285,7 @@
             "gap": true
         }, 
         {
-            "weight": 25, 
+            "weight": 22, 
             "groups": [
                 {
                     "url": "https://github.com/cms-data/RecoTracker-FinalTrackSelectors", 
@@ -321,7 +321,7 @@
                 }, 
                 {
                     "url": "https://github.com/cms-sw/cmssw", 
-                    "weight": 22, 
+                    "weight": 20, 
                     "groups": [
                         {
                             "status_level": "1", 
@@ -426,15 +426,6 @@
                             "status_level": "2", 
                             "urlRepo": "https://github.com/cms-sw/cmssw", 
                             "repository": "cms-sw/cmssw", 
-                            "url": "https://github.com/cms-sw/cmssw/pull/35703", 
-                            "label": "35703", 
-                            "color": "#f89406", 
-                            "createdAt": 1634387288
-                        }, 
-                        {
-                            "status_level": "2", 
-                            "urlRepo": "https://github.com/cms-sw/cmssw", 
-                            "repository": "cms-sw/cmssw", 
                             "url": "https://github.com/cms-sw/cmssw/pull/35704", 
                             "label": "35704", 
                             "color": "#f89406", 
@@ -498,15 +489,6 @@
                             "status_level": "3", 
                             "urlRepo": "https://github.com/cms-sw/cmssw", 
                             "repository": "cms-sw/cmssw", 
-                            "url": "https://github.com/cms-sw/cmssw/pull/35652", 
-                            "label": "35652", 
-                            "color": "#468847", 
-                            "createdAt": 1634121312
-                        }, 
-                        {
-                            "status_level": "3", 
-                            "urlRepo": "https://github.com/cms-sw/cmssw", 
-                            "repository": "cms-sw/cmssw", 
                             "url": "https://github.com/cms-sw/cmssw/pull/35660", 
                             "label": "35660", 
                             "color": "#468847", 
@@ -523,22 +505,6 @@
                         }
                     ], 
                     "label": "cms-sw"
-                }, 
-                {
-                    "url": "https://github.com/cms-data/RecoTracker-MkFit", 
-                    "weight": 1, 
-                    "groups": [
-                        {
-                            "status_level": "3", 
-                            "urlRepo": "https://github.com/cms-data/RecoTracker-MkFit", 
-                            "repository": "cms-data/RecoTracker-MkFit", 
-                            "url": "https://github.com/cms-data/RecoTracker-MkFit/pull/6", 
-                            "label": "6", 
-                            "color": "#468847", 
-                            "createdAt": 1634121366
-                        }
-                    ], 
-                    "label": "cms-data"
                 }
             ], 
             "label": "reconstruction"
@@ -874,7 +840,7 @@
             "gap": true
         }, 
         {
-            "weight": 7, 
+            "weight": 6, 
             "groups": [
                 {
                     "url": "https://github.com/cms-data/RecoTauTag-TrainingFiles", 
@@ -923,22 +889,6 @@
                         }
                     ], 
                     "label": "cms-sw"
-                }, 
-                {
-                    "url": "https://github.com/cms-data/RecoTracker-MkFit", 
-                    "weight": 1, 
-                    "groups": [
-                        {
-                            "status_level": "2", 
-                            "urlRepo": "https://github.com/cms-data/RecoTracker-MkFit", 
-                            "repository": "cms-data/RecoTracker-MkFit", 
-                            "url": "https://github.com/cms-data/RecoTracker-MkFit/pull/6", 
-                            "label": "6", 
-                            "color": "#f89406", 
-                            "createdAt": 1634121366
-                        }
-                    ], 
-                    "label": "cms-data"
                 }, 
                 {
                     "url": "https://github.com/cms-data/PhysicsTools-NanoAOD", 
@@ -1444,11 +1394,11 @@
             "gap": true
         }, 
         {
-            "weight": 12, 
+            "weight": 13, 
             "groups": [
                 {
                     "url": "https://github.com/cms-sw/cmssw", 
-                    "weight": 12, 
+                    "weight": 13, 
                     "groups": [
                         {
                             "status_level": "2", 
@@ -1521,6 +1471,15 @@
                             "label": "35728", 
                             "color": "#f89406", 
                             "createdAt": 1634626859
+                        }, 
+                        {
+                            "status_level": "2", 
+                            "urlRepo": "https://github.com/cms-sw/cmssw", 
+                            "repository": "cms-sw/cmssw", 
+                            "url": "https://github.com/cms-sw/cmssw/pull/35733", 
+                            "label": "35733", 
+                            "color": "#f89406", 
+                            "createdAt": 1634648320
                         }, 
                         {
                             "status_level": "3", 
