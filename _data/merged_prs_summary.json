@@ -15611,7 +15611,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/mon/11.2-mon-23/CMSSW_11_2_X_2021-10-18-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 252, 
+                            "num_passed": 426, 
                             "known_failed": 7, 
                             "num_failed": 2
                         }
@@ -29218,6 +29218,15 @@
                             "is_merge_commit": false, 
                             "from_merge_commit": true, 
                             "author_login": "cms-sw"
+                        }, 
+                        {
+                            "hash": "765705eeb840eb086dd058f5cf08d4d9a11bd866", 
+                            "title": "rootmodule: Updated root to tip of branch master", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/7393", 
+                            "number": "7393", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "ddaina"
                         }
                     ]
                 }, 
@@ -35685,6 +35694,15 @@
                             "is_merge_commit": false, 
                             "from_merge_commit": true, 
                             "author_login": "cms-sw"
+                        }, 
+                        {
+                            "hash": "4626f663adfb55f8d956bfbe7c262104dc8d6365", 
+                            "title": "rootmaster: Updated root to tip of branch master", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/7392", 
+                            "number": "7392", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "ddaina"
                         }
                     ]
                 }, 
@@ -38717,8 +38735,8 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/mon/12.1-mon-23/CMSSW_12_1_X_2021-10-18-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 797, 
-                            "known_failed": 7, 
+                            "num_passed": 961, 
+                            "known_failed": 53, 
                             "num_failed": 0
                         }
                     }
