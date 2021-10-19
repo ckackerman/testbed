@@ -15611,9 +15611,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/mon/11.2-mon-23/CMSSW_11_2_X_2021-10-18-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1200, 
-                            "known_failed": 8, 
-                            "num_failed": 2
+                            "num_passed": 1328, 
+                            "known_failed": 21, 
+                            "num_failed": 3
                         }
                     }
                 ], 
@@ -23114,6 +23114,17 @@
                         "details": {
                             "num_passed": 3489, 
                             "known_failed": 0, 
+                            "num_failed": 0
+                        }
+                    }, 
+                    {
+                        "done": false, 
+                        "arch": "cc8_ppc64le_gcc9", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/cc8_ppc64le_gcc9/www/mon/12.0-mon-23/CMSSW_12_0_X_2021-10-18-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 5, 
+                            "known_failed": 21, 
                             "num_failed": 0
                         }
                     }
@@ -35759,7 +35770,19 @@
                     }
                 ], 
                 "ib_date": "2021-10-18-2300-0000", 
-                "relvals": [], 
+                "relvals": [
+                    {
+                        "done": false, 
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/12.1.ROOT6-mon-23/CMSSW_12_1_ROOT6_X_2021-10-18-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 14, 
+                            "known_failed": 0, 
+                            "num_failed": 0
+                        }
+                    }
+                ], 
                 "igprof": "not-found", 
                 "release_queue": "CMSSW_12_1_ROOT6_X", 
                 "release_name": "CMSSW_12_1_ROOT6_X_2021-10-18-2300", 
@@ -38707,7 +38730,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc10/www/mon/12.1-mon-23/CMSSW_12_1_X_2021-10-18-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1, 
+                            "num_passed": 5, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -38715,12 +38738,12 @@
                     {
                         "done": false, 
                         "arch": "slc7_aarch64_gcc9", 
-                        "passed": true, 
+                        "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/mon/12.1-mon-23/CMSSW_12_1_X_2021-10-18-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1848, 
+                            "num_passed": 2243, 
                             "known_failed": 54, 
-                            "num_failed": 0
+                            "num_failed": 1
                         }
                     }, 
                     {
@@ -38729,7 +38752,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/cc8_amd64_gcc9/www/mon/12.1-mon-23/CMSSW_12_1_X_2021-10-18-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2, 
+                            "num_passed": 8, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
