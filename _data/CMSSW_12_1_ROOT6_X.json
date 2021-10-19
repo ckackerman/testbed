@@ -1145,20 +1145,10 @@
                 "slc7_amd64_gcc900"
             ], 
             "cmsdist_merged_prs": {
-                "slc7_amd64_gcc900": [
-                    {
-                        "hash": "e6317fbc960424822d8d886d98bac983e2b69155", 
-                        "title": "rootmaster: Updated root to tip of branch master", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/7380", 
-                        "number": "7380", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "ddaina"
-                    }
-                ]
+                "slc7_amd64_gcc900": []
             }, 
             "cmsdist_compared_tags": {
-                "slc7_amd64_gcc900": "IB/CMSSW_12_1_ROOT6_X_2021-10-11-2300/slc7_amd64_gcc900..IB/CMSSW_12_1_ROOT6_X_2021-10-12-2300/slc7_amd64_gcc900"
+                "slc7_amd64_gcc900": "IB/CMSSW_12_1_ROOT6_X_2021-10-12-2300/slc7_amd64_gcc900..IB/CMSSW_12_1_ROOT6_X_2021-10-12-2300/slc7_amd64_gcc900"
             }, 
             "cmsdistTags": {
                 "slc7_amd64_gcc900": "IB/CMSSW_12_1_ROOT6_X_2021-10-12-2300/slc7_amd64_gcc900"
@@ -1304,15 +1294,9 @@
         {
             "comp_baseline_state": "errors", 
             "python3_tests": [], 
-            "tests_archs": [
-                "slc7_amd64_gcc900"
-            ], 
-            "cmsdist_merged_prs": {
-                "slc7_amd64_gcc900": []
-            }, 
-            "cmsdist_compared_tags": {
-                "slc7_amd64_gcc900": "IB/CMSSW_12_1_ROOT6_X_2021-10-11-2300/slc7_amd64_gcc900..IB/CMSSW_12_1_ROOT6_X_2021-10-11-2300/slc7_amd64_gcc900"
-            }, 
+            "tests_archs": [], 
+            "cmsdist_merged_prs": {}, 
+            "cmsdist_compared_tags": {}, 
             "cmsdistTags": {
                 "slc7_amd64_gcc900": "IB/CMSSW_12_1_ROOT6_X_2021-10-11-2300/slc7_amd64_gcc900"
             }, 
@@ -1322,30 +1306,9 @@
             "profiling": "not-found", 
             "compared_tags": "CMSSW_12_1_ROOT6_X_2021-10-10-2300-->CMSSW_12_1_ROOT6_X_2021-10-11-2300", 
             "dqm_tests": "not-found", 
-            "utests": [
-                {
-                    "arch": "slc7_amd64_gcc900", 
-                    "passed": "passed", 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/12.1.ROOT6-mon-23/CMSSW_12_1_ROOT6_X_2021-10-11-2300/unitTests-summary.log", 
-                    "details": {
-                        "num_fails": "0"
-                    }
-                }
-            ], 
+            "utests": [], 
             "ib_date": "2021-10-11-2300-0000", 
-            "relvals": [
-                {
-                    "done": true, 
-                    "arch": "slc7_amd64_gcc900", 
-                    "passed": true, 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/12.1.ROOT6-mon-23/CMSSW_12_1_ROOT6_X_2021-10-11-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                    "details": {
-                        "num_passed": 3485, 
-                        "known_failed": 0, 
-                        "num_failed": 0
-                    }
-                }
-            ], 
+            "relvals": [], 
             "igprof": "not-found", 
             "release_queue": "CMSSW_12_1_ROOT6_X", 
             "release_name": "CMSSW_12_1_ROOT6_X_2021-10-11-2300", 
@@ -1419,39 +1382,18 @@
             ], 
             "base_branch": "CMSSW_12_1_ROOT6_X", 
             "invalid_includes": [], 
-            "builds": [
-                {
-                    "arch": "slc7_amd64_gcc900", 
-                    "passed": "passed", 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/12.1.ROOT6-mon-23/CMSSW_12_1_ROOT6_X_2021-10-11-2300/new/logAnalysis.pkl", 
-                    "details": {
-                        "ignoreWarning": 22
-                    }
-                }
-            ], 
+            "builds": [], 
             "material_budget_v2": "not-found", 
             "check-headers": "not-found", 
             "static_checks_v2": "not-found", 
             "valgrind": "not-found", 
             "material_budget": "not-found", 
-            "dupDict": [
-                {
-                    "arch": "slc7_amd64_gcc900", 
-                    "passed": "passed"
-                }
-            ], 
+            "dupDict": [], 
             "static_checks_failures": "not-found", 
             "static_checks": "not-found", 
             "isIB": true, 
             "inProgress": false, 
-            "addons": [
-                {
-                    "arch": "slc7_amd64_gcc900", 
-                    "passed": true, 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/12.1.ROOT6-mon-23/CMSSW_12_1_ROOT6_X_2021-10-11-2300/addOnTests.log", 
-                    "details": {}
-                }
-            ], 
+            "addons": [], 
             "hlt_tests": "not-found"
         }, 
         {
