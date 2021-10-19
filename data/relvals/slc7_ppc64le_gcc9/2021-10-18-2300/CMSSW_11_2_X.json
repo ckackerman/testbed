@@ -19186,6 +19186,34 @@
     },
     {
         "exitcode": 0,
+        "id": "31034.0",
+        "known_error": 0,
+        "name": "TTbar_14TeV+2026D67+TTbar_14TeV_TuneCP5_GenSimHLBeamSpot14+DigiTrigger+RecoGlobal+HARVESTGlobal",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 17
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 33
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 336
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 4
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "31434.0",
         "known_error": 0,
         "name": "TTbar_14TeV+2026D68+TTbar_14TeV_TuneCP5_GenSimHLBeamSpot14+DigiTrigger+RecoGlobal+HARVESTGlobal",
@@ -21085,6 +21113,29 @@
                 "errors": 1,
                 "status": "PASSED",
                 "warnings": 13
+            },
+            {
+                "errors": 21,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 16,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250409.0",
+        "known_error": 0,
+        "name": "SMS-T1tttt_mGl-1500_mLSP-100_13+FS_SMS-T1tttt_mGl-1500_mLSP-100_13_PRMXUP15_PU25+HARVESTUP15FS+MINIAODMCUP15FS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 30
             },
             {
                 "errors": 21,
