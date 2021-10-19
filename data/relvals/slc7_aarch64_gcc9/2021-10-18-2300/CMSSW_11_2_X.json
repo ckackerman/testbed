@@ -145,6 +145,45 @@
     },
     {
         "exitcode": 0,
+        "id": "123.3",
+        "known_error": 0,
+        "name": "SingleMuPt1+SingleMuPt1FS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 12
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "124.1",
+        "known_error": 0,
+        "name": "SinglePiPt1+SinglePiPt1FS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "124.2",
+        "known_error": 0,
+        "name": "ZTT+ZTTFS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "136.7801",
         "known_error": 0,
         "name": "RunHLTPhy2017B_AOD+RunHLTPhy2017B_AOD+DQMHLTonAOD_2017+HARVESTDQMHLTonAOD_2017",
