@@ -281,6 +281,24 @@
                     "author_login": "tvami"
                 }, 
                 {
+                    "hash": "70bb244442982aa2c865348da95dd5a4a09f57cb", 
+                    "title": "Enable mkFit by default in 4+2 tracking iterations (initialStepPreSpl", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35660", 
+                    "number": "35660", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "trackreco"
+                }, 
+                {
+                    "hash": "e085563d4bafb03e65d0f6eecd6c44eae8f0fbcb", 
+                    "title": "Phase2-hgx291 Bug fix to address rotated layers in D86", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35563", 
+                    "number": "35563", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
                     "hash": "b32639d5a2aa73392c0f62cb9492c9ad2ade9c64", 
                     "title": "Update mkFit for 12_1_0_pre5", 
                     "url": "https://github.com/cms-sw/cmssw/pull/35652", 
@@ -674,12 +692,12 @@
                 {
                     "done": false, 
                     "arch": "slc7_ppc64le_gcc9", 
-                    "passed": true, 
+                    "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/mon/12.1-mon-23/CMSSW_12_1_X_2021-10-18-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 448, 
+                        "num_passed": 1068, 
                         "known_failed": 0, 
-                        "num_failed": 0
+                        "num_failed": 54
                     }
                 }, 
                 {

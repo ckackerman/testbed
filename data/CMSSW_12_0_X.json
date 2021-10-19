@@ -17,7 +17,7 @@
             }, 
             "cmsdist_compared_tags": {
                 "cc8_amd64_gcc9": "IB/CMSSW_12_0_X_2021-10-17-0000/cc8_amd64_gcc9..IB/CMSSW_12_0_X/cc8", 
-                "cc8_aarch64_gcc9": "IB/CMSSW_12_0_X_2021-10-14-1100/cc8_aarch64_gcc9..IB/CMSSW_12_0_X/cc8", 
+                "cc8_aarch64_gcc9": "IB/CMSSW_12_0_X_2021-10-19-1100/cc8_aarch64_gcc9..IB/CMSSW_12_0_X/cc8", 
                 "slc7_aarch64_gcc9": "IB/CMSSW_12_0_X_2021-10-14-2300/slc7_aarch64_gcc9..IB/CMSSW_12_0_X/master", 
                 "cc8_ppc64le_gcc9": "IB/CMSSW_12_0_X_2021-10-18-2300/cc8_ppc64le_gcc9..IB/CMSSW_12_0_X/cc8", 
                 "slc7_amd64_gcc10": "IB/CMSSW_12_0_X_2021-10-17-2300/slc7_amd64_gcc10..IB/CMSSW_12_0_X/gcc10", 
@@ -65,16 +65,20 @@
             "comp_baseline_state": "ok", 
             "python3_tests": [], 
             "tests_archs": [
+                "cc8_aarch64_gcc9", 
                 "slc7_amd64_gcc900"
             ], 
             "cmsdist_merged_prs": {
+                "cc8_aarch64_gcc9": [], 
                 "slc7_amd64_gcc900": []
             }, 
             "cmsdist_compared_tags": {
+                "cc8_aarch64_gcc9": "IB/CMSSW_12_0_X_2021-10-14-1100/cc8_aarch64_gcc9..IB/CMSSW_12_0_X_2021-10-19-1100/cc8_aarch64_gcc9", 
                 "slc7_amd64_gcc900": "IB/CMSSW_12_0_X_2021-10-17-0000/slc7_amd64_gcc900..IB/CMSSW_12_0_X_2021-10-17-0000/slc7_amd64_gcc900"
             }, 
             "static_checks_failures": "not-found", 
             "cmsdistTags": {
+                "cc8_aarch64_gcc9": "IB/CMSSW_12_0_X_2021-10-19-1100/cc8_aarch64_gcc9", 
                 "slc7_amd64_gcc900": "IB/CMSSW_12_0_X_2021-10-17-0000/slc7_amd64_gcc900"
             }, 
             "piechart": {
@@ -101,6 +105,12 @@
                     "details": {
                         "num_fails": "0"
                     }
+                }, 
+                {
+                    "arch": "cc8_aarch64_gcc9", 
+                    "passed": "unknown", 
+                    "file": "['/data/sdt/buildlogs/cc8_aarch64_gcc9/www/tue/12.0-tue-11/CMSSW_12_0_X_2021-10-19-1100/new/logAnalysis.pkl']", 
+                    "details": {}
                 }
             ], 
             "ib_date": "2021-10-19-1100-0000", 
@@ -157,6 +167,14 @@
                     "passed": "passed", 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/tue/12.0-tue-11/CMSSW_12_0_X_2021-10-19-1100/new/logAnalysis.pkl", 
                     "details": {}
+                }, 
+                {
+                    "arch": "cc8_aarch64_gcc9", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/cc8_aarch64_gcc9/www/tue/12.0-tue-11/CMSSW_12_0_X_2021-10-19-1100/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 19
+                    }
                 }
             ], 
             "material_budget_v2": "not-found", 
@@ -165,6 +183,10 @@
             "valgrind": "not-found", 
             "material_budget": "not-found", 
             "dupDict": [
+                {
+                    "arch": "cc8_aarch64_gcc9", 
+                    "passed": "passed"
+                }, 
                 {
                     "arch": "slc7_amd64_gcc900", 
                     "passed": "passed"

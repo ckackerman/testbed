@@ -22969,7 +22969,7 @@
                 }, 
                 "cmsdist_compared_tags": {
                     "cc8_amd64_gcc9": "IB/CMSSW_12_0_X_2021-10-17-0000/cc8_amd64_gcc9..IB/CMSSW_12_0_X/cc8", 
-                    "cc8_aarch64_gcc9": "IB/CMSSW_12_0_X_2021-10-14-1100/cc8_aarch64_gcc9..IB/CMSSW_12_0_X/cc8", 
+                    "cc8_aarch64_gcc9": "IB/CMSSW_12_0_X_2021-10-19-1100/cc8_aarch64_gcc9..IB/CMSSW_12_0_X/cc8", 
                     "slc7_aarch64_gcc9": "IB/CMSSW_12_0_X_2021-10-14-2300/slc7_aarch64_gcc9..IB/CMSSW_12_0_X/master", 
                     "cc8_ppc64le_gcc9": "IB/CMSSW_12_0_X_2021-10-18-2300/cc8_ppc64le_gcc9..IB/CMSSW_12_0_X/cc8", 
                     "slc7_amd64_gcc10": "IB/CMSSW_12_0_X_2021-10-17-2300/slc7_amd64_gcc10..IB/CMSSW_12_0_X/gcc10", 
@@ -23017,16 +23017,20 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [
+                    "cc8_aarch64_gcc9", 
                     "slc7_amd64_gcc900"
                 ], 
                 "cmsdist_merged_prs": {
+                    "cc8_aarch64_gcc9": [], 
                     "slc7_amd64_gcc900": []
                 }, 
                 "cmsdist_compared_tags": {
+                    "cc8_aarch64_gcc9": "IB/CMSSW_12_0_X_2021-10-14-1100/cc8_aarch64_gcc9..IB/CMSSW_12_0_X_2021-10-19-1100/cc8_aarch64_gcc9", 
                     "slc7_amd64_gcc900": "IB/CMSSW_12_0_X_2021-10-17-0000/slc7_amd64_gcc900..IB/CMSSW_12_0_X_2021-10-17-0000/slc7_amd64_gcc900"
                 }, 
                 "static_checks_failures": "not-found", 
                 "cmsdistTags": {
+                    "cc8_aarch64_gcc9": "IB/CMSSW_12_0_X_2021-10-19-1100/cc8_aarch64_gcc9", 
                     "slc7_amd64_gcc900": "IB/CMSSW_12_0_X_2021-10-17-0000/slc7_amd64_gcc900"
                 }, 
                 "piechart": {
@@ -23053,6 +23057,12 @@
                         "details": {
                             "num_fails": "0"
                         }
+                    }, 
+                    {
+                        "arch": "cc8_aarch64_gcc9", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/cc8_aarch64_gcc9/www/tue/12.0-tue-11/CMSSW_12_0_X_2021-10-19-1100/new/logAnalysis.pkl']", 
+                        "details": {}
                     }
                 ], 
                 "ib_date": "2021-10-19-1100-0000", 
@@ -23109,6 +23119,14 @@
                         "passed": "passed", 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/tue/12.0-tue-11/CMSSW_12_0_X_2021-10-19-1100/new/logAnalysis.pkl", 
                         "details": {}
+                    }, 
+                    {
+                        "arch": "cc8_aarch64_gcc9", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/cc8_aarch64_gcc9/www/tue/12.0-tue-11/CMSSW_12_0_X_2021-10-19-1100/new/logAnalysis.pkl", 
+                        "details": {
+                            "ignoreWarning": 19
+                        }
                     }
                 ], 
                 "material_budget_v2": "not-found", 
@@ -23117,6 +23135,10 @@
                 "valgrind": "not-found", 
                 "material_budget": "not-found", 
                 "dupDict": [
+                    {
+                        "arch": "cc8_aarch64_gcc9", 
+                        "passed": "passed"
+                    }, 
                     {
                         "arch": "slc7_amd64_gcc900", 
                         "passed": "passed"
@@ -26213,6 +26235,15 @@
                         "author_login": "tvami"
                     }, 
                     {
+                        "hash": "70bb244442982aa2c865348da95dd5a4a09f57cb", 
+                        "title": "Enable mkFit by default in 4+2 tracking iterations (initialStepPreSpl", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35660", 
+                        "number": "35660", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "trackreco"
+                    }, 
+                    {
                         "hash": "f4b31e47c0fb916091fbf0e5539c79e477e5a18f", 
                         "title": "Fix reading from unaligned address in TotemSampicFrame", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35654", 
@@ -26220,6 +26251,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "ChrisMisan"
+                    }, 
+                    {
+                        "hash": "e085563d4bafb03e65d0f6eecd6c44eae8f0fbcb", 
+                        "title": "Phase2-hgx291 Bug fix to address rotated layers in D86", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35563", 
+                        "number": "35563", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
                     }, 
                     {
                         "hash": "b32639d5a2aa73392c0f62cb9492c9ad2ade9c64", 
@@ -26295,9 +26335,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc10/www/mon/12.1.ASAN-mon-23/CMSSW_12_1_ASAN_X_2021-10-18-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2107, 
+                            "num_passed": 2898, 
                             "known_failed": 0, 
-                            "num_failed": 55
+                            "num_failed": 59
                         }
                     }
                 ], 
@@ -27239,6 +27279,15 @@
                         "author_login": "tvami"
                     }, 
                     {
+                        "hash": "70bb244442982aa2c865348da95dd5a4a09f57cb", 
+                        "title": "Enable mkFit by default in 4+2 tracking iterations (initialStepPreSpl", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35660", 
+                        "number": "35660", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "trackreco"
+                    }, 
+                    {
                         "hash": "f4b31e47c0fb916091fbf0e5539c79e477e5a18f", 
                         "title": "Fix reading from unaligned address in TotemSampicFrame", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35654", 
@@ -27246,6 +27295,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "ChrisMisan"
+                    }, 
+                    {
+                        "hash": "e085563d4bafb03e65d0f6eecd6c44eae8f0fbcb", 
+                        "title": "Phase2-hgx291 Bug fix to address rotated layers in D86", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35563", 
+                        "number": "35563", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
                     }, 
                     {
                         "hash": "b32639d5a2aa73392c0f62cb9492c9ad2ade9c64", 
@@ -28657,6 +28715,15 @@
                         "author_login": "tvami"
                     }, 
                     {
+                        "hash": "70bb244442982aa2c865348da95dd5a4a09f57cb", 
+                        "title": "Enable mkFit by default in 4+2 tracking iterations (initialStepPreSpl", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35660", 
+                        "number": "35660", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "trackreco"
+                    }, 
+                    {
                         "hash": "f4b31e47c0fb916091fbf0e5539c79e477e5a18f", 
                         "title": "Fix reading from unaligned address in TotemSampicFrame", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35654", 
@@ -28664,6 +28731,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "ChrisMisan"
+                    }, 
+                    {
+                        "hash": "e085563d4bafb03e65d0f6eecd6c44eae8f0fbcb", 
+                        "title": "Phase2-hgx291 Bug fix to address rotated layers in D86", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35563", 
+                        "number": "35563", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
                     }, 
                     {
                         "hash": "b32639d5a2aa73392c0f62cb9492c9ad2ade9c64", 
@@ -29620,6 +29696,15 @@
                         "author_login": "tvami"
                     }, 
                     {
+                        "hash": "70bb244442982aa2c865348da95dd5a4a09f57cb", 
+                        "title": "Enable mkFit by default in 4+2 tracking iterations (initialStepPreSpl", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35660", 
+                        "number": "35660", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "trackreco"
+                    }, 
+                    {
                         "hash": "f4b31e47c0fb916091fbf0e5539c79e477e5a18f", 
                         "title": "Fix reading from unaligned address in TotemSampicFrame", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35654", 
@@ -29627,6 +29712,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "ChrisMisan"
+                    }, 
+                    {
+                        "hash": "e085563d4bafb03e65d0f6eecd6c44eae8f0fbcb", 
+                        "title": "Phase2-hgx291 Bug fix to address rotated layers in D86", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35563", 
+                        "number": "35563", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
                     }, 
                     {
                         "hash": "b32639d5a2aa73392c0f62cb9492c9ad2ade9c64", 
@@ -30701,6 +30795,15 @@
                         "author_login": "alejands"
                     }, 
                     {
+                        "hash": "70bb244442982aa2c865348da95dd5a4a09f57cb", 
+                        "title": "Enable mkFit by default in 4+2 tracking iterations (initialStepPreSpl", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35660", 
+                        "number": "35660", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "trackreco"
+                    }, 
+                    {
                         "hash": "f45b48ac2d03f08ea01c7f3bc0b139e6d850351e", 
                         "title": "Egamma PFID based on Tensorflow DNNs ", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35403", 
@@ -30717,6 +30820,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "CMSTrackingPOG"
+                    }, 
+                    {
+                        "hash": "e085563d4bafb03e65d0f6eecd6c44eae8f0fbcb", 
+                        "title": "Phase2-hgx291 Bug fix to address rotated layers in D86", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35563", 
+                        "number": "35563", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
                     }, 
                     {
                         "hash": "aa9b785661f7a67008d1985726216a3a98739c6a", 
@@ -31184,6 +31296,15 @@
                         "author_login": "tvami"
                     }, 
                     {
+                        "hash": "70bb244442982aa2c865348da95dd5a4a09f57cb", 
+                        "title": "Enable mkFit by default in 4+2 tracking iterations (initialStepPreSpl", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35660", 
+                        "number": "35660", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "trackreco"
+                    }, 
+                    {
                         "hash": "f4b31e47c0fb916091fbf0e5539c79e477e5a18f", 
                         "title": "Fix reading from unaligned address in TotemSampicFrame", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35654", 
@@ -31191,6 +31312,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "ChrisMisan"
+                    }, 
+                    {
+                        "hash": "e085563d4bafb03e65d0f6eecd6c44eae8f0fbcb", 
+                        "title": "Phase2-hgx291 Bug fix to address rotated layers in D86", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35563", 
+                        "number": "35563", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
                     }, 
                     {
                         "hash": "b32639d5a2aa73392c0f62cb9492c9ad2ade9c64", 
@@ -32593,6 +32723,15 @@
                         "author_login": "tvami"
                     }, 
                     {
+                        "hash": "70bb244442982aa2c865348da95dd5a4a09f57cb", 
+                        "title": "Enable mkFit by default in 4+2 tracking iterations (initialStepPreSpl", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35660", 
+                        "number": "35660", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "trackreco"
+                    }, 
+                    {
                         "hash": "f4b31e47c0fb916091fbf0e5539c79e477e5a18f", 
                         "title": "Fix reading from unaligned address in TotemSampicFrame", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35654", 
@@ -32600,6 +32739,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "ChrisMisan"
+                    }, 
+                    {
+                        "hash": "e085563d4bafb03e65d0f6eecd6c44eae8f0fbcb", 
+                        "title": "Phase2-hgx291 Bug fix to address rotated layers in D86", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35563", 
+                        "number": "35563", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
                     }, 
                     {
                         "hash": "b32639d5a2aa73392c0f62cb9492c9ad2ade9c64", 
@@ -33567,6 +33715,15 @@
                         "author_login": "alejands"
                     }, 
                     {
+                        "hash": "70bb244442982aa2c865348da95dd5a4a09f57cb", 
+                        "title": "Enable mkFit by default in 4+2 tracking iterations (initialStepPreSpl", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35660", 
+                        "number": "35660", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "trackreco"
+                    }, 
+                    {
                         "hash": "f45b48ac2d03f08ea01c7f3bc0b139e6d850351e", 
                         "title": "Egamma PFID based on Tensorflow DNNs ", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35403", 
@@ -33583,6 +33740,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "CMSTrackingPOG"
+                    }, 
+                    {
+                        "hash": "e085563d4bafb03e65d0f6eecd6c44eae8f0fbcb", 
+                        "title": "Phase2-hgx291 Bug fix to address rotated layers in D86", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35563", 
+                        "number": "35563", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
                     }, 
                     {
                         "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
@@ -34391,6 +34557,15 @@
                         "author_login": "tvami"
                     }, 
                     {
+                        "hash": "70bb244442982aa2c865348da95dd5a4a09f57cb", 
+                        "title": "Enable mkFit by default in 4+2 tracking iterations (initialStepPreSpl", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35660", 
+                        "number": "35660", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "trackreco"
+                    }, 
+                    {
                         "hash": "f4b31e47c0fb916091fbf0e5539c79e477e5a18f", 
                         "title": "Fix reading from unaligned address in TotemSampicFrame", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35654", 
@@ -34398,6 +34573,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "ChrisMisan"
+                    }, 
+                    {
+                        "hash": "e085563d4bafb03e65d0f6eecd6c44eae8f0fbcb", 
+                        "title": "Phase2-hgx291 Bug fix to address rotated layers in D86", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35563", 
+                        "number": "35563", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
                     }, 
                     {
                         "hash": "b32639d5a2aa73392c0f62cb9492c9ad2ade9c64", 
@@ -35767,6 +35951,15 @@
                         "author_login": "tvami"
                     }, 
                     {
+                        "hash": "70bb244442982aa2c865348da95dd5a4a09f57cb", 
+                        "title": "Enable mkFit by default in 4+2 tracking iterations (initialStepPreSpl", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35660", 
+                        "number": "35660", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "trackreco"
+                    }, 
+                    {
                         "hash": "f4b31e47c0fb916091fbf0e5539c79e477e5a18f", 
                         "title": "Fix reading from unaligned address in TotemSampicFrame", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35654", 
@@ -35774,6 +35967,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "ChrisMisan"
+                    }, 
+                    {
+                        "hash": "e085563d4bafb03e65d0f6eecd6c44eae8f0fbcb", 
+                        "title": "Phase2-hgx291 Bug fix to address rotated layers in D86", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35563", 
+                        "number": "35563", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
                     }, 
                     {
                         "hash": "b32639d5a2aa73392c0f62cb9492c9ad2ade9c64", 
@@ -36811,6 +37013,15 @@
                         "author_login": "tvami"
                     }, 
                     {
+                        "hash": "70bb244442982aa2c865348da95dd5a4a09f57cb", 
+                        "title": "Enable mkFit by default in 4+2 tracking iterations (initialStepPreSpl", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35660", 
+                        "number": "35660", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "trackreco"
+                    }, 
+                    {
                         "hash": "f4b31e47c0fb916091fbf0e5539c79e477e5a18f", 
                         "title": "Fix reading from unaligned address in TotemSampicFrame", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35654", 
@@ -36818,6 +37029,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "ChrisMisan"
+                    }, 
+                    {
+                        "hash": "e085563d4bafb03e65d0f6eecd6c44eae8f0fbcb", 
+                        "title": "Phase2-hgx291 Bug fix to address rotated layers in D86", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35563", 
+                        "number": "35563", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
                     }, 
                     {
                         "hash": "b32639d5a2aa73392c0f62cb9492c9ad2ade9c64", 
@@ -38441,6 +38661,15 @@
                         "author_login": "alejands"
                     }, 
                     {
+                        "hash": "70bb244442982aa2c865348da95dd5a4a09f57cb", 
+                        "title": "Enable mkFit by default in 4+2 tracking iterations (initialStepPreSpl", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35660", 
+                        "number": "35660", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "trackreco"
+                    }, 
+                    {
                         "hash": "f45b48ac2d03f08ea01c7f3bc0b139e6d850351e", 
                         "title": "Egamma PFID based on Tensorflow DNNs ", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35403", 
@@ -38457,6 +38686,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "CMSTrackingPOG"
+                    }, 
+                    {
+                        "hash": "e085563d4bafb03e65d0f6eecd6c44eae8f0fbcb", 
+                        "title": "Phase2-hgx291 Bug fix to address rotated layers in D86", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35563", 
+                        "number": "35563", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
                     }, 
                     {
                         "hash": "aa9b785661f7a67008d1985726216a3a98739c6a", 
@@ -38950,6 +39188,15 @@
                         "author_login": "alejands"
                     }, 
                     {
+                        "hash": "70bb244442982aa2c865348da95dd5a4a09f57cb", 
+                        "title": "Enable mkFit by default in 4+2 tracking iterations (initialStepPreSpl", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35660", 
+                        "number": "35660", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "trackreco"
+                    }, 
+                    {
                         "hash": "f45b48ac2d03f08ea01c7f3bc0b139e6d850351e", 
                         "title": "Egamma PFID based on Tensorflow DNNs ", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35403", 
@@ -38966,6 +39213,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "CMSTrackingPOG"
+                    }, 
+                    {
+                        "hash": "e085563d4bafb03e65d0f6eecd6c44eae8f0fbcb", 
+                        "title": "Phase2-hgx291 Bug fix to address rotated layers in D86", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35563", 
+                        "number": "35563", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
                     }, 
                     {
                         "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
@@ -39431,6 +39687,15 @@
                         "author_login": "alejands"
                     }, 
                     {
+                        "hash": "70bb244442982aa2c865348da95dd5a4a09f57cb", 
+                        "title": "Enable mkFit by default in 4+2 tracking iterations (initialStepPreSpl", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35660", 
+                        "number": "35660", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "trackreco"
+                    }, 
+                    {
                         "hash": "f45b48ac2d03f08ea01c7f3bc0b139e6d850351e", 
                         "title": "Egamma PFID based on Tensorflow DNNs ", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35403", 
@@ -39447,6 +39712,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "CMSTrackingPOG"
+                    }, 
+                    {
+                        "hash": "e085563d4bafb03e65d0f6eecd6c44eae8f0fbcb", 
+                        "title": "Phase2-hgx291 Bug fix to address rotated layers in D86", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35563", 
+                        "number": "35563", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
                     }, 
                     {
                         "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
@@ -40012,6 +40286,24 @@
                         "author_login": "tvami"
                     }, 
                     {
+                        "hash": "70bb244442982aa2c865348da95dd5a4a09f57cb", 
+                        "title": "Enable mkFit by default in 4+2 tracking iterations (initialStepPreSpl", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35660", 
+                        "number": "35660", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "trackreco"
+                    }, 
+                    {
+                        "hash": "e085563d4bafb03e65d0f6eecd6c44eae8f0fbcb", 
+                        "title": "Phase2-hgx291 Bug fix to address rotated layers in D86", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35563", 
+                        "number": "35563", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
                         "hash": "b32639d5a2aa73392c0f62cb9492c9ad2ade9c64", 
                         "title": "Update mkFit for 12_1_0_pre5", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35652", 
@@ -40405,12 +40697,12 @@
                     {
                         "done": false, 
                         "arch": "slc7_ppc64le_gcc9", 
-                        "passed": true, 
+                        "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/mon/12.1-mon-23/CMSSW_12_1_X_2021-10-18-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 448, 
+                            "num_passed": 1068, 
                             "known_failed": 0, 
-                            "num_failed": 0
+                            "num_failed": 54
                         }
                     }, 
                     {
