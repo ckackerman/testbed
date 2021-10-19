@@ -11341,7 +11341,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/mon/10.6-mon-23/CMSSW_10_6_X_2021-10-18-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1, 
+                            "num_passed": 11, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -22906,7 +22906,17 @@
                 "comp_baseline": "inprogress", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "da188519255fc325dd97f44127e1e1274c2d3913", 
+                        "title": "add `commissioning_run` as `runType` and use it in SiStrip online DQM client [12.0.X]", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35365", 
+                        "number": "35365", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
+                    }
+                ], 
                 "fwlite": [], 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -23001,7 +23011,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/12.0-mon-23/CMSSW_12_0_X_2021-10-18-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 10, 
+                            "num_passed": 523, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -23012,7 +23022,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc10/www/mon/12.0-mon-23/CMSSW_12_0_X_2021-10-18-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 3, 
+                            "num_passed": 66, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -23023,7 +23033,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/cc8_amd64_gcc9/www/mon/12.0-mon-23/CMSSW_12_0_X_2021-10-18-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2, 
+                            "num_passed": 6, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -26030,6 +26040,24 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
+                        "title": "Fix SyntaxWarning in trackselectionRefitting.py", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35702", 
+                        "number": "35702", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
+                        "title": "Fixed typos on some name and title in GEM onlineDQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35690", 
+                        "number": "35690", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "quark2"
+                    }, 
+                    {
                         "hash": "fcdf7aee5c3e6fbd7ed105af32b8f297384222a9", 
                         "title": "Updating hltDumpStream to work in python3 : 121X", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35709", 
@@ -26048,13 +26076,13 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
-                        "title": "Fix SyntaxWarning in trackselectionRefitting.py", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35702", 
-                        "number": "35702", 
+                        "hash": "b13a1b3ffc3e6c3c372a96162e3815be39b99426", 
+                        "title": "Updates towards enabling deepTauID at HLT", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35619", 
+                        "number": "35619", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "guitargeek"
+                        "author_login": "cms-tau-pog"
                     }, 
                     {
                         "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
@@ -26129,13 +26157,13 @@
                         "author_login": "CMSTrackingPOG"
                     }, 
                     {
-                        "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
-                        "title": "Fixed typos on some name and title in GEM onlineDQM", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35690", 
-                        "number": "35690", 
+                        "hash": "f4b31e47c0fb916091fbf0e5539c79e477e5a18f", 
+                        "title": "Fix reading from unaligned address in TotemSampicFrame", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35654", 
+                        "number": "35654", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "quark2"
+                        "author_login": "ChrisMisan"
                     }, 
                     {
                         "hash": "2d25d780d0eb89d46fb806c27132a56b82131928", 
@@ -26154,6 +26182,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "88a57b694b1a43d76d0ab56385ef6884e9e37759", 
+                        "title": "Added esConsumes to PhysicsTools/PatUtils", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35680", 
+                        "number": "35680", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "0607f7a1c38fcdc79a50d87ce629b8b973a0a905", 
@@ -26183,10 +26220,10 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "88a57b694b1a43d76d0ab56385ef6884e9e37759", 
-                        "title": "Added esConsumes to PhysicsTools/PatUtils", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35680", 
-                        "number": "35680", 
+                        "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
+                        "title": "Added esConsumes calls to more Muon related code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35697", 
+                        "number": "35697", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
@@ -26924,6 +26961,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "b13a1b3ffc3e6c3c372a96162e3815be39b99426", 
+                        "title": "Updates towards enabling deepTauID at HLT", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35619", 
+                        "number": "35619", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-tau-pog"
+                    }, 
+                    {
                         "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
                         "title": "Fix for UBSAN DQM crash", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35658", 
@@ -26978,6 +27024,15 @@
                         "author_login": "CMSTrackingPOG"
                     }, 
                     {
+                        "hash": "f4b31e47c0fb916091fbf0e5539c79e477e5a18f", 
+                        "title": "Fix reading from unaligned address in TotemSampicFrame", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35654", 
+                        "number": "35654", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ChrisMisan"
+                    }, 
+                    {
                         "hash": "2d25d780d0eb89d46fb806c27132a56b82131928", 
                         "title": "provide a reconstruction scenario for the `commissioning_run` type introduced in #34832", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35691", 
@@ -27009,6 +27064,15 @@
                         "title": "Fix CMS deprecated warnings in JetMetCorrections/Modules", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35681", 
                         "number": "35681", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
+                        "title": "Added esConsumes calls to more Muon related code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35697", 
+                        "number": "35697", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
@@ -28201,6 +28265,24 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
+                        "title": "Fix SyntaxWarning in trackselectionRefitting.py", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35702", 
+                        "number": "35702", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
+                        "title": "Fixed typos on some name and title in GEM onlineDQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35690", 
+                        "number": "35690", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "quark2"
+                    }, 
+                    {
                         "hash": "fcdf7aee5c3e6fbd7ed105af32b8f297384222a9", 
                         "title": "Updating hltDumpStream to work in python3 : 121X", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35709", 
@@ -28210,13 +28292,13 @@
                         "author_login": "Sam-Harper"
                     }, 
                     {
-                        "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
-                        "title": "Fix SyntaxWarning in trackselectionRefitting.py", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35702", 
-                        "number": "35702", 
+                        "hash": "b13a1b3ffc3e6c3c372a96162e3815be39b99426", 
+                        "title": "Updates towards enabling deepTauID at HLT", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35619", 
+                        "number": "35619", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "guitargeek"
+                        "author_login": "cms-tau-pog"
                     }, 
                     {
                         "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
@@ -28273,13 +28355,13 @@
                         "author_login": "CMSTrackingPOG"
                     }, 
                     {
-                        "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
-                        "title": "Fixed typos on some name and title in GEM onlineDQM", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35690", 
-                        "number": "35690", 
+                        "hash": "f4b31e47c0fb916091fbf0e5539c79e477e5a18f", 
+                        "title": "Fix reading from unaligned address in TotemSampicFrame", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35654", 
+                        "number": "35654", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "quark2"
+                        "author_login": "ChrisMisan"
                     }, 
                     {
                         "hash": "2d25d780d0eb89d46fb806c27132a56b82131928", 
@@ -28298,6 +28380,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "88a57b694b1a43d76d0ab56385ef6884e9e37759", 
+                        "title": "Added esConsumes to PhysicsTools/PatUtils", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35680", 
+                        "number": "35680", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "0607f7a1c38fcdc79a50d87ce629b8b973a0a905", 
@@ -28327,10 +28418,10 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "88a57b694b1a43d76d0ab56385ef6884e9e37759", 
-                        "title": "Added esConsumes to PhysicsTools/PatUtils", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35680", 
-                        "number": "35680", 
+                        "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
+                        "title": "Added esConsumes calls to more Muon related code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35697", 
+                        "number": "35697", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
@@ -29044,6 +29135,24 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
+                        "title": "Fix SyntaxWarning in trackselectionRefitting.py", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35702", 
+                        "number": "35702", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
+                        "title": "Fixed typos on some name and title in GEM onlineDQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35690", 
+                        "number": "35690", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "quark2"
+                    }, 
+                    {
                         "hash": "fcdf7aee5c3e6fbd7ed105af32b8f297384222a9", 
                         "title": "Updating hltDumpStream to work in python3 : 121X", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35709", 
@@ -29062,13 +29171,13 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
-                        "title": "Fix SyntaxWarning in trackselectionRefitting.py", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35702", 
-                        "number": "35702", 
+                        "hash": "b13a1b3ffc3e6c3c372a96162e3815be39b99426", 
+                        "title": "Updates towards enabling deepTauID at HLT", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35619", 
+                        "number": "35619", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "guitargeek"
+                        "author_login": "cms-tau-pog"
                     }, 
                     {
                         "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
@@ -29143,13 +29252,13 @@
                         "author_login": "CMSTrackingPOG"
                     }, 
                     {
-                        "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
-                        "title": "Fixed typos on some name and title in GEM onlineDQM", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35690", 
-                        "number": "35690", 
+                        "hash": "f4b31e47c0fb916091fbf0e5539c79e477e5a18f", 
+                        "title": "Fix reading from unaligned address in TotemSampicFrame", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35654", 
+                        "number": "35654", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "quark2"
+                        "author_login": "ChrisMisan"
                     }, 
                     {
                         "hash": "2d25d780d0eb89d46fb806c27132a56b82131928", 
@@ -29168,6 +29277,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "88a57b694b1a43d76d0ab56385ef6884e9e37759", 
+                        "title": "Added esConsumes to PhysicsTools/PatUtils", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35680", 
+                        "number": "35680", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "0607f7a1c38fcdc79a50d87ce629b8b973a0a905", 
@@ -29197,10 +29315,10 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "88a57b694b1a43d76d0ab56385ef6884e9e37759", 
-                        "title": "Added esConsumes to PhysicsTools/PatUtils", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35680", 
-                        "number": "35680", 
+                        "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
+                        "title": "Added esConsumes calls to more Muon related code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35697", 
+                        "number": "35697", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
@@ -29974,13 +30092,13 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "446ab2fe39289c05b22794795458dfff4f14f5b1", 
-                        "title": "[Online DQM] re-introduce unit tests for visualization", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35642", 
-                        "number": "35642", 
+                        "hash": "66f36541288aa85120afe204729633ae23d73001", 
+                        "title": "Run3-hcx323 Use SimProducer+Analyzer to estimate material budget for HCAL", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35664", 
+                        "number": "35664", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "mmusich"
+                        "author_login": "bsunanda"
                     }, 
                     {
                         "hash": "71e5474950fbf5b4bfffdb7912c72aa1aa5e83be", 
@@ -30064,6 +30182,15 @@
                         "author_login": "mmusich"
                     }, 
                     {
+                        "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
+                        "title": "Added esConsumes calls to more Muon related code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35697", 
+                        "number": "35697", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "0209ecde0970a232ac291af70309a4cb87a8ea66", 
                         "title": "HcalDQM: Update hcal FED list for crate 3-FED readout", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35617", 
@@ -30071,6 +30198,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "lwang046"
+                    }, 
+                    {
+                        "hash": "b13a1b3ffc3e6c3c372a96162e3815be39b99426", 
+                        "title": "Updates towards enabling deepTauID at HLT", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35619", 
+                        "number": "35619", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-tau-pog"
                     }, 
                     {
                         "hash": "fddeeefba463a28bf5ddbb053c0918a2aaf63fd2", 
@@ -30118,6 +30254,15 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
+                        "hash": "f4b31e47c0fb916091fbf0e5539c79e477e5a18f", 
+                        "title": "Fix reading from unaligned address in TotemSampicFrame", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35654", 
+                        "number": "35654", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ChrisMisan"
+                    }, 
+                    {
                         "hash": "aa9b785661f7a67008d1985726216a3a98739c6a", 
                         "title": "Diamond dqm", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35454", 
@@ -30127,13 +30272,13 @@
                         "author_login": "ChrisMisan"
                     }, 
                     {
-                        "hash": "66f36541288aa85120afe204729633ae23d73001", 
-                        "title": "Run3-hcx323 Use SimProducer+Analyzer to estimate material budget for HCAL", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35664", 
-                        "number": "35664", 
+                        "hash": "446ab2fe39289c05b22794795458dfff4f14f5b1", 
+                        "title": "[Online DQM] re-introduce unit tests for visualization", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35642", 
+                        "number": "35642", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "bsunanda"
+                        "author_login": "mmusich"
                     }, 
                     {
                         "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
@@ -30340,6 +30485,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "b13a1b3ffc3e6c3c372a96162e3815be39b99426", 
+                        "title": "Updates towards enabling deepTauID at HLT", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35619", 
+                        "number": "35619", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-tau-pog"
+                    }, 
+                    {
                         "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
                         "title": "Fix for UBSAN DQM crash", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35658", 
@@ -30425,6 +30579,15 @@
                         "title": "Fix CMS deprecated warnings in JetMetCorrections/Modules", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35681", 
                         "number": "35681", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
+                        "title": "Added esConsumes calls to more Muon related code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35697", 
+                        "number": "35697", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
@@ -31653,13 +31816,13 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "446ab2fe39289c05b22794795458dfff4f14f5b1", 
-                        "title": "[Online DQM] re-introduce unit tests for visualization", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35642", 
-                        "number": "35642", 
+                        "hash": "66f36541288aa85120afe204729633ae23d73001", 
+                        "title": "Run3-hcx323 Use SimProducer+Analyzer to estimate material budget for HCAL", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35664", 
+                        "number": "35664", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "mmusich"
+                        "author_login": "bsunanda"
                     }, 
                     {
                         "hash": "71e5474950fbf5b4bfffdb7912c72aa1aa5e83be", 
@@ -31743,6 +31906,15 @@
                         "author_login": "mmusich"
                     }, 
                     {
+                        "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
+                        "title": "Added esConsumes calls to more Muon related code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35697", 
+                        "number": "35697", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "0209ecde0970a232ac291af70309a4cb87a8ea66", 
                         "title": "HcalDQM: Update hcal FED list for crate 3-FED readout", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35617", 
@@ -31750,6 +31922,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "lwang046"
+                    }, 
+                    {
+                        "hash": "b13a1b3ffc3e6c3c372a96162e3815be39b99426", 
+                        "title": "Updates towards enabling deepTauID at HLT", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35619", 
+                        "number": "35619", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-tau-pog"
                     }, 
                     {
                         "hash": "fddeeefba463a28bf5ddbb053c0918a2aaf63fd2", 
@@ -31797,6 +31978,15 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
+                        "hash": "f4b31e47c0fb916091fbf0e5539c79e477e5a18f", 
+                        "title": "Fix reading from unaligned address in TotemSampicFrame", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35654", 
+                        "number": "35654", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ChrisMisan"
+                    }, 
+                    {
                         "hash": "aa9b785661f7a67008d1985726216a3a98739c6a", 
                         "title": "Diamond dqm", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35454", 
@@ -31806,13 +31996,13 @@
                         "author_login": "ChrisMisan"
                     }, 
                     {
-                        "hash": "66f36541288aa85120afe204729633ae23d73001", 
-                        "title": "Run3-hcx323 Use SimProducer+Analyzer to estimate material budget for HCAL", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35664", 
-                        "number": "35664", 
+                        "hash": "446ab2fe39289c05b22794795458dfff4f14f5b1", 
+                        "title": "[Online DQM] re-introduce unit tests for visualization", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35642", 
+                        "number": "35642", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "bsunanda"
+                        "author_login": "mmusich"
                     }, 
                     {
                         "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
@@ -32441,6 +32631,24 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
+                        "title": "Fix SyntaxWarning in trackselectionRefitting.py", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35702", 
+                        "number": "35702", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
+                        "title": "Fixed typos on some name and title in GEM onlineDQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35690", 
+                        "number": "35690", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "quark2"
+                    }, 
+                    {
                         "hash": "fcdf7aee5c3e6fbd7ed105af32b8f297384222a9", 
                         "title": "Updating hltDumpStream to work in python3 : 121X", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35709", 
@@ -32459,13 +32667,13 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
-                        "title": "Fix SyntaxWarning in trackselectionRefitting.py", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35702", 
-                        "number": "35702", 
+                        "hash": "b13a1b3ffc3e6c3c372a96162e3815be39b99426", 
+                        "title": "Updates towards enabling deepTauID at HLT", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35619", 
+                        "number": "35619", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "guitargeek"
+                        "author_login": "cms-tau-pog"
                     }, 
                     {
                         "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
@@ -32540,13 +32748,13 @@
                         "author_login": "CMSTrackingPOG"
                     }, 
                     {
-                        "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
-                        "title": "Fixed typos on some name and title in GEM onlineDQM", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35690", 
-                        "number": "35690", 
+                        "hash": "f4b31e47c0fb916091fbf0e5539c79e477e5a18f", 
+                        "title": "Fix reading from unaligned address in TotemSampicFrame", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35654", 
+                        "number": "35654", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "quark2"
+                        "author_login": "ChrisMisan"
                     }, 
                     {
                         "hash": "2d25d780d0eb89d46fb806c27132a56b82131928", 
@@ -32565,6 +32773,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "88a57b694b1a43d76d0ab56385ef6884e9e37759", 
+                        "title": "Added esConsumes to PhysicsTools/PatUtils", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35680", 
+                        "number": "35680", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "0607f7a1c38fcdc79a50d87ce629b8b973a0a905", 
@@ -32594,10 +32811,10 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "88a57b694b1a43d76d0ab56385ef6884e9e37759", 
-                        "title": "Added esConsumes to PhysicsTools/PatUtils", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35680", 
-                        "number": "35680", 
+                        "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
+                        "title": "Added esConsumes calls to more Muon related code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35697", 
+                        "number": "35697", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
@@ -33184,6 +33401,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "b13a1b3ffc3e6c3c372a96162e3815be39b99426", 
+                        "title": "Updates towards enabling deepTauID at HLT", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35619", 
+                        "number": "35619", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-tau-pog"
+                    }, 
+                    {
                         "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
                         "title": "Fix for UBSAN DQM crash", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35658", 
@@ -33238,6 +33464,15 @@
                         "author_login": "CMSTrackingPOG"
                     }, 
                     {
+                        "hash": "f4b31e47c0fb916091fbf0e5539c79e477e5a18f", 
+                        "title": "Fix reading from unaligned address in TotemSampicFrame", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35654", 
+                        "number": "35654", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ChrisMisan"
+                    }, 
+                    {
                         "hash": "2d25d780d0eb89d46fb806c27132a56b82131928", 
                         "title": "provide a reconstruction scenario for the `commissioning_run` type introduced in #34832", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35691", 
@@ -33272,6 +33507,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
+                        "title": "Added esConsumes calls to more Muon related code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35697", 
+                        "number": "35697", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }
                 ], 
                 "base_branch": "CMSSW_12_1_X", 
@@ -33297,20 +33541,10 @@
                     "slc7_amd64_gcc900"
                 ], 
                 "cmsdist_merged_prs": {
-                    "slc7_amd64_gcc900": [
-                        {
-                            "hash": "25b2dc6644d0e63313a8c05af0c591322ec85129", 
-                            "title": "update crab-dev to v3.211015", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/7390", 
-                            "number": "7390", 
-                            "is_merge_commit": false, 
-                            "from_merge_commit": false, 
-                            "author_login": "cms-sw"
-                        }
-                    ]
+                    "slc7_amd64_gcc900": []
                 }, 
                 "cmsdist_compared_tags": {
-                    "slc7_amd64_gcc900": "IB/CMSSW_12_1_GPU_X_2021-10-11-2300/slc7_amd64_gcc900..IB/CMSSW_12_1_GPU_X_2021-10-17-2300/slc7_amd64_gcc900"
+                    "slc7_amd64_gcc900": "Not Found..IB/CMSSW_12_1_GPU_X_2021-10-17-2300/slc7_amd64_gcc900"
                 }, 
                 "cmsdistTags": {
                     "slc7_amd64_gcc900": "IB/CMSSW_12_1_GPU_X_2021-10-17-2300/slc7_amd64_gcc900"
@@ -33465,10 +33699,10 @@
                     "slc7_amd64_gcc900": []
                 }, 
                 "cmsdist_compared_tags": {
-                    "slc7_amd64_gcc900": "IB/CMSSW_12_1_GPU_X_2021-10-11-2300/slc7_amd64_gcc900..IB/CMSSW_12_1_GPU_X_2021-10-11-2300/slc7_amd64_gcc900"
+                    "slc7_amd64_gcc900": "Not Found..Not Found"
                 }, 
                 "cmsdistTags": {
-                    "slc7_amd64_gcc900": "IB/CMSSW_12_1_GPU_X_2021-10-11-2300/slc7_amd64_gcc900"
+                    "slc7_amd64_gcc900": "Not Found"
                 }, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -33620,10 +33854,10 @@
                     "slc7_amd64_gcc900": []
                 }, 
                 "cmsdist_compared_tags": {
-                    "slc7_amd64_gcc900": "IB/CMSSW_12_1_GPU_X_2021-10-11-2300/slc7_amd64_gcc900..IB/CMSSW_12_1_GPU_X_2021-10-11-2300/slc7_amd64_gcc900"
+                    "slc7_amd64_gcc900": "Not Found..Not Found"
                 }, 
                 "cmsdistTags": {
-                    "slc7_amd64_gcc900": "IB/CMSSW_12_1_GPU_X_2021-10-11-2300/slc7_amd64_gcc900"
+                    "slc7_amd64_gcc900": "Not Found"
                 }, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -33829,10 +34063,10 @@
                     "slc7_amd64_gcc900": []
                 }, 
                 "cmsdist_compared_tags": {
-                    "slc7_amd64_gcc900": "IB/CMSSW_12_1_GPU_X_2021-10-11-2300/slc7_amd64_gcc900..IB/CMSSW_12_1_GPU_X_2021-10-11-2300/slc7_amd64_gcc900"
+                    "slc7_amd64_gcc900": "Not Found..Not Found"
                 }, 
                 "cmsdistTags": {
-                    "slc7_amd64_gcc900": "IB/CMSSW_12_1_GPU_X_2021-10-11-2300/slc7_amd64_gcc900"
+                    "slc7_amd64_gcc900": "Not Found"
                 }, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -34045,10 +34279,10 @@
                     "slc7_amd64_gcc900": []
                 }, 
                 "cmsdist_compared_tags": {
-                    "slc7_amd64_gcc900": "IB/CMSSW_12_1_GPU_X_2021-10-11-2300/slc7_amd64_gcc900..IB/CMSSW_12_1_GPU_X_2021-10-11-2300/slc7_amd64_gcc900"
+                    "slc7_amd64_gcc900": "Not Found..Not Found"
                 }, 
                 "cmsdistTags": {
-                    "slc7_amd64_gcc900": "IB/CMSSW_12_1_GPU_X_2021-10-11-2300/slc7_amd64_gcc900"
+                    "slc7_amd64_gcc900": "Not Found"
                 }, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -34182,15 +34416,9 @@
             {
                 "comp_baseline_state": "errors", 
                 "python3_tests": [], 
-                "tests_archs": [
-                    "slc7_amd64_gcc900"
-                ], 
-                "cmsdist_merged_prs": {
-                    "slc7_amd64_gcc900": []
-                }, 
-                "cmsdist_compared_tags": {
-                    "slc7_amd64_gcc900": "IB/CMSSW_12_1_GPU_X_2021-10-11-2300/slc7_amd64_gcc900..IB/CMSSW_12_1_GPU_X_2021-10-11-2300/slc7_amd64_gcc900"
-                }, 
+                "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": {}, 
                 "cmsdistTags": {
                     "slc7_amd64_gcc900": "IB/CMSSW_12_1_GPU_X_2021-10-11-2300/slc7_amd64_gcc900"
                 }, 
@@ -34200,30 +34428,9 @@
                 "profiling": "not-found", 
                 "compared_tags": "CMSSW_12_1_GPU_X_2021-10-10-2300-->CMSSW_12_1_GPU_X_2021-10-11-2300", 
                 "dqm_tests": "not-found", 
-                "utests": [
-                    {
-                        "arch": "slc7_amd64_gcc900", 
-                        "passed": "passed", 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/12.1.GPU-mon-23/CMSSW_12_1_GPU_X_2021-10-11-2300/unitTests-summary.log", 
-                        "details": {
-                            "num_fails": "0"
-                        }
-                    }
-                ], 
+                "utests": [], 
                 "ib_date": "2021-10-11-2300-0000", 
-                "relvals": [
-                    {
-                        "done": true, 
-                        "arch": "slc7_amd64_gcc900", 
-                        "passed": false, 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/12.1.GPU-mon-23/CMSSW_12_1_GPU_X_2021-10-11-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                        "details": {
-                            "num_passed": 64, 
-                            "known_failed": 0, 
-                            "num_failed": 8
-                        }
-                    }
-                ], 
+                "relvals": [], 
                 "igprof": "not-found", 
                 "release_queue": "CMSSW_12_1_GPU_X", 
                 "release_name": "CMSSW_12_1_GPU_X_2021-10-11-2300", 
@@ -34297,27 +34504,13 @@
                 ], 
                 "base_branch": "CMSSW_12_1_X", 
                 "invalid_includes": [], 
-                "builds": [
-                    {
-                        "arch": "slc7_amd64_gcc900", 
-                        "passed": "passed", 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/12.1.GPU-mon-23/CMSSW_12_1_GPU_X_2021-10-11-2300/new/logAnalysis.pkl", 
-                        "details": {
-                            "ignoreWarning": 19
-                        }
-                    }
-                ], 
+                "builds": [], 
                 "material_budget_v2": "not-found", 
                 "check-headers": "not-found", 
                 "static_checks_v2": "not-found", 
                 "valgrind": "not-found", 
                 "material_budget": "not-found", 
-                "dupDict": [
-                    {
-                        "arch": "slc7_amd64_gcc900", 
-                        "passed": "passed"
-                    }
-                ], 
+                "dupDict": [], 
                 "static_checks_failures": "not-found", 
                 "static_checks": "not-found", 
                 "isIB": true, 
@@ -34428,6 +34621,24 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
+                        "title": "Fix SyntaxWarning in trackselectionRefitting.py", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35702", 
+                        "number": "35702", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
+                        "title": "Fixed typos on some name and title in GEM onlineDQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35690", 
+                        "number": "35690", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "quark2"
+                    }, 
+                    {
                         "hash": "fcdf7aee5c3e6fbd7ed105af32b8f297384222a9", 
                         "title": "Updating hltDumpStream to work in python3 : 121X", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35709", 
@@ -34446,13 +34657,13 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
-                        "title": "Fix SyntaxWarning in trackselectionRefitting.py", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35702", 
-                        "number": "35702", 
+                        "hash": "b13a1b3ffc3e6c3c372a96162e3815be39b99426", 
+                        "title": "Updates towards enabling deepTauID at HLT", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35619", 
+                        "number": "35619", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "guitargeek"
+                        "author_login": "cms-tau-pog"
                     }, 
                     {
                         "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
@@ -34527,13 +34738,13 @@
                         "author_login": "CMSTrackingPOG"
                     }, 
                     {
-                        "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
-                        "title": "Fixed typos on some name and title in GEM onlineDQM", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35690", 
-                        "number": "35690", 
+                        "hash": "f4b31e47c0fb916091fbf0e5539c79e477e5a18f", 
+                        "title": "Fix reading from unaligned address in TotemSampicFrame", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35654", 
+                        "number": "35654", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "quark2"
+                        "author_login": "ChrisMisan"
                     }, 
                     {
                         "hash": "2d25d780d0eb89d46fb806c27132a56b82131928", 
@@ -34552,6 +34763,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "88a57b694b1a43d76d0ab56385ef6884e9e37759", 
+                        "title": "Added esConsumes to PhysicsTools/PatUtils", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35680", 
+                        "number": "35680", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "0607f7a1c38fcdc79a50d87ce629b8b973a0a905", 
@@ -34581,10 +34801,10 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "88a57b694b1a43d76d0ab56385ef6884e9e37759", 
-                        "title": "Added esConsumes to PhysicsTools/PatUtils", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35680", 
-                        "number": "35680", 
+                        "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
+                        "title": "Added esConsumes calls to more Muon related code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35697", 
+                        "number": "35697", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
@@ -35310,6 +35530,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "b13a1b3ffc3e6c3c372a96162e3815be39b99426", 
+                        "title": "Updates towards enabling deepTauID at HLT", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35619", 
+                        "number": "35619", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-tau-pog"
+                    }, 
+                    {
                         "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
                         "title": "Fix for UBSAN DQM crash", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35658", 
@@ -35395,6 +35624,15 @@
                         "title": "Fix CMS deprecated warnings in JetMetCorrections/Modules", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35681", 
                         "number": "35681", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
+                        "title": "Added esConsumes calls to more Muon related code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35697", 
+                        "number": "35697", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
@@ -36808,13 +37046,13 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "446ab2fe39289c05b22794795458dfff4f14f5b1", 
-                        "title": "[Online DQM] re-introduce unit tests for visualization", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35642", 
-                        "number": "35642", 
+                        "hash": "66f36541288aa85120afe204729633ae23d73001", 
+                        "title": "Run3-hcx323 Use SimProducer+Analyzer to estimate material budget for HCAL", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35664", 
+                        "number": "35664", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "mmusich"
+                        "author_login": "bsunanda"
                     }, 
                     {
                         "hash": "71e5474950fbf5b4bfffdb7912c72aa1aa5e83be", 
@@ -36898,6 +37136,15 @@
                         "author_login": "mmusich"
                     }, 
                     {
+                        "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
+                        "title": "Added esConsumes calls to more Muon related code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35697", 
+                        "number": "35697", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "0209ecde0970a232ac291af70309a4cb87a8ea66", 
                         "title": "HcalDQM: Update hcal FED list for crate 3-FED readout", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35617", 
@@ -36905,6 +37152,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "lwang046"
+                    }, 
+                    {
+                        "hash": "b13a1b3ffc3e6c3c372a96162e3815be39b99426", 
+                        "title": "Updates towards enabling deepTauID at HLT", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35619", 
+                        "number": "35619", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-tau-pog"
                     }, 
                     {
                         "hash": "fddeeefba463a28bf5ddbb053c0918a2aaf63fd2", 
@@ -36952,6 +37208,15 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
+                        "hash": "f4b31e47c0fb916091fbf0e5539c79e477e5a18f", 
+                        "title": "Fix reading from unaligned address in TotemSampicFrame", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35654", 
+                        "number": "35654", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ChrisMisan"
+                    }, 
+                    {
                         "hash": "aa9b785661f7a67008d1985726216a3a98739c6a", 
                         "title": "Diamond dqm", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35454", 
@@ -36961,13 +37226,13 @@
                         "author_login": "ChrisMisan"
                     }, 
                     {
-                        "hash": "66f36541288aa85120afe204729633ae23d73001", 
-                        "title": "Run3-hcx323 Use SimProducer+Analyzer to estimate material budget for HCAL", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35664", 
-                        "number": "35664", 
+                        "hash": "446ab2fe39289c05b22794795458dfff4f14f5b1", 
+                        "title": "[Online DQM] re-introduce unit tests for visualization", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35642", 
+                        "number": "35642", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "bsunanda"
+                        "author_login": "mmusich"
                     }, 
                     {
                         "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
@@ -37209,13 +37474,13 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "446ab2fe39289c05b22794795458dfff4f14f5b1", 
-                        "title": "[Online DQM] re-introduce unit tests for visualization", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35642", 
-                        "number": "35642", 
+                        "hash": "66f36541288aa85120afe204729633ae23d73001", 
+                        "title": "Run3-hcx323 Use SimProducer+Analyzer to estimate material budget for HCAL", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35664", 
+                        "number": "35664", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "mmusich"
+                        "author_login": "bsunanda"
                     }, 
                     {
                         "hash": "71e5474950fbf5b4bfffdb7912c72aa1aa5e83be", 
@@ -37299,6 +37564,24 @@
                         "author_login": "mmusich"
                     }, 
                     {
+                        "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
+                        "title": "Added esConsumes calls to more Muon related code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35697", 
+                        "number": "35697", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "b13a1b3ffc3e6c3c372a96162e3815be39b99426", 
+                        "title": "Updates towards enabling deepTauID at HLT", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35619", 
+                        "number": "35619", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-tau-pog"
+                    }, 
+                    {
                         "hash": "b7b6fcfdf76790cf19545861aa54880f9332c7c7", 
                         "title": "introduce unit tests for `CondTools/SiPhase2Tracker`", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35677", 
@@ -37335,13 +37618,22 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "66f36541288aa85120afe204729633ae23d73001", 
-                        "title": "Run3-hcx323 Use SimProducer+Analyzer to estimate material budget for HCAL", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35664", 
-                        "number": "35664", 
+                        "hash": "f4b31e47c0fb916091fbf0e5539c79e477e5a18f", 
+                        "title": "Fix reading from unaligned address in TotemSampicFrame", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35654", 
+                        "number": "35654", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "bsunanda"
+                        "author_login": "ChrisMisan"
+                    }, 
+                    {
+                        "hash": "446ab2fe39289c05b22794795458dfff4f14f5b1", 
+                        "title": "[Online DQM] re-introduce unit tests for visualization", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35642", 
+                        "number": "35642", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
                     }, 
                     {
                         "hash": "a15127c0347167d1778d65c2b88dc1de97c970d4", 
@@ -37555,6 +37847,24 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
+                        "title": "Fix SyntaxWarning in trackselectionRefitting.py", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35702", 
+                        "number": "35702", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
+                        "title": "Fixed typos on some name and title in GEM onlineDQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35690", 
+                        "number": "35690", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "quark2"
+                    }, 
+                    {
                         "hash": "fcdf7aee5c3e6fbd7ed105af32b8f297384222a9", 
                         "title": "Updating hltDumpStream to work in python3 : 121X", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35709", 
@@ -37573,13 +37883,13 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "8dec1b01fc154a167ba1876ef97cca25e189f5db", 
-                        "title": "Fix SyntaxWarning in trackselectionRefitting.py", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35702", 
-                        "number": "35702", 
+                        "hash": "b13a1b3ffc3e6c3c372a96162e3815be39b99426", 
+                        "title": "Updates towards enabling deepTauID at HLT", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35619", 
+                        "number": "35619", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "guitargeek"
+                        "author_login": "cms-tau-pog"
                     }, 
                     {
                         "hash": "d8d5b23eebba7e83a3f3da372093fcd66779c68b", 
@@ -37654,13 +37964,13 @@
                         "author_login": "CMSTrackingPOG"
                     }, 
                     {
-                        "hash": "8b40f2143221f8a3ab6bf01036bfba69b8e6cf5c", 
-                        "title": "Fixed typos on some name and title in GEM onlineDQM", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35690", 
-                        "number": "35690", 
+                        "hash": "f4b31e47c0fb916091fbf0e5539c79e477e5a18f", 
+                        "title": "Fix reading from unaligned address in TotemSampicFrame", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35654", 
+                        "number": "35654", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "quark2"
+                        "author_login": "ChrisMisan"
                     }, 
                     {
                         "hash": "2d25d780d0eb89d46fb806c27132a56b82131928", 
@@ -37679,6 +37989,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "88a57b694b1a43d76d0ab56385ef6884e9e37759", 
+                        "title": "Added esConsumes to PhysicsTools/PatUtils", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35680", 
+                        "number": "35680", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "0607f7a1c38fcdc79a50d87ce629b8b973a0a905", 
@@ -37708,10 +38027,10 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "88a57b694b1a43d76d0ab56385ef6884e9e37759", 
-                        "title": "Added esConsumes to PhysicsTools/PatUtils", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35680", 
-                        "number": "35680", 
+                        "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
+                        "title": "Added esConsumes calls to more Muon related code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35697", 
+                        "number": "35697", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
@@ -38037,6 +38356,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "b13a1b3ffc3e6c3c372a96162e3815be39b99426", 
+                        "title": "Updates towards enabling deepTauID at HLT", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35619", 
+                        "number": "35619", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-tau-pog"
+                    }, 
+                    {
                         "hash": "66f36541288aa85120afe204729633ae23d73001", 
                         "title": "Run3-hcx323 Use SimProducer+Analyzer to estimate material budget for HCAL", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35664", 
@@ -38053,6 +38381,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "valsdav"
+                    }, 
+                    {
+                        "hash": "f4b31e47c0fb916091fbf0e5539c79e477e5a18f", 
+                        "title": "Fix reading from unaligned address in TotemSampicFrame", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35654", 
+                        "number": "35654", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ChrisMisan"
                     }, 
                     {
                         "hash": "2d25d780d0eb89d46fb806c27132a56b82131928", 
@@ -38086,6 +38423,15 @@
                         "title": "Fix CMS deprecated warnings in JetMetCorrections/Modules", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35681", 
                         "number": "35681", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
+                        "title": "Added esConsumes calls to more Muon related code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35697", 
+                        "number": "35697", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
