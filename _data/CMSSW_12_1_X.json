@@ -547,11 +547,22 @@
             "relvals": [
                 {
                     "done": false, 
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/tue/12.1-tue-23/CMSSW_12_1_X_2021-10-19-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 696, 
+                        "known_failed": 0, 
+                        "num_failed": 0
+                    }
+                }, 
+                {
+                    "done": false, 
                     "arch": "slc7_amd64_gcc10", 
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc10/www/tue/12.1-tue-23/CMSSW_12_1_X_2021-10-19-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 954, 
+                        "num_passed": 3071, 
                         "known_failed": 0, 
                         "num_failed": 1
                     }
@@ -562,8 +573,8 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/tue/12.1-tue-23/CMSSW_12_1_X_2021-10-19-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 99, 
-                        "known_failed": 0, 
+                        "num_passed": 206, 
+                        "known_failed": 2, 
                         "num_failed": 0
                     }
                 }, 
@@ -573,7 +584,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/tue/12.1-tue-23/CMSSW_12_1_X_2021-10-19-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 420, 
+                        "num_passed": 1044, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
