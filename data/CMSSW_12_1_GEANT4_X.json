@@ -7,74 +7,10 @@
             "python3_tests": [], 
             "tests_archs": [], 
             "cmsdist_merged_prs": {
-                "slc7_amd64_gcc900": [
-                    {
-                        "hash": "6957c29e09eeb1d81bd6ecc55e797003257c2e0b", 
-                        "title": "Update zipp to 3.6.0", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/7397", 
-                        "number": "7397", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "cms-sw"
-                    }, 
-                    {
-                        "hash": "17e868943632a48641102e55a998e6ac9cd1f953", 
-                        "title": "Use same soruces for jemalloc and jemalloc-debug", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/7396", 
-                        "number": "7396", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "cms-sw"
-                    }, 
-                    {
-                        "hash": "25b2dc6644d0e63313a8c05af0c591322ec85129", 
-                        "title": "update crab-dev to v3.211015", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/7390", 
-                        "number": "7390", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "cms-sw"
-                    }, 
-                    {
-                        "hash": "5aedf41d9d9bd38e7368d8d89185c1ccf8fd2ff7", 
-                        "title": "Update tag for RecoTracker-MkFit to V00-06-00", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/7398", 
-                        "number": "7398", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "cms-sw"
-                    }, 
-                    {
-                        "hash": "128c408a9506e9d732da0cb21d81a713ee598117", 
-                        "title": "Update tag for RecoEgamma-ElectronIdentification to V01-08-00", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/7388", 
-                        "number": "7388", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "cms-sw"
-                    }, 
-                    {
-                        "hash": "4aeda57dfc30d20923cef94ffde71b1c2bff4b43", 
-                        "title": "Update tag for RecoEgamma-PhotonIdentification to V01-02-00", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/7389", 
-                        "number": "7389", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "cms-sw"
-                    }, 
-                    {
-                        "hash": "43e60ab1e12d99238322801b66b57c1263b2ff2a", 
-                        "title": "Update mkFit to V3.4.0-0", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/7387", 
-                        "number": "7387", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "mmasciov"
-                    }
-                ]
+                "slc7_amd64_gcc900": []
             }, 
             "cmsdist_compared_tags": {
-                "slc7_amd64_gcc900": "IB/CMSSW_12_1_GEANT4_X_2021-10-12-2300/slc7_amd64_gcc900..IB/CMSSW_12_1_X/geant4"
+                "slc7_amd64_gcc900": "Not Found..IB/CMSSW_12_1_X/geant4"
             }, 
             "cmsdistTags": {}, 
             "next_ib": true, 
@@ -408,10 +344,10 @@
                 "slc7_amd64_gcc900": []
             }, 
             "cmsdist_compared_tags": {
-                "slc7_amd64_gcc900": "IB/CMSSW_12_1_GEANT4_X_2021-10-12-2300/slc7_amd64_gcc900..IB/CMSSW_12_1_GEANT4_X_2021-10-12-2300/slc7_amd64_gcc900"
+                "slc7_amd64_gcc900": "Not Found..Not Found"
             }, 
             "cmsdistTags": {
-                "slc7_amd64_gcc900": "IB/CMSSW_12_1_GEANT4_X_2021-10-12-2300/slc7_amd64_gcc900"
+                "slc7_amd64_gcc900": "Not Found"
             }, 
             "next_ib": false, 
             "RVExceptions": null, 
@@ -824,15 +760,9 @@
         {
             "comp_baseline_state": "errors", 
             "python3_tests": [], 
-            "tests_archs": [
-                "slc7_amd64_gcc900"
-            ], 
-            "cmsdist_merged_prs": {
-                "slc7_amd64_gcc900": []
-            }, 
-            "cmsdist_compared_tags": {
-                "slc7_amd64_gcc900": "IB/CMSSW_12_1_GEANT4_X_2021-10-12-2300/slc7_amd64_gcc900..IB/CMSSW_12_1_GEANT4_X_2021-10-12-2300/slc7_amd64_gcc900"
-            }, 
+            "tests_archs": [], 
+            "cmsdist_merged_prs": {}, 
+            "cmsdist_compared_tags": {}, 
             "cmsdistTags": {
                 "slc7_amd64_gcc900": "IB/CMSSW_12_1_GEANT4_X_2021-10-12-2300/slc7_amd64_gcc900"
             }, 
@@ -842,30 +772,9 @@
             "profiling": "not-found", 
             "compared_tags": "CMSSW_12_1_GEANT4_X_2021-10-12-2300-->CMSSW_12_1_GEANT4_X_2021-10-12-2300", 
             "dqm_tests": "not-found", 
-            "utests": [
-                {
-                    "arch": "slc7_amd64_gcc900", 
-                    "passed": "passed", 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/tue/12.1.GEANT4-tue-23/CMSSW_12_1_GEANT4_X_2021-10-12-2300/unitTests-summary.log", 
-                    "details": {
-                        "num_fails": "0"
-                    }
-                }
-            ], 
+            "utests": [], 
             "ib_date": "2021-10-12-2300-0000", 
-            "relvals": [
-                {
-                    "done": true, 
-                    "arch": "slc7_amd64_gcc900", 
-                    "passed": false, 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/tue/12.1.GEANT4-tue-23/CMSSW_12_1_GEANT4_X_2021-10-12-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                    "details": {
-                        "num_passed": 3480, 
-                        "known_failed": 0, 
-                        "num_failed": 1
-                    }
-                }
-            ], 
+            "relvals": [], 
             "igprof": "not-found", 
             "release_queue": "CMSSW_12_1_GEANT4_X", 
             "release_name": "CMSSW_12_1_GEANT4_X_2021-10-12-2300", 
@@ -881,12 +790,7 @@
             "static_checks_v2": "not-found", 
             "valgrind": "not-found", 
             "material_budget": "not-found", 
-            "dupDict": [
-                {
-                    "arch": "slc7_amd64_gcc900", 
-                    "passed": "passed"
-                }
-            ], 
+            "dupDict": [], 
             "static_checks_failures": "not-found", 
             "static_checks": "not-found", 
             "isIB": true, 
