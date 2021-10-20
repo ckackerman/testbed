@@ -7,44 +7,7 @@
             "python3_tests": [], 
             "tests_archs": [], 
             "cmsdist_merged_prs": {
-                "cc8_amd64_gcc9": [
-                    {
-                        "hash": "6957c29e09eeb1d81bd6ecc55e797003257c2e0b", 
-                        "title": "Update zipp to 3.6.0", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/7397", 
-                        "number": "7397", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "cms-sw"
-                    }, 
-                    {
-                        "hash": "17e868943632a48641102e55a998e6ac9cd1f953", 
-                        "title": "Use same soruces for jemalloc and jemalloc-debug", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/7396", 
-                        "number": "7396", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "cms-sw"
-                    }, 
-                    {
-                        "hash": "5aedf41d9d9bd38e7368d8d89185c1ccf8fd2ff7", 
-                        "title": "Update tag for RecoTracker-MkFit to V00-06-00", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/7398", 
-                        "number": "7398", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "cms-sw"
-                    }, 
-                    {
-                        "hash": "43e60ab1e12d99238322801b66b57c1263b2ff2a", 
-                        "title": "Update mkFit to V3.4.0-0", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/7387", 
-                        "number": "7387", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "mmasciov"
-                    }
-                ], 
+                "cc8_amd64_gcc9": [], 
                 "cc8_aarch64_gcc9": [
                     {
                         "hash": "6957c29e09eeb1d81bd6ecc55e797003257c2e0b", 
@@ -101,44 +64,7 @@
                         "author_login": "mmasciov"
                     }
                 ], 
-                "slc7_aarch64_gcc9": [
-                    {
-                        "hash": "6957c29e09eeb1d81bd6ecc55e797003257c2e0b", 
-                        "title": "Update zipp to 3.6.0", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/7397", 
-                        "number": "7397", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "cms-sw"
-                    }, 
-                    {
-                        "hash": "17e868943632a48641102e55a998e6ac9cd1f953", 
-                        "title": "Use same soruces for jemalloc and jemalloc-debug", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/7396", 
-                        "number": "7396", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "cms-sw"
-                    }, 
-                    {
-                        "hash": "5aedf41d9d9bd38e7368d8d89185c1ccf8fd2ff7", 
-                        "title": "Update tag for RecoTracker-MkFit to V00-06-00", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/7398", 
-                        "number": "7398", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "cms-sw"
-                    }, 
-                    {
-                        "hash": "43e60ab1e12d99238322801b66b57c1263b2ff2a", 
-                        "title": "Update mkFit to V3.4.0-0", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/7387", 
-                        "number": "7387", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "mmasciov"
-                    }
-                ], 
+                "slc7_aarch64_gcc9": [], 
                 "slc7_amd64_gcc11": [
                     {
                         "hash": "6957c29e09eeb1d81bd6ecc55e797003257c2e0b", 
@@ -309,6 +235,83 @@
                         "author_login": "mmasciov"
                     }
                 ], 
+                "slc7_ppc64le_gcc9": []
+            }, 
+            "cmsdist_compared_tags": {
+                "cc8_amd64_gcc9": "IB/CMSSW_12_1_X_2021-10-19-2300/cc8_amd64_gcc9..IB/CMSSW_12_1_X/cc8", 
+                "cc8_aarch64_gcc9": "IB/CMSSW_12_1_X_2021-10-18-1100/cc8_aarch64_gcc9..IB/CMSSW_12_1_X/cc8", 
+                "slc7_aarch64_gcc9": "IB/CMSSW_12_1_X_2021-10-19-2300/slc7_aarch64_gcc9..IB/CMSSW_12_1_X/master", 
+                "slc7_amd64_gcc11": "IB/CMSSW_12_1_X_2021-10-18-1100/slc7_amd64_gcc11..IB/CMSSW_12_1_X/gcc11", 
+                "slc7_amd64_gcc10": "IB/CMSSW_12_1_X_2021-10-18-2300/slc7_amd64_gcc10..IB/CMSSW_12_1_X/gcc10", 
+                "slc7_amd64_gcc900": "IB/CMSSW_12_1_X_2021-10-18-2300/slc7_amd64_gcc900..IB/CMSSW_12_1_X/master", 
+                "cc8_ppc64le_gcc9": "IB/CMSSW_12_1_X_2021-10-18-2300/cc8_ppc64le_gcc9..IB/CMSSW_12_1_X/cc8", 
+                "slc7_ppc64le_gcc9": "IB/CMSSW_12_1_X_2021-10-19-2300/slc7_ppc64le_gcc9..IB/CMSSW_12_1_X/master"
+            }, 
+            "static_checks_failures": "not-found", 
+            "cmsdistTags": {}, 
+            "piechart": "inprogress", 
+            "flawfinder": "inprogress", 
+            "next_ib": true, 
+            "RVExceptions": null, 
+            "igprof": "inprogress", 
+            "reco_event_loop": "inprogress", 
+            "profiling": "inprogress", 
+            "base_branch": "CMSSW_12_1_X", 
+            "compared_tags": "CMSSW_12_1_X_2021-10-19-2300-->CMSSW_12_1_X", 
+            "dqm_tests": "not-found", 
+            "utests": [], 
+            "ib_date": "2021-10-19-2300-0001", 
+            "relvals": [], 
+            "release_queue": "CMSSW_12_1_X", 
+            "release_name": "CMSSW_12_1_X", 
+            "comp_baseline": "inprogress", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [
+                {
+                    "hash": "733a8016689b05bbb70a0e9434afce1e70bde889", 
+                    "title": "Added PPS Alignment to the Prompt Calibration Loop", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35631", 
+                    "number": "35631", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "CTPPS"
+                }, 
+                {
+                    "hash": "fb520703be3526eaf1ae40e65ce99465bd66c784", 
+                    "title": "Add multiprocess support into compareHistograms", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35728", 
+                    "number": "35728", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "rovere"
+                }
+            ], 
+            "fwlite": [], 
+            "invalid_includes": [], 
+            "builds": [], 
+            "material_budget_v2": "not-found", 
+            "check-headers": "inprogress", 
+            "static_checks_v2": "inprogress", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "dupDict": [], 
+            "lizard": "inprogress", 
+            "static_checks": "inprogress", 
+            "isIB": false, 
+            "inProgress": false, 
+            "addons": [], 
+            "hlt_tests": "inprogress"
+        }, 
+        {
+            "comp_baseline_state": "ok", 
+            "python3_tests": [], 
+            "tests_archs": [
+                "slc7_ppc64le_gcc9", 
+                "slc7_aarch64_gcc9", 
+                "cc8_amd64_gcc9"
+            ], 
+            "cmsdist_merged_prs": {
                 "slc7_ppc64le_gcc9": [
                     {
                         "hash": "6957c29e09eeb1d81bd6ecc55e797003257c2e0b", 
@@ -346,35 +349,129 @@
                         "from_merge_commit": false, 
                         "author_login": "mmasciov"
                     }
+                ], 
+                "slc7_aarch64_gcc9": [
+                    {
+                        "hash": "6957c29e09eeb1d81bd6ecc55e797003257c2e0b", 
+                        "title": "Update zipp to 3.6.0", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/7397", 
+                        "number": "7397", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }, 
+                    {
+                        "hash": "17e868943632a48641102e55a998e6ac9cd1f953", 
+                        "title": "Use same soruces for jemalloc and jemalloc-debug", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/7396", 
+                        "number": "7396", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }, 
+                    {
+                        "hash": "5aedf41d9d9bd38e7368d8d89185c1ccf8fd2ff7", 
+                        "title": "Update tag for RecoTracker-MkFit to V00-06-00", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/7398", 
+                        "number": "7398", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }, 
+                    {
+                        "hash": "43e60ab1e12d99238322801b66b57c1263b2ff2a", 
+                        "title": "Update mkFit to V3.4.0-0", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/7387", 
+                        "number": "7387", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmasciov"
+                    }
+                ], 
+                "cc8_amd64_gcc9": [
+                    {
+                        "hash": "6957c29e09eeb1d81bd6ecc55e797003257c2e0b", 
+                        "title": "Update zipp to 3.6.0", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/7397", 
+                        "number": "7397", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "cms-sw"
+                    }, 
+                    {
+                        "hash": "17e868943632a48641102e55a998e6ac9cd1f953", 
+                        "title": "Use same soruces for jemalloc and jemalloc-debug", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/7396", 
+                        "number": "7396", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "cms-sw"
+                    }, 
+                    {
+                        "hash": "5aedf41d9d9bd38e7368d8d89185c1ccf8fd2ff7", 
+                        "title": "Update tag for RecoTracker-MkFit to V00-06-00", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/7398", 
+                        "number": "7398", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "cms-sw"
+                    }, 
+                    {
+                        "hash": "43e60ab1e12d99238322801b66b57c1263b2ff2a", 
+                        "title": "Update mkFit to V3.4.0-0", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/7387", 
+                        "number": "7387", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "mmasciov"
+                    }
                 ]
             }, 
             "cmsdist_compared_tags": {
-                "cc8_amd64_gcc9": "IB/CMSSW_12_1_X_2021-10-18-2300/cc8_amd64_gcc9..IB/CMSSW_12_1_X/cc8", 
-                "cc8_aarch64_gcc9": "IB/CMSSW_12_1_X_2021-10-18-1100/cc8_aarch64_gcc9..IB/CMSSW_12_1_X/cc8", 
-                "slc7_aarch64_gcc9": "IB/CMSSW_12_1_X_2021-10-18-2300/slc7_aarch64_gcc9..IB/CMSSW_12_1_X/master", 
-                "slc7_amd64_gcc11": "IB/CMSSW_12_1_X_2021-10-18-1100/slc7_amd64_gcc11..IB/CMSSW_12_1_X/gcc11", 
-                "slc7_amd64_gcc10": "IB/CMSSW_12_1_X_2021-10-18-2300/slc7_amd64_gcc10..IB/CMSSW_12_1_X/gcc10", 
-                "slc7_amd64_gcc900": "IB/CMSSW_12_1_X_2021-10-18-2300/slc7_amd64_gcc900..IB/CMSSW_12_1_X/master", 
-                "cc8_ppc64le_gcc9": "IB/CMSSW_12_1_X_2021-10-18-2300/cc8_ppc64le_gcc9..IB/CMSSW_12_1_X/cc8", 
-                "slc7_ppc64le_gcc9": "IB/CMSSW_12_1_X_2021-10-18-2300/slc7_ppc64le_gcc9..IB/CMSSW_12_1_X/master"
+                "slc7_ppc64le_gcc9": "IB/CMSSW_12_1_X_2021-10-18-2300/slc7_ppc64le_gcc9..IB/CMSSW_12_1_X_2021-10-19-2300/slc7_ppc64le_gcc9", 
+                "slc7_aarch64_gcc9": "IB/CMSSW_12_1_X_2021-10-18-2300/slc7_aarch64_gcc9..IB/CMSSW_12_1_X_2021-10-19-2300/slc7_aarch64_gcc9", 
+                "cc8_amd64_gcc9": "IB/CMSSW_12_1_X_2021-10-18-2300/cc8_amd64_gcc9..IB/CMSSW_12_1_X_2021-10-19-2300/cc8_amd64_gcc9"
             }, 
             "static_checks_failures": "not-found", 
-            "cmsdistTags": {}, 
+            "cmsdistTags": {
+                "slc7_ppc64le_gcc9": "IB/CMSSW_12_1_X_2021-10-19-2300/slc7_ppc64le_gcc9", 
+                "slc7_aarch64_gcc9": "IB/CMSSW_12_1_X_2021-10-19-2300/slc7_aarch64_gcc9", 
+                "cc8_amd64_gcc9": "IB/CMSSW_12_1_X_2021-10-19-2300/cc8_amd64_gcc9"
+            }, 
             "piechart": "inprogress", 
             "flawfinder": "inprogress", 
-            "next_ib": true, 
+            "next_ib": false, 
             "RVExceptions": null, 
             "igprof": "inprogress", 
             "reco_event_loop": "inprogress", 
             "profiling": "inprogress", 
             "base_branch": "CMSSW_12_1_X", 
-            "compared_tags": "CMSSW_12_1_X_2021-10-19-1100-->CMSSW_12_1_X", 
+            "compared_tags": "CMSSW_12_1_X_2021-10-19-1100-->CMSSW_12_1_X_2021-10-19-2300", 
             "dqm_tests": "not-found", 
-            "utests": [], 
-            "ib_date": "2021-10-19-1100-0001", 
+            "utests": [
+                {
+                    "arch": "slc7_aarch64_gcc9", 
+                    "passed": "unknown", 
+                    "file": "['/data/sdt/buildlogs/slc7_aarch64_gcc9/www/tue/12.1-tue-23/CMSSW_12_1_X_2021-10-19-2300/new/logAnalysis.pkl']", 
+                    "details": {}
+                }, 
+                {
+                    "arch": "slc7_ppc64le_gcc9", 
+                    "passed": "unknown", 
+                    "file": "['/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/tue/12.1-tue-23/CMSSW_12_1_X_2021-10-19-2300/new/logAnalysis.pkl']", 
+                    "details": {}
+                }, 
+                {
+                    "arch": "cc8_amd64_gcc9", 
+                    "passed": "unknown", 
+                    "file": "['/data/sdt/buildlogs/cc8_amd64_gcc9/www/tue/12.1-tue-23/CMSSW_12_1_X_2021-10-19-2300/new/logAnalysis.pkl']", 
+                    "details": {}
+                }
+            ], 
+            "ib_date": "2021-10-19-2300-0000", 
             "relvals": [], 
             "release_queue": "CMSSW_12_1_X", 
-            "release_name": "CMSSW_12_1_X", 
+            "release_name": "CMSSW_12_1_X_2021-10-19-2300", 
             "comp_baseline": "inprogress", 
             "gpu_utests": [], 
             "material_budget_comparison": "not-found", 
@@ -443,24 +540,6 @@
                     "author_login": "bsunanda"
                 }, 
                 {
-                    "hash": "733a8016689b05bbb70a0e9434afce1e70bde889", 
-                    "title": "Added PPS Alignment to the Prompt Calibration Loop", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/35631", 
-                    "number": "35631", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "CTPPS"
-                }, 
-                {
-                    "hash": "fb520703be3526eaf1ae40e65ce99465bd66c784", 
-                    "title": "Add multiprocess support into compareHistograms", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/35728", 
-                    "number": "35728", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "rovere"
-                }, 
-                {
                     "hash": "b32639d5a2aa73392c0f62cb9492c9ad2ade9c64", 
                     "title": "Update mkFit for 12_1_0_pre5", 
                     "url": "https://github.com/cms-sw/cmssw/pull/35652", 
@@ -472,16 +551,54 @@
             ], 
             "fwlite": [], 
             "invalid_includes": [], 
-            "builds": [], 
+            "builds": [
+                {
+                    "arch": "slc7_aarch64_gcc9", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/tue/12.1-tue-23/CMSSW_12_1_X_2021-10-19-2300/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 19
+                    }
+                }, 
+                {
+                    "arch": "slc7_ppc64le_gcc9", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/tue/12.1-tue-23/CMSSW_12_1_X_2021-10-19-2300/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 29
+                    }
+                }, 
+                {
+                    "arch": "cc8_amd64_gcc9", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/cc8_amd64_gcc9/www/tue/12.1-tue-23/CMSSW_12_1_X_2021-10-19-2300/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 19
+                    }
+                }
+            ], 
             "material_budget_v2": "not-found", 
             "check-headers": "inprogress", 
             "static_checks_v2": "inprogress", 
             "valgrind": "not-found", 
             "material_budget": "not-found", 
-            "dupDict": [], 
+            "dupDict": [
+                {
+                    "arch": "slc7_ppc64le_gcc9", 
+                    "passed": "passed"
+                }, 
+                {
+                    "arch": "slc7_aarch64_gcc9", 
+                    "passed": "passed"
+                }, 
+                {
+                    "arch": "cc8_amd64_gcc9", 
+                    "passed": "passed"
+                }
+            ], 
             "lizard": "inprogress", 
             "static_checks": "inprogress", 
-            "isIB": false, 
+            "isIB": true, 
             "inProgress": false, 
             "addons": [], 
             "hlt_tests": "inprogress"
