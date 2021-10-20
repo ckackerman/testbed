@@ -23213,7 +23213,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/tue/12.0-tue-23/CMSSW_12_0_X_2021-10-19-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1703, 
+                            "num_passed": 1835, 
                             "known_failed": 29, 
                             "num_failed": 0
                         }
@@ -23224,7 +23224,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/tue/12.0-tue-23/CMSSW_12_0_X_2021-10-19-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 787, 
+                            "num_passed": 910, 
                             "known_failed": 7, 
                             "num_failed": 0
                         }
@@ -26492,15 +26492,6 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "6333f7370146950db05f7e67d8d49aa2735e338d", 
-                        "title": "Run3-sim93 Use ESGetToken in getting objects from EventSetup", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35718", 
-                        "number": "35718", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "bsunanda"
-                    }, 
-                    {
                         "hash": "e8502684f2b2e3029fb18f60d079c415f2d6bb1f", 
                         "title": "Add esConsumes to modules in Validation/EventGenerator", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35716", 
@@ -26510,6 +26501,24 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
+                        "hash": "6333f7370146950db05f7e67d8d49aa2735e338d", 
+                        "title": "Run3-sim93 Use ESGetToken in getting objects from EventSetup", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35718", 
+                        "number": "35718", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "d952116098bf4e7a060a8b38ec676ff22ec3336d", 
+                        "title": "Run3-sim94 Transition from watcher to producer for HcalTestAnalysis", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35730", 
+                        "number": "35730", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
                         "hash": "e7137372dd0305bf01b0eacb14ad81bcc55d4501", 
                         "title": "Merge .h files with .icc files in `TrackingTools/GsfTools/plugins`", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35703", 
@@ -26517,6 +26526,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
+                        "title": "Added esConsumes calls to more Muon related code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35697", 
+                        "number": "35697", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "99a1dc4e5ec82d3e8153e9e27e51dc4da0296d74", 
@@ -26600,13 +26618,13 @@
                         "author_login": "trackreco"
                     }, 
                     {
-                        "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
-                        "title": "Added esConsumes calls to more Muon related code", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35697", 
-                        "number": "35697", 
+                        "hash": "6861d57a002b72ed9bc23eedd0126c54b67c31f3", 
+                        "title": "Shift to orbit frame", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35679", 
+                        "number": "35679", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "CTPPS"
                     }
                 ], 
                 "base_branch": "CMSSW_12_1_X", 
@@ -27581,15 +27599,6 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "6333f7370146950db05f7e67d8d49aa2735e338d", 
-                        "title": "Run3-sim93 Use ESGetToken in getting objects from EventSetup", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35718", 
-                        "number": "35718", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "bsunanda"
-                    }, 
-                    {
                         "hash": "e8502684f2b2e3029fb18f60d079c415f2d6bb1f", 
                         "title": "Add esConsumes to modules in Validation/EventGenerator", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35716", 
@@ -27599,6 +27608,24 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
+                        "hash": "6333f7370146950db05f7e67d8d49aa2735e338d", 
+                        "title": "Run3-sim93 Use ESGetToken in getting objects from EventSetup", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35718", 
+                        "number": "35718", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "d952116098bf4e7a060a8b38ec676ff22ec3336d", 
+                        "title": "Run3-sim94 Transition from watcher to producer for HcalTestAnalysis", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35730", 
+                        "number": "35730", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
                         "hash": "e7137372dd0305bf01b0eacb14ad81bcc55d4501", 
                         "title": "Merge .h files with .icc files in `TrackingTools/GsfTools/plugins`", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35703", 
@@ -27606,6 +27633,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
+                        "title": "Added esConsumes calls to more Muon related code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35697", 
+                        "number": "35697", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "99a1dc4e5ec82d3e8153e9e27e51dc4da0296d74", 
@@ -27689,13 +27725,13 @@
                         "author_login": "trackreco"
                     }, 
                     {
-                        "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
-                        "title": "Added esConsumes calls to more Muon related code", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35697", 
-                        "number": "35697", 
+                        "hash": "6861d57a002b72ed9bc23eedd0126c54b67c31f3", 
+                        "title": "Shift to orbit frame", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35679", 
+                        "number": "35679", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "CTPPS"
                     }
                 ], 
                 "base_branch": "CMSSW_12_1_X", 
@@ -29014,15 +29050,6 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "6333f7370146950db05f7e67d8d49aa2735e338d", 
-                        "title": "Run3-sim93 Use ESGetToken in getting objects from EventSetup", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35718", 
-                        "number": "35718", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "bsunanda"
-                    }, 
-                    {
                         "hash": "e8502684f2b2e3029fb18f60d079c415f2d6bb1f", 
                         "title": "Add esConsumes to modules in Validation/EventGenerator", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35716", 
@@ -29032,6 +29059,24 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
+                        "hash": "6333f7370146950db05f7e67d8d49aa2735e338d", 
+                        "title": "Run3-sim93 Use ESGetToken in getting objects from EventSetup", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35718", 
+                        "number": "35718", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "d952116098bf4e7a060a8b38ec676ff22ec3336d", 
+                        "title": "Run3-sim94 Transition from watcher to producer for HcalTestAnalysis", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35730", 
+                        "number": "35730", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
                         "hash": "e7137372dd0305bf01b0eacb14ad81bcc55d4501", 
                         "title": "Merge .h files with .icc files in `TrackingTools/GsfTools/plugins`", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35703", 
@@ -29039,6 +29084,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
+                        "title": "Added esConsumes calls to more Muon related code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35697", 
+                        "number": "35697", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "99a1dc4e5ec82d3e8153e9e27e51dc4da0296d74", 
@@ -29122,13 +29176,13 @@
                         "author_login": "trackreco"
                     }, 
                     {
-                        "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
-                        "title": "Added esConsumes calls to more Muon related code", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35697", 
-                        "number": "35697", 
+                        "hash": "6861d57a002b72ed9bc23eedd0126c54b67c31f3", 
+                        "title": "Shift to orbit frame", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35679", 
+                        "number": "35679", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "CTPPS"
                     }
                 ], 
                 "base_branch": "CMSSW_12_1_X", 
@@ -30040,15 +30094,6 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "6333f7370146950db05f7e67d8d49aa2735e338d", 
-                        "title": "Run3-sim93 Use ESGetToken in getting objects from EventSetup", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35718", 
-                        "number": "35718", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "bsunanda"
-                    }, 
-                    {
                         "hash": "e8502684f2b2e3029fb18f60d079c415f2d6bb1f", 
                         "title": "Add esConsumes to modules in Validation/EventGenerator", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35716", 
@@ -30058,6 +30103,24 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
+                        "hash": "6333f7370146950db05f7e67d8d49aa2735e338d", 
+                        "title": "Run3-sim93 Use ESGetToken in getting objects from EventSetup", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35718", 
+                        "number": "35718", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "d952116098bf4e7a060a8b38ec676ff22ec3336d", 
+                        "title": "Run3-sim94 Transition from watcher to producer for HcalTestAnalysis", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35730", 
+                        "number": "35730", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
                         "hash": "e7137372dd0305bf01b0eacb14ad81bcc55d4501", 
                         "title": "Merge .h files with .icc files in `TrackingTools/GsfTools/plugins`", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35703", 
@@ -30065,6 +30128,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
+                        "title": "Added esConsumes calls to more Muon related code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35697", 
+                        "number": "35697", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "99a1dc4e5ec82d3e8153e9e27e51dc4da0296d74", 
@@ -30148,13 +30220,13 @@
                         "author_login": "trackreco"
                     }, 
                     {
-                        "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
-                        "title": "Added esConsumes calls to more Muon related code", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35697", 
-                        "number": "35697", 
+                        "hash": "6861d57a002b72ed9bc23eedd0126c54b67c31f3", 
+                        "title": "Shift to orbit frame", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35679", 
+                        "number": "35679", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "CTPPS"
                     }
                 ], 
                 "base_branch": "CMSSW_12_1_X", 
@@ -31339,6 +31411,15 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
+                        "hash": "d952116098bf4e7a060a8b38ec676ff22ec3336d", 
+                        "title": "Run3-sim94 Transition from watcher to producer for HcalTestAnalysis", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35730", 
+                        "number": "35730", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
                         "hash": "6333f7370146950db05f7e67d8d49aa2735e338d", 
                         "title": "Run3-sim93 Use ESGetToken in getting objects from EventSetup", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35718", 
@@ -31445,6 +31526,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "trackreco"
+                    }, 
+                    {
+                        "hash": "6861d57a002b72ed9bc23eedd0126c54b67c31f3", 
+                        "title": "Shift to orbit frame", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35679", 
+                        "number": "35679", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CTPPS"
                     }, 
                     {
                         "hash": "446ab2fe39289c05b22794795458dfff4f14f5b1", 
@@ -31723,6 +31813,15 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
+                        "hash": "e8502684f2b2e3029fb18f60d079c415f2d6bb1f", 
+                        "title": "Add esConsumes to modules in Validation/EventGenerator", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35716", 
+                        "number": "35716", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "6333f7370146950db05f7e67d8d49aa2735e338d", 
                         "title": "Run3-sim93 Use ESGetToken in getting objects from EventSetup", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35718", 
@@ -31741,13 +31840,13 @@
                         "author_login": "cms-tau-pog"
                     }, 
                     {
-                        "hash": "e8502684f2b2e3029fb18f60d079c415f2d6bb1f", 
-                        "title": "Add esConsumes to modules in Validation/EventGenerator", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35716", 
-                        "number": "35716", 
+                        "hash": "d952116098bf4e7a060a8b38ec676ff22ec3336d", 
+                        "title": "Run3-sim94 Transition from watcher to producer for HcalTestAnalysis", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35730", 
+                        "number": "35730", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "bsunanda"
                     }, 
                     {
                         "hash": "e7137372dd0305bf01b0eacb14ad81bcc55d4501", 
@@ -31757,6 +31856,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
+                        "title": "Added esConsumes calls to more Muon related code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35697", 
+                        "number": "35697", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "99a1dc4e5ec82d3e8153e9e27e51dc4da0296d74", 
@@ -31840,13 +31948,13 @@
                         "author_login": "trackreco"
                     }, 
                     {
-                        "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
-                        "title": "Added esConsumes calls to more Muon related code", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35697", 
-                        "number": "35697", 
+                        "hash": "6861d57a002b72ed9bc23eedd0126c54b67c31f3", 
+                        "title": "Shift to orbit frame", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35679", 
+                        "number": "35679", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "CTPPS"
                     }
                 ], 
                 "base_branch": "CMSSW_12_1_DEVEL_X", 
@@ -33156,15 +33264,6 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "6333f7370146950db05f7e67d8d49aa2735e338d", 
-                        "title": "Run3-sim93 Use ESGetToken in getting objects from EventSetup", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35718", 
-                        "number": "35718", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "bsunanda"
-                    }, 
-                    {
                         "hash": "e8502684f2b2e3029fb18f60d079c415f2d6bb1f", 
                         "title": "Add esConsumes to modules in Validation/EventGenerator", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35716", 
@@ -33174,6 +33273,24 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
+                        "hash": "6333f7370146950db05f7e67d8d49aa2735e338d", 
+                        "title": "Run3-sim93 Use ESGetToken in getting objects from EventSetup", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35718", 
+                        "number": "35718", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "d952116098bf4e7a060a8b38ec676ff22ec3336d", 
+                        "title": "Run3-sim94 Transition from watcher to producer for HcalTestAnalysis", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35730", 
+                        "number": "35730", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
                         "hash": "e7137372dd0305bf01b0eacb14ad81bcc55d4501", 
                         "title": "Merge .h files with .icc files in `TrackingTools/GsfTools/plugins`", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35703", 
@@ -33181,6 +33298,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
+                        "title": "Added esConsumes calls to more Muon related code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35697", 
+                        "number": "35697", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "99a1dc4e5ec82d3e8153e9e27e51dc4da0296d74", 
@@ -33264,13 +33390,13 @@
                         "author_login": "trackreco"
                     }, 
                     {
-                        "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
-                        "title": "Added esConsumes calls to more Muon related code", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35697", 
-                        "number": "35697", 
+                        "hash": "6861d57a002b72ed9bc23eedd0126c54b67c31f3", 
+                        "title": "Shift to orbit frame", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35679", 
+                        "number": "35679", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "CTPPS"
                     }
                 ], 
                 "base_branch": "CMSSW_12_1_X", 
@@ -34273,6 +34399,15 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
+                        "hash": "d952116098bf4e7a060a8b38ec676ff22ec3336d", 
+                        "title": "Run3-sim94 Transition from watcher to producer for HcalTestAnalysis", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35730", 
+                        "number": "35730", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
                         "hash": "6333f7370146950db05f7e67d8d49aa2735e338d", 
                         "title": "Run3-sim93 Use ESGetToken in getting objects from EventSetup", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35718", 
@@ -34334,6 +34469,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "trackreco"
+                    }, 
+                    {
+                        "hash": "6861d57a002b72ed9bc23eedd0126c54b67c31f3", 
+                        "title": "Shift to orbit frame", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35679", 
+                        "number": "35679", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CTPPS"
                     }, 
                     {
                         "hash": "99a1dc4e5ec82d3e8153e9e27e51dc4da0296d74", 
@@ -34968,15 +35112,6 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "6333f7370146950db05f7e67d8d49aa2735e338d", 
-                        "title": "Run3-sim93 Use ESGetToken in getting objects from EventSetup", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35718", 
-                        "number": "35718", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "bsunanda"
-                    }, 
-                    {
                         "hash": "e8502684f2b2e3029fb18f60d079c415f2d6bb1f", 
                         "title": "Add esConsumes to modules in Validation/EventGenerator", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35716", 
@@ -34986,6 +35121,24 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
+                        "hash": "6333f7370146950db05f7e67d8d49aa2735e338d", 
+                        "title": "Run3-sim93 Use ESGetToken in getting objects from EventSetup", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35718", 
+                        "number": "35718", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "d952116098bf4e7a060a8b38ec676ff22ec3336d", 
+                        "title": "Run3-sim94 Transition from watcher to producer for HcalTestAnalysis", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35730", 
+                        "number": "35730", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
                         "hash": "e7137372dd0305bf01b0eacb14ad81bcc55d4501", 
                         "title": "Merge .h files with .icc files in `TrackingTools/GsfTools/plugins`", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35703", 
@@ -34993,6 +35146,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
+                        "title": "Added esConsumes calls to more Muon related code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35697", 
+                        "number": "35697", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "99a1dc4e5ec82d3e8153e9e27e51dc4da0296d74", 
@@ -35076,13 +35238,13 @@
                         "author_login": "trackreco"
                     }, 
                     {
-                        "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
-                        "title": "Added esConsumes calls to more Muon related code", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35697", 
-                        "number": "35697", 
+                        "hash": "6861d57a002b72ed9bc23eedd0126c54b67c31f3", 
+                        "title": "Shift to orbit frame", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35679", 
+                        "number": "35679", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "CTPPS"
                     }
                 ], 
                 "base_branch": "CMSSW_12_1_X", 
@@ -36366,15 +36528,6 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "6333f7370146950db05f7e67d8d49aa2735e338d", 
-                        "title": "Run3-sim93 Use ESGetToken in getting objects from EventSetup", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35718", 
-                        "number": "35718", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "bsunanda"
-                    }, 
-                    {
                         "hash": "e8502684f2b2e3029fb18f60d079c415f2d6bb1f", 
                         "title": "Add esConsumes to modules in Validation/EventGenerator", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35716", 
@@ -36384,6 +36537,24 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
+                        "hash": "6333f7370146950db05f7e67d8d49aa2735e338d", 
+                        "title": "Run3-sim93 Use ESGetToken in getting objects from EventSetup", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35718", 
+                        "number": "35718", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "d952116098bf4e7a060a8b38ec676ff22ec3336d", 
+                        "title": "Run3-sim94 Transition from watcher to producer for HcalTestAnalysis", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35730", 
+                        "number": "35730", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
                         "hash": "e7137372dd0305bf01b0eacb14ad81bcc55d4501", 
                         "title": "Merge .h files with .icc files in `TrackingTools/GsfTools/plugins`", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35703", 
@@ -36391,6 +36562,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
+                        "title": "Added esConsumes calls to more Muon related code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35697", 
+                        "number": "35697", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "99a1dc4e5ec82d3e8153e9e27e51dc4da0296d74", 
@@ -36474,13 +36654,13 @@
                         "author_login": "trackreco"
                     }, 
                     {
-                        "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
-                        "title": "Added esConsumes calls to more Muon related code", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35697", 
-                        "number": "35697", 
+                        "hash": "6861d57a002b72ed9bc23eedd0126c54b67c31f3", 
+                        "title": "Shift to orbit frame", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35679", 
+                        "number": "35679", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "CTPPS"
                     }
                 ], 
                 "base_branch": "CMSSW_12_1_X", 
@@ -37464,6 +37644,15 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
+                        "hash": "e8502684f2b2e3029fb18f60d079c415f2d6bb1f", 
+                        "title": "Add esConsumes to modules in Validation/EventGenerator", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35716", 
+                        "number": "35716", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "6333f7370146950db05f7e67d8d49aa2735e338d", 
                         "title": "Run3-sim93 Use ESGetToken in getting objects from EventSetup", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35718", 
@@ -37482,13 +37671,13 @@
                         "author_login": "cms-tau-pog"
                     }, 
                     {
-                        "hash": "e8502684f2b2e3029fb18f60d079c415f2d6bb1f", 
-                        "title": "Add esConsumes to modules in Validation/EventGenerator", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35716", 
-                        "number": "35716", 
+                        "hash": "d952116098bf4e7a060a8b38ec676ff22ec3336d", 
+                        "title": "Run3-sim94 Transition from watcher to producer for HcalTestAnalysis", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35730", 
+                        "number": "35730", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "bsunanda"
                     }, 
                     {
                         "hash": "e7137372dd0305bf01b0eacb14ad81bcc55d4501", 
@@ -37498,6 +37687,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
+                        "title": "Added esConsumes calls to more Muon related code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35697", 
+                        "number": "35697", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "99a1dc4e5ec82d3e8153e9e27e51dc4da0296d74", 
@@ -37581,13 +37779,13 @@
                         "author_login": "trackreco"
                     }, 
                     {
-                        "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
-                        "title": "Added esConsumes calls to more Muon related code", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35697", 
-                        "number": "35697", 
+                        "hash": "6861d57a002b72ed9bc23eedd0126c54b67c31f3", 
+                        "title": "Shift to orbit frame", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35679", 
+                        "number": "35679", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "CTPPS"
                     }
                 ], 
                 "base_branch": "CMSSW_12_1_ROOT6_X", 
@@ -39261,6 +39459,15 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
+                        "hash": "d952116098bf4e7a060a8b38ec676ff22ec3336d", 
+                        "title": "Run3-sim94 Transition from watcher to producer for HcalTestAnalysis", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35730", 
+                        "number": "35730", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
                         "hash": "6333f7370146950db05f7e67d8d49aa2735e338d", 
                         "title": "Run3-sim93 Use ESGetToken in getting objects from EventSetup", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35718", 
@@ -39367,6 +39574,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "trackreco"
+                    }, 
+                    {
+                        "hash": "6861d57a002b72ed9bc23eedd0126c54b67c31f3", 
+                        "title": "Shift to orbit frame", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35679", 
+                        "number": "35679", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CTPPS"
                     }, 
                     {
                         "hash": "446ab2fe39289c05b22794795458dfff4f14f5b1", 
@@ -39824,6 +40040,15 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
+                        "hash": "d952116098bf4e7a060a8b38ec676ff22ec3336d", 
+                        "title": "Run3-sim94 Transition from watcher to producer for HcalTestAnalysis", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35730", 
+                        "number": "35730", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
                         "hash": "6333f7370146950db05f7e67d8d49aa2735e338d", 
                         "title": "Run3-sim93 Use ESGetToken in getting objects from EventSetup", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35718", 
@@ -39912,6 +40137,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "trackreco"
+                    }, 
+                    {
+                        "hash": "6861d57a002b72ed9bc23eedd0126c54b67c31f3", 
+                        "title": "Shift to orbit frame", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35679", 
+                        "number": "35679", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CTPPS"
                     }, 
                     {
                         "hash": "446ab2fe39289c05b22794795458dfff4f14f5b1", 
@@ -40368,6 +40602,15 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
+                        "hash": "d952116098bf4e7a060a8b38ec676ff22ec3336d", 
+                        "title": "Run3-sim94 Transition from watcher to producer for HcalTestAnalysis", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35730", 
+                        "number": "35730", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
                         "hash": "6333f7370146950db05f7e67d8d49aa2735e338d", 
                         "title": "Run3-sim93 Use ESGetToken in getting objects from EventSetup", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35718", 
@@ -40429,6 +40672,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "trackreco"
+                    }, 
+                    {
+                        "hash": "6861d57a002b72ed9bc23eedd0126c54b67c31f3", 
+                        "title": "Shift to orbit frame", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35679", 
+                        "number": "35679", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CTPPS"
                     }, 
                     {
                         "hash": "99a1dc4e5ec82d3e8153e9e27e51dc4da0296d74", 
@@ -40883,15 +41135,6 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "733a8016689b05bbb70a0e9434afce1e70bde889", 
-                        "title": "Added PPS Alignment to the Prompt Calibration Loop", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35631", 
-                        "number": "35631", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "CTPPS"
-                    }, 
-                    {
                         "hash": "2dfe916ae461de4a0441c352690e22efbba8f892", 
                         "title": "Bug Fix for CLUE in BH section of HGCAL", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35727", 
@@ -40901,6 +41144,24 @@
                         "author_login": "rovere"
                     }, 
                     {
+                        "hash": "733a8016689b05bbb70a0e9434afce1e70bde889", 
+                        "title": "Added PPS Alignment to the Prompt Calibration Loop", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35631", 
+                        "number": "35631", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CTPPS"
+                    }, 
+                    {
+                        "hash": "d952116098bf4e7a060a8b38ec676ff22ec3336d", 
+                        "title": "Run3-sim94 Transition from watcher to producer for HcalTestAnalysis", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35730", 
+                        "number": "35730", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
                         "hash": "fb520703be3526eaf1ae40e65ce99465bd66c784", 
                         "title": "Add multiprocess support into compareHistograms", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35728", 
@@ -40908,6 +41169,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "rovere"
+                    }, 
+                    {
+                        "hash": "6861d57a002b72ed9bc23eedd0126c54b67c31f3", 
+                        "title": "Shift to orbit frame", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35679", 
+                        "number": "35679", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CTPPS"
                     }
                 ], 
                 "fwlite": [], 

@@ -269,15 +269,6 @@
             "material_budget_comparison": "not-found", 
             "merged_prs": [
                 {
-                    "hash": "733a8016689b05bbb70a0e9434afce1e70bde889", 
-                    "title": "Added PPS Alignment to the Prompt Calibration Loop", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/35631", 
-                    "number": "35631", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "CTPPS"
-                }, 
-                {
                     "hash": "2dfe916ae461de4a0441c352690e22efbba8f892", 
                     "title": "Bug Fix for CLUE in BH section of HGCAL", 
                     "url": "https://github.com/cms-sw/cmssw/pull/35727", 
@@ -287,6 +278,24 @@
                     "author_login": "rovere"
                 }, 
                 {
+                    "hash": "733a8016689b05bbb70a0e9434afce1e70bde889", 
+                    "title": "Added PPS Alignment to the Prompt Calibration Loop", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35631", 
+                    "number": "35631", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "CTPPS"
+                }, 
+                {
+                    "hash": "d952116098bf4e7a060a8b38ec676ff22ec3336d", 
+                    "title": "Run3-sim94 Transition from watcher to producer for HcalTestAnalysis", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35730", 
+                    "number": "35730", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
                     "hash": "fb520703be3526eaf1ae40e65ce99465bd66c784", 
                     "title": "Add multiprocess support into compareHistograms", 
                     "url": "https://github.com/cms-sw/cmssw/pull/35728", 
@@ -294,6 +303,15 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "rovere"
+                }, 
+                {
+                    "hash": "6861d57a002b72ed9bc23eedd0126c54b67c31f3", 
+                    "title": "Shift to orbit frame", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35679", 
+                    "number": "35679", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "CTPPS"
                 }
             ], 
             "fwlite": [], 
