@@ -5364,6 +5364,34 @@
     },
     {
         "exitcode": 0,
+        "id": "136.75",
+        "known_error": 0,
+        "name": "RunJetHT2016D+RunJetHT2016D+HLTDR2_2016+RECODR2_2016reHLT_skimJetHT_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 120
+            },
+            {
+                "errors": 10,
+                "status": "PASSED",
+                "warnings": 1898
+            },
+            {
+                "errors": 1252,
+                "status": "PASSED",
+                "warnings": 4
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "136.755",
         "known_error": 0,
         "name": "RunSinglePh2016D+RunSinglePh2016D+HLTDR2_2016+RECODR2_2016reHLT_skimSinglePh_HIPM+HARVESTDR2",
@@ -12357,6 +12385,39 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 116
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "1302.18",
+        "known_error": 0,
+        "name": "ProdTTbar_13UP18+ProdTTbar_13UP18+DIGIUP18PROD1+RECOPRODUP18+MINIAODMCUP18+NANOPRODUP18",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 33
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 60
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 74
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 17
+            },
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 39
             }
         ]
     },
