@@ -3389,6 +3389,29 @@
     },
     {
         "exitcode": 0,
+        "id": "126.0",
+        "known_error": 0,
+        "name": "SingleElectronFlatPt5To100+SingleElectronFlatPt5To100+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 22
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 124
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "127.0",
         "known_error": 0,
         "name": "SingleGammaFlatPt10To100+SingleGammaFlatPt10To100+DIGI+RECO",
@@ -4730,6 +4753,34 @@
                 "errors": 10,
                 "status": "PASSED",
                 "warnings": 1226
+            },
+            {
+                "errors": 1252,
+                "status": "PASSED",
+                "warnings": 4
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.735",
+        "known_error": 0,
+        "name": "RunNoBPTX2016B+RunNoBPTX2016B+HLTDR2_2016+RECODR2reHLTAlCaTkCosmics_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 22
+            },
+            {
+                "errors": 10,
+                "status": "PASSED",
+                "warnings": 1156
             },
             {
                 "errors": 1252,
@@ -7951,6 +8002,34 @@
     },
     {
         "exitcode": 0,
+        "id": "136.881",
+        "known_error": 0,
+        "name": "RunMuOnia2018C+RunMuOnia2018C+HLTDR2_2018+RECODR2_2018reHLT_skimMuOnia_Offline+HARVEST2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 22
+            },
+            {
+                "errors": 11,
+                "status": "PASSED",
+                "warnings": 155
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 4
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "136.882",
         "known_error": 0,
         "name": "RunNoBPTX2018C+RunNoBPTX2018C+HLTDR2_2018+RECODR2_2018reHLTAlCaTkCosmics_Offline+HARVEST2018",
@@ -10884,6 +10963,29 @@
     },
     {
         "exitcode": 0,
+        "id": "1325.517",
+        "known_error": 0,
+        "name": "TTbar_13_reminiaod2017UL_INPUT+TTbar_13_reminiaod2017UL_INPUT+REMINIAOD_mc2017UL+HARVESTUP17_REMINIAOD_mc2017UL",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 18
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "1325.518",
         "known_error": 0,
         "name": "TTbar_13_reminiaod2018UL_INPUT+TTbar_13_reminiaod2018UL_INPUT+REMINIAOD_mc2018UL+HARVESTUP18_REMINIAOD_mc2018UL",
@@ -10920,6 +11022,24 @@
                 "errors": 1,
                 "status": "PASSED",
                 "warnings": 104
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "1325.61",
+        "known_error": 0,
+        "name": "TTbar_13_106Xv1NanoAODINPUT+TTbar_13_106Xv1NanoAODINPUT+NANOAODMC2017_106XMiniAODv1",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 5,
+                "status": "PASSED",
+                "warnings": 128
             }
         ]
     },
