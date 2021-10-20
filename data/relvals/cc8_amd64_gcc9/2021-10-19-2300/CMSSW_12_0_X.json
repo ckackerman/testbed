@@ -2421,6 +2421,29 @@
     },
     {
         "exitcode": 0,
+        "id": "115.0",
+        "known_error": 0,
+        "name": "QCD_Pt_50_80+QCD_Pt_50_80+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 21
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 37
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 104
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "116.0",
         "known_error": 0,
         "name": "QCD_Pt_80_120+QCD_Pt_80_120_2HS+DIGI+RECO",
@@ -2773,6 +2796,29 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 20
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "129.0",
+        "known_error": 0,
+        "name": "SinglePiPt1+SinglePiPt1+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 11
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 31
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 33
             }
         ]
     },
@@ -15374,6 +15420,39 @@
     },
     {
         "exitcode": 0,
+        "id": "11609.0",
+        "known_error": 0,
+        "name": "SingleMuPt1000+2021+SingleMuPt1000_Eta2p85_GenSimINPUT+Digi+Reco+HARVEST+ALCA",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 107
+            },
+            {
+                "errors": 9,
+                "status": "PASSED",
+                "warnings": 14
+            },
+            {
+                "errors": 26,
+                "status": "PASSED",
+                "warnings": 1
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 23
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "11634.1",
         "known_error": 0,
         "name": "TTbar_14TeV+2021_trackingOnly+TTbar_14TeV_TuneCP5_GenSimINPUT+Digi+Reco+HARVEST",
@@ -15608,6 +15687,39 @@
                 "errors": 1,
                 "status": "PASSED",
                 "warnings": 48
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "11640.0",
+        "known_error": 0,
+        "name": "MinBias_14TeV+2021+MinBias_14TeV_pythia8_TuneCP5_GenSimINPUT+Digi+Reco+HARVEST+ALCA",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 49
+            },
+            {
+                "errors": 9,
+                "status": "PASSED",
+                "warnings": 100
+            },
+            {
+                "errors": 26,
+                "status": "PASSED",
+                "warnings": 1
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 8
             }
         ]
     },
