@@ -471,7 +471,19 @@
                 }
             ], 
             "ib_date": "2021-10-19-2300-0000", 
-            "relvals": [], 
+            "relvals": [
+                {
+                    "done": false, 
+                    "arch": "cc8_amd64_gcc9", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/cc8_amd64_gcc9/www/tue/12.1-tue-23/CMSSW_12_1_X_2021-10-19-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 3, 
+                        "known_failed": 0, 
+                        "num_failed": 0
+                    }
+                }
+            ], 
             "release_queue": "CMSSW_12_1_X", 
             "release_name": "CMSSW_12_1_X_2021-10-19-2300", 
             "comp_baseline": "inprogress", 
