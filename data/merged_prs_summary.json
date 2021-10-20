@@ -15613,7 +15613,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/mon/11.2-mon-23/CMSSW_11_2_X_2021-10-18-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2696, 
+                            "num_passed": 2761, 
                             "known_failed": 51, 
                             "num_failed": 16
                         }
@@ -23081,7 +23081,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/tue/12.0-tue-23/CMSSW_12_0_X_2021-10-19-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2, 
+                            "num_passed": 95, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -23092,7 +23092,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc10/www/tue/12.0-tue-23/CMSSW_12_0_X_2021-10-19-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 19, 
+                            "num_passed": 274, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -23103,7 +23103,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/cc8_amd64_gcc9/www/tue/12.0-tue-23/CMSSW_12_0_X_2021-10-19-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 10, 
+                            "num_passed": 149, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -23271,7 +23271,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/cc8_aarch64_gcc9/www/tue/12.0-tue-11/CMSSW_12_0_X_2021-10-19-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1629, 
+                            "num_passed": 1771, 
                             "known_failed": 54, 
                             "num_failed": 1
                         }
@@ -26441,6 +26441,24 @@
                         "author_login": "bsunanda"
                     }, 
                     {
+                        "hash": "733a8016689b05bbb70a0e9434afce1e70bde889", 
+                        "title": "Added PPS Alignment to the Prompt Calibration Loop", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35631", 
+                        "number": "35631", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CTPPS"
+                    }, 
+                    {
+                        "hash": "fb520703be3526eaf1ae40e65ce99465bd66c784", 
+                        "title": "Add multiprocess support into compareHistograms", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35728", 
+                        "number": "35728", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
+                    }, 
+                    {
                         "hash": "b32639d5a2aa73392c0f62cb9492c9ad2ade9c64", 
                         "title": "Update mkFit for 12_1_0_pre5", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35652", 
@@ -27501,6 +27519,24 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "733a8016689b05bbb70a0e9434afce1e70bde889", 
+                        "title": "Added PPS Alignment to the Prompt Calibration Loop", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35631", 
+                        "number": "35631", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CTPPS"
+                    }, 
+                    {
+                        "hash": "fb520703be3526eaf1ae40e65ce99465bd66c784", 
+                        "title": "Add multiprocess support into compareHistograms", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35728", 
+                        "number": "35728", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
                     }, 
                     {
                         "hash": "b32639d5a2aa73392c0f62cb9492c9ad2ade9c64", 
@@ -28909,6 +28945,24 @@
                         "author_login": "bsunanda"
                     }, 
                     {
+                        "hash": "733a8016689b05bbb70a0e9434afce1e70bde889", 
+                        "title": "Added PPS Alignment to the Prompt Calibration Loop", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35631", 
+                        "number": "35631", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CTPPS"
+                    }, 
+                    {
+                        "hash": "fb520703be3526eaf1ae40e65ce99465bd66c784", 
+                        "title": "Add multiprocess support into compareHistograms", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35728", 
+                        "number": "35728", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
+                    }, 
+                    {
                         "hash": "b32639d5a2aa73392c0f62cb9492c9ad2ade9c64", 
                         "title": "Update mkFit for 12_1_0_pre5", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35652", 
@@ -29906,6 +29960,24 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "733a8016689b05bbb70a0e9434afce1e70bde889", 
+                        "title": "Added PPS Alignment to the Prompt Calibration Loop", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35631", 
+                        "number": "35631", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CTPPS"
+                    }, 
+                    {
+                        "hash": "fb520703be3526eaf1ae40e65ce99465bd66c784", 
+                        "title": "Add multiprocess support into compareHistograms", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35728", 
+                        "number": "35728", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
                     }, 
                     {
                         "hash": "b32639d5a2aa73392c0f62cb9492c9ad2ade9c64", 
@@ -31198,6 +31270,15 @@
                         "author_login": "ChrisMisan"
                     }, 
                     {
+                        "hash": "733a8016689b05bbb70a0e9434afce1e70bde889", 
+                        "title": "Added PPS Alignment to the Prompt Calibration Loop", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35631", 
+                        "number": "35631", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CTPPS"
+                    }, 
+                    {
                         "hash": "b32639d5a2aa73392c0f62cb9492c9ad2ade9c64", 
                         "title": "Update mkFit for 12_1_0_pre5", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35652", 
@@ -31250,6 +31331,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "fb520703be3526eaf1ae40e65ce99465bd66c784", 
+                        "title": "Add multiprocess support into compareHistograms", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35728", 
+                        "number": "35728", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
                     }, 
                     {
                         "hash": "8fe41661345d77c6fcba46320b159ab1607fab97", 
@@ -31544,6 +31634,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "fb520703be3526eaf1ae40e65ce99465bd66c784", 
+                        "title": "Add multiprocess support into compareHistograms", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35728", 
+                        "number": "35728", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
                     }, 
                     {
                         "hash": "b32639d5a2aa73392c0f62cb9492c9ad2ade9c64", 
@@ -32943,6 +33042,24 @@
                         "author_login": "bsunanda"
                     }, 
                     {
+                        "hash": "733a8016689b05bbb70a0e9434afce1e70bde889", 
+                        "title": "Added PPS Alignment to the Prompt Calibration Loop", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35631", 
+                        "number": "35631", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CTPPS"
+                    }, 
+                    {
+                        "hash": "fb520703be3526eaf1ae40e65ce99465bd66c784", 
+                        "title": "Add multiprocess support into compareHistograms", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35728", 
+                        "number": "35728", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
+                    }, 
+                    {
                         "hash": "b32639d5a2aa73392c0f62cb9492c9ad2ade9c64", 
                         "title": "Update mkFit for 12_1_0_pre5", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35652", 
@@ -34070,6 +34187,15 @@
                         "author_login": "ChrisMisan"
                     }, 
                     {
+                        "hash": "733a8016689b05bbb70a0e9434afce1e70bde889", 
+                        "title": "Added PPS Alignment to the Prompt Calibration Loop", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35631", 
+                        "number": "35631", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CTPPS"
+                    }, 
+                    {
                         "hash": "b32639d5a2aa73392c0f62cb9492c9ad2ade9c64", 
                         "title": "Update mkFit for 12_1_0_pre5", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35652", 
@@ -34113,6 +34239,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "fb520703be3526eaf1ae40e65ce99465bd66c784", 
+                        "title": "Add multiprocess support into compareHistograms", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35728", 
+                        "number": "35728", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
                     }, 
                     {
                         "hash": "18da2f88bfd78581aa724cf7385a11c7beb1f830", 
@@ -34811,6 +34946,24 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "733a8016689b05bbb70a0e9434afce1e70bde889", 
+                        "title": "Added PPS Alignment to the Prompt Calibration Loop", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35631", 
+                        "number": "35631", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CTPPS"
+                    }, 
+                    {
+                        "hash": "fb520703be3526eaf1ae40e65ce99465bd66c784", 
+                        "title": "Add multiprocess support into compareHistograms", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35728", 
+                        "number": "35728", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
                     }, 
                     {
                         "hash": "b32639d5a2aa73392c0f62cb9492c9ad2ade9c64", 
@@ -36184,6 +36337,24 @@
                         "author_login": "bsunanda"
                     }, 
                     {
+                        "hash": "733a8016689b05bbb70a0e9434afce1e70bde889", 
+                        "title": "Added PPS Alignment to the Prompt Calibration Loop", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35631", 
+                        "number": "35631", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CTPPS"
+                    }, 
+                    {
+                        "hash": "fb520703be3526eaf1ae40e65ce99465bd66c784", 
+                        "title": "Add multiprocess support into compareHistograms", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35728", 
+                        "number": "35728", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
+                    }, 
+                    {
                         "hash": "b32639d5a2aa73392c0f62cb9492c9ad2ade9c64", 
                         "title": "Update mkFit for 12_1_0_pre5", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35652", 
@@ -37262,6 +37433,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "fb520703be3526eaf1ae40e65ce99465bd66c784", 
+                        "title": "Add multiprocess support into compareHistograms", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35728", 
+                        "number": "35728", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
                     }, 
                     {
                         "hash": "b32639d5a2aa73392c0f62cb9492c9ad2ade9c64", 
@@ -39101,6 +39281,15 @@
                         "author_login": "ChrisMisan"
                     }, 
                     {
+                        "hash": "733a8016689b05bbb70a0e9434afce1e70bde889", 
+                        "title": "Added PPS Alignment to the Prompt Calibration Loop", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35631", 
+                        "number": "35631", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CTPPS"
+                    }, 
+                    {
                         "hash": "b32639d5a2aa73392c0f62cb9492c9ad2ade9c64", 
                         "title": "Update mkFit for 12_1_0_pre5", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35652", 
@@ -39153,6 +39342,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "fb520703be3526eaf1ae40e65ce99465bd66c784", 
+                        "title": "Add multiprocess support into compareHistograms", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35728", 
+                        "number": "35728", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
                     }, 
                     {
                         "hash": "8fe41661345d77c6fcba46320b159ab1607fab97", 
@@ -39619,6 +39817,15 @@
                         "author_login": "ChrisMisan"
                     }, 
                     {
+                        "hash": "733a8016689b05bbb70a0e9434afce1e70bde889", 
+                        "title": "Added PPS Alignment to the Prompt Calibration Loop", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35631", 
+                        "number": "35631", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CTPPS"
+                    }, 
+                    {
                         "hash": "b32639d5a2aa73392c0f62cb9492c9ad2ade9c64", 
                         "title": "Update mkFit for 12_1_0_pre5", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35652", 
@@ -39671,6 +39878,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "fb520703be3526eaf1ae40e65ce99465bd66c784", 
+                        "title": "Add multiprocess support into compareHistograms", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35728", 
+                        "number": "35728", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
                     }, 
                     {
                         "hash": "8fe41661345d77c6fcba46320b159ab1607fab97", 
@@ -40109,6 +40325,15 @@
                         "author_login": "ChrisMisan"
                     }, 
                     {
+                        "hash": "733a8016689b05bbb70a0e9434afce1e70bde889", 
+                        "title": "Added PPS Alignment to the Prompt Calibration Loop", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35631", 
+                        "number": "35631", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CTPPS"
+                    }, 
+                    {
                         "hash": "b32639d5a2aa73392c0f62cb9492c9ad2ade9c64", 
                         "title": "Update mkFit for 12_1_0_pre5", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35652", 
@@ -40152,6 +40377,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "fb520703be3526eaf1ae40e65ce99465bd66c784", 
+                        "title": "Add multiprocess support into compareHistograms", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35728", 
+                        "number": "35728", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
                     }, 
                     {
                         "hash": "18da2f88bfd78581aa724cf7385a11c7beb1f830", 
@@ -40726,6 +40960,24 @@
                         "author_login": "bsunanda"
                     }, 
                     {
+                        "hash": "733a8016689b05bbb70a0e9434afce1e70bde889", 
+                        "title": "Added PPS Alignment to the Prompt Calibration Loop", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35631", 
+                        "number": "35631", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CTPPS"
+                    }, 
+                    {
+                        "hash": "fb520703be3526eaf1ae40e65ce99465bd66c784", 
+                        "title": "Add multiprocess support into compareHistograms", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35728", 
+                        "number": "35728", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
+                    }, 
+                    {
                         "hash": "b32639d5a2aa73392c0f62cb9492c9ad2ade9c64", 
                         "title": "Update mkFit for 12_1_0_pre5", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35652", 
@@ -41150,12 +41402,12 @@
                         }
                     }, 
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "cc8_ppc64le_gcc9", 
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/cc8_ppc64le_gcc9/www/mon/12.1-mon-23/CMSSW_12_1_X_2021-10-18-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2631, 
+                            "num_passed": 3301, 
                             "known_failed": 54, 
                             "num_failed": 1
                         }
