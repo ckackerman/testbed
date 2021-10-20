@@ -7,6 +7,97 @@
             "python3_tests": [], 
             "tests_archs": [], 
             "cmsdist_merged_prs": {
+                "slc7_amd64_gcc900": []
+            }, 
+            "cmsdist_compared_tags": {
+                "slc7_amd64_gcc900": "IB/CMSSW_12_1_GPU_X_2021-10-19-2300/slc7_amd64_gcc900..IB/CMSSW_12_1_X/master"
+            }, 
+            "cmsdistTags": {}, 
+            "next_ib": true, 
+            "RVExceptions": null, 
+            "fwlite": [], 
+            "profiling": "not-found", 
+            "compared_tags": "CMSSW_12_1_GPU_X_2021-10-19-2300-->CMSSW_12_1_X", 
+            "dqm_tests": "not-found", 
+            "utests": [], 
+            "ib_date": "2021-10-19-2300-0001", 
+            "relvals": [], 
+            "igprof": "not-found", 
+            "release_queue": "CMSSW_12_1_GPU_X", 
+            "release_name": "CMSSW_12_1_X", 
+            "comp_baseline": "not-found", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [
+                {
+                    "hash": "2dfe916ae461de4a0441c352690e22efbba8f892", 
+                    "title": "Bug Fix for CLUE in BH section of HGCAL", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35727", 
+                    "number": "35727", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "rovere"
+                }, 
+                {
+                    "hash": "733a8016689b05bbb70a0e9434afce1e70bde889", 
+                    "title": "Added PPS Alignment to the Prompt Calibration Loop", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35631", 
+                    "number": "35631", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "CTPPS"
+                }, 
+                {
+                    "hash": "d952116098bf4e7a060a8b38ec676ff22ec3336d", 
+                    "title": "Run3-sim94 Transition from watcher to producer for HcalTestAnalysis", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35730", 
+                    "number": "35730", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
+                    "hash": "fb520703be3526eaf1ae40e65ce99465bd66c784", 
+                    "title": "Add multiprocess support into compareHistograms", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35728", 
+                    "number": "35728", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "rovere"
+                }, 
+                {
+                    "hash": "6861d57a002b72ed9bc23eedd0126c54b67c31f3", 
+                    "title": "Shift to orbit frame", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35679", 
+                    "number": "35679", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "CTPPS"
+                }
+            ], 
+            "base_branch": "CMSSW_12_1_X", 
+            "invalid_includes": [], 
+            "builds": [], 
+            "material_budget_v2": "not-found", 
+            "check-headers": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "dupDict": [], 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": false, 
+            "inProgress": false, 
+            "addons": [], 
+            "hlt_tests": "not-found"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "python3_tests": [], 
+            "tests_archs": [
+                "slc7_amd64_gcc900"
+            ], 
+            "cmsdist_merged_prs": {
                 "slc7_amd64_gcc900": [
                     {
                         "hash": "6957c29e09eeb1d81bd6ecc55e797003257c2e0b", 
@@ -47,21 +138,30 @@
                 ]
             }, 
             "cmsdist_compared_tags": {
-                "slc7_amd64_gcc900": "IB/CMSSW_12_1_GPU_X_2021-10-18-2300/slc7_amd64_gcc900..IB/CMSSW_12_1_X/master"
+                "slc7_amd64_gcc900": "IB/CMSSW_12_1_GPU_X_2021-10-18-2300/slc7_amd64_gcc900..IB/CMSSW_12_1_GPU_X_2021-10-19-2300/slc7_amd64_gcc900"
             }, 
-            "cmsdistTags": {}, 
-            "next_ib": true, 
+            "cmsdistTags": {
+                "slc7_amd64_gcc900": "IB/CMSSW_12_1_GPU_X_2021-10-19-2300/slc7_amd64_gcc900"
+            }, 
+            "next_ib": false, 
             "RVExceptions": null, 
             "fwlite": [], 
             "profiling": "not-found", 
-            "compared_tags": "CMSSW_12_1_GPU_X_2021-10-18-2300-->CMSSW_12_1_X", 
+            "compared_tags": "CMSSW_12_1_GPU_X_2021-10-18-2300-->CMSSW_12_1_GPU_X_2021-10-19-2300", 
             "dqm_tests": "not-found", 
-            "utests": [], 
-            "ib_date": "2021-10-18-2300-0001", 
+            "utests": [
+                {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": "unknown", 
+                    "file": "['/data/sdt/buildlogs/slc7_amd64_gcc900/www/tue/12.1.GPU-tue-23/CMSSW_12_1_GPU_X_2021-10-19-2300/new/logAnalysis.pkl']", 
+                    "details": {}
+                }
+            ], 
+            "ib_date": "2021-10-19-2300-0000", 
             "relvals": [], 
             "igprof": "not-found", 
             "release_queue": "CMSSW_12_1_GPU_X", 
-            "release_name": "CMSSW_12_1_X", 
+            "release_name": "CMSSW_12_1_GPU_X_2021-10-19-2300", 
             "comp_baseline": "not-found", 
             "gpu_utests": [], 
             "material_budget_comparison": "not-found", 
@@ -76,15 +176,6 @@
                     "author_login": "Dr15Jones"
                 }, 
                 {
-                    "hash": "e8502684f2b2e3029fb18f60d079c415f2d6bb1f", 
-                    "title": "Add esConsumes to modules in Validation/EventGenerator", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/35716", 
-                    "number": "35716", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "Dr15Jones"
-                }, 
-                {
                     "hash": "6333f7370146950db05f7e67d8d49aa2735e338d", 
                     "title": "Run3-sim93 Use ESGetToken in getting objects from EventSetup", 
                     "url": "https://github.com/cms-sw/cmssw/pull/35718", 
@@ -94,13 +185,13 @@
                     "author_login": "bsunanda"
                 }, 
                 {
-                    "hash": "d952116098bf4e7a060a8b38ec676ff22ec3336d", 
-                    "title": "Run3-sim94 Transition from watcher to producer for HcalTestAnalysis", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/35730", 
-                    "number": "35730", 
+                    "hash": "e8502684f2b2e3029fb18f60d079c415f2d6bb1f", 
+                    "title": "Add esConsumes to modules in Validation/EventGenerator", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35716", 
+                    "number": "35716", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "bsunanda"
+                    "author_login": "Dr15Jones"
                 }, 
                 {
                     "hash": "e7137372dd0305bf01b0eacb14ad81bcc55d4501", 
@@ -112,15 +203,6 @@
                     "author_login": "guitargeek"
                 }, 
                 {
-                    "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
-                    "title": "Added esConsumes calls to more Muon related code", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/35697", 
-                    "number": "35697", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "Dr15Jones"
-                }, 
-                {
                     "hash": "99a1dc4e5ec82d3e8153e9e27e51dc4da0296d74", 
                     "title": "Change bx constant to centrally defined value in RawDataTask.cc", 
                     "url": "https://github.com/cms-sw/cmssw/pull/35725", 
@@ -128,15 +210,6 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "perrotta"
-                }, 
-                {
-                    "hash": "2dfe916ae461de4a0441c352690e22efbba8f892", 
-                    "title": "Bug Fix for CLUE in BH section of HGCAL", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/35727", 
-                    "number": "35727", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "rovere"
                 }, 
                 {
                     "hash": "5e695933ef86cc84b3a925d0306d42d1b7061394", 
@@ -175,24 +248,6 @@
                     "author_login": "bsunanda"
                 }, 
                 {
-                    "hash": "733a8016689b05bbb70a0e9434afce1e70bde889", 
-                    "title": "Added PPS Alignment to the Prompt Calibration Loop", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/35631", 
-                    "number": "35631", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "CTPPS"
-                }, 
-                {
-                    "hash": "fb520703be3526eaf1ae40e65ce99465bd66c784", 
-                    "title": "Add multiprocess support into compareHistograms", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/35728", 
-                    "number": "35728", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "rovere"
-                }, 
-                {
                     "hash": "b32639d5a2aa73392c0f62cb9492c9ad2ade9c64", 
                     "title": "Update mkFit for 12_1_0_pre5", 
                     "url": "https://github.com/cms-sw/cmssw/pull/35652", 
@@ -202,27 +257,41 @@
                     "author_login": "trackreco"
                 }, 
                 {
-                    "hash": "6861d57a002b72ed9bc23eedd0126c54b67c31f3", 
-                    "title": "Shift to orbit frame", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/35679", 
-                    "number": "35679", 
+                    "hash": "764854b5ce5cdfbf0b9dae9e4bba4d95abd12e60", 
+                    "title": "Added esConsumes calls to more Muon related code", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35697", 
+                    "number": "35697", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "CTPPS"
+                    "author_login": "Dr15Jones"
                 }
             ], 
             "base_branch": "CMSSW_12_1_X", 
             "invalid_includes": [], 
-            "builds": [], 
+            "builds": [
+                {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/tue/12.1.GPU-tue-23/CMSSW_12_1_GPU_X_2021-10-19-2300/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 19
+                    }
+                }
+            ], 
             "material_budget_v2": "not-found", 
             "check-headers": "not-found", 
             "static_checks_v2": "not-found", 
             "valgrind": "not-found", 
             "material_budget": "not-found", 
-            "dupDict": [], 
+            "dupDict": [
+                {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": "passed"
+                }
+            ], 
             "static_checks_failures": "not-found", 
             "static_checks": "not-found", 
-            "isIB": false, 
+            "isIB": true, 
             "inProgress": false, 
             "addons": [], 
             "hlt_tests": "not-found"
