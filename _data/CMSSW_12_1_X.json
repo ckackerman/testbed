@@ -278,21 +278,21 @@
             "comp_baseline_state": "ok", 
             "python3_tests": [], 
             "tests_archs": [
-                "slc7_ppc64le_gcc9", 
                 "cc8_amd64_gcc9", 
+                "slc7_ppc64le_gcc9", 
                 "slc7_aarch64_gcc9", 
                 "slc7_amd64_gcc10", 
                 "slc7_amd64_gcc900"
             ], 
             "cmsdist_merged_prs": {
-                "slc7_ppc64le_gcc9": [
+                "cc8_amd64_gcc9": [
                     {
                         "hash": "6957c29e09eeb1d81bd6ecc55e797003257c2e0b", 
                         "title": "Update zipp to 3.6.0", 
                         "url": "https://github.com/cms-sw/cmsdist/pull/7397", 
                         "number": "7397", 
                         "is_merge_commit": false, 
-                        "from_merge_commit": false, 
+                        "from_merge_commit": true, 
                         "author_login": "cms-sw"
                     }, 
                     {
@@ -301,7 +301,7 @@
                         "url": "https://github.com/cms-sw/cmsdist/pull/7396", 
                         "number": "7396", 
                         "is_merge_commit": false, 
-                        "from_merge_commit": false, 
+                        "from_merge_commit": true, 
                         "author_login": "cms-sw"
                     }, 
                     {
@@ -310,7 +310,7 @@
                         "url": "https://github.com/cms-sw/cmsdist/pull/7398", 
                         "number": "7398", 
                         "is_merge_commit": false, 
-                        "from_merge_commit": false, 
+                        "from_merge_commit": true, 
                         "author_login": "cms-sw"
                     }, 
                     {
@@ -319,7 +319,7 @@
                         "url": "https://github.com/cms-sw/cmsdist/pull/7387", 
                         "number": "7387", 
                         "is_merge_commit": false, 
-                        "from_merge_commit": false, 
+                        "from_merge_commit": true, 
                         "author_login": "mmasciov"
                     }
                 ], 
@@ -361,14 +361,14 @@
                         "author_login": "mmasciov"
                     }
                 ], 
-                "cc8_amd64_gcc9": [
+                "slc7_ppc64le_gcc9": [
                     {
                         "hash": "6957c29e09eeb1d81bd6ecc55e797003257c2e0b", 
                         "title": "Update zipp to 3.6.0", 
                         "url": "https://github.com/cms-sw/cmsdist/pull/7397", 
                         "number": "7397", 
                         "is_merge_commit": false, 
-                        "from_merge_commit": true, 
+                        "from_merge_commit": false, 
                         "author_login": "cms-sw"
                     }, 
                     {
@@ -377,7 +377,7 @@
                         "url": "https://github.com/cms-sw/cmsdist/pull/7396", 
                         "number": "7396", 
                         "is_merge_commit": false, 
-                        "from_merge_commit": true, 
+                        "from_merge_commit": false, 
                         "author_login": "cms-sw"
                     }, 
                     {
@@ -386,7 +386,7 @@
                         "url": "https://github.com/cms-sw/cmsdist/pull/7398", 
                         "number": "7398", 
                         "is_merge_commit": false, 
-                        "from_merge_commit": true, 
+                        "from_merge_commit": false, 
                         "author_login": "cms-sw"
                     }, 
                     {
@@ -395,7 +395,7 @@
                         "url": "https://github.com/cms-sw/cmsdist/pull/7387", 
                         "number": "7387", 
                         "is_merge_commit": false, 
-                        "from_merge_commit": true, 
+                        "from_merge_commit": false, 
                         "author_login": "mmasciov"
                     }
                 ], 
@@ -477,9 +477,9 @@
                 ]
             }, 
             "cmsdist_compared_tags": {
-                "slc7_ppc64le_gcc9": "IB/CMSSW_12_1_X_2021-10-18-2300/slc7_ppc64le_gcc9..IB/CMSSW_12_1_X_2021-10-19-2300/slc7_ppc64le_gcc9", 
-                "slc7_aarch64_gcc9": "IB/CMSSW_12_1_X_2021-10-18-2300/slc7_aarch64_gcc9..IB/CMSSW_12_1_X_2021-10-19-2300/slc7_aarch64_gcc9", 
                 "cc8_amd64_gcc9": "IB/CMSSW_12_1_X_2021-10-18-2300/cc8_amd64_gcc9..IB/CMSSW_12_1_X_2021-10-19-2300/cc8_amd64_gcc9", 
+                "slc7_aarch64_gcc9": "IB/CMSSW_12_1_X_2021-10-18-2300/slc7_aarch64_gcc9..IB/CMSSW_12_1_X_2021-10-19-2300/slc7_aarch64_gcc9", 
+                "slc7_ppc64le_gcc9": "IB/CMSSW_12_1_X_2021-10-18-2300/slc7_ppc64le_gcc9..IB/CMSSW_12_1_X_2021-10-19-2300/slc7_ppc64le_gcc9", 
                 "slc7_amd64_gcc900": "IB/CMSSW_12_1_X_2021-10-18-2300/slc7_amd64_gcc900..IB/CMSSW_12_1_X_2021-10-19-2300/slc7_amd64_gcc900", 
                 "slc7_amd64_gcc10": "IB/CMSSW_12_1_X_2021-10-18-2300/slc7_amd64_gcc10..IB/CMSSW_12_1_X_2021-10-19-2300/slc7_amd64_gcc10"
             }, 
@@ -527,18 +527,20 @@
                     }
                 }, 
                 {
+                    "arch": "slc7_ppc64le_gcc9", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/tue/12.1-tue-23/CMSSW_12_1_X_2021-10-19-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "6"
+                    }
+                }, 
+                {
                     "arch": "cc8_amd64_gcc9", 
                     "passed": "passed", 
                     "file": "/data/sdt/buildlogs/cc8_amd64_gcc9/www/tue/12.1-tue-23/CMSSW_12_1_X_2021-10-19-2300/unitTests-summary.log", 
                     "details": {
                         "num_fails": "0"
                     }
-                }, 
-                {
-                    "arch": "slc7_ppc64le_gcc9", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/tue/12.1-tue-23/CMSSW_12_1_X_2021-10-19-2300/new/logAnalysis.pkl']", 
-                    "details": {}
                 }
             ], 
             "ib_date": "2021-10-19-2300-0000", 
@@ -549,7 +551,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc10/www/tue/12.1-tue-23/CMSSW_12_1_X_2021-10-19-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 27, 
+                        "num_passed": 954, 
                         "known_failed": 0, 
                         "num_failed": 1
                     }
@@ -560,7 +562,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/tue/12.1-tue-23/CMSSW_12_1_X_2021-10-19-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1, 
+                        "num_passed": 99, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -571,7 +573,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/tue/12.1-tue-23/CMSSW_12_1_X_2021-10-19-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 73, 
+                        "num_passed": 321, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -734,11 +736,11 @@
             "material_budget": "not-found", 
             "dupDict": [
                 {
-                    "arch": "slc7_ppc64le_gcc9", 
+                    "arch": "cc8_amd64_gcc9", 
                     "passed": "passed"
                 }, 
                 {
-                    "arch": "cc8_amd64_gcc9", 
+                    "arch": "slc7_ppc64le_gcc9", 
                     "passed": "passed"
                 }, 
                 {
