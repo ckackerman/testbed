@@ -482,12 +482,12 @@
             "ib_date": "2021-10-19-2300-0000", 
             "relvals": [
                 {
-                    "done": false, 
+                    "done": true, 
                     "arch": "cc8_amd64_gcc9", 
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/cc8_amd64_gcc9/www/tue/12.1-tue-23/CMSSW_12_1_X_2021-10-19-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 3279, 
+                        "num_passed": 3486, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -624,6 +624,12 @@
             "isIB": true, 
             "inProgress": false, 
             "addons": [
+                {
+                    "arch": "slc7_aarch64_gcc9", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/tue/12.1-tue-23/CMSSW_12_1_X_2021-10-19-2300/addOnTests.log", 
+                    "details": {}
+                }, 
                 {
                     "arch": "cc8_amd64_gcc9", 
                     "passed": true, 
