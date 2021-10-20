@@ -7,13 +7,83 @@
             "python3_tests": [], 
             "tests_archs": [], 
             "cmsdist_merged_prs": {
-                "cc8_amd64_gcc9": [], 
-                "cc8_aarch64_gcc9": [], 
-                "slc7_aarch64_gcc9": [], 
-                "cc8_ppc64le_gcc9": [], 
-                "slc7_amd64_gcc10": [], 
-                "slc7_amd64_gcc900": [], 
-                "slc7_ppc64le_gcc9": []
+                "cc8_amd64_gcc9": [
+                    {
+                        "hash": "ac4d09ea5bf783efe55aa7402edce2cea7e94b9f", 
+                        "title": "[12.0.X] Use same soruces for jemalloc and jemalloc-debug", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/7399", 
+                        "number": "7399", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "cms-sw"
+                    }
+                ], 
+                "cc8_aarch64_gcc9": [
+                    {
+                        "hash": "ac4d09ea5bf783efe55aa7402edce2cea7e94b9f", 
+                        "title": "[12.0.X] Use same soruces for jemalloc and jemalloc-debug", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/7399", 
+                        "number": "7399", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "cms-sw"
+                    }
+                ], 
+                "slc7_aarch64_gcc9": [
+                    {
+                        "hash": "ac4d09ea5bf783efe55aa7402edce2cea7e94b9f", 
+                        "title": "[12.0.X] Use same soruces for jemalloc and jemalloc-debug", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/7399", 
+                        "number": "7399", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }
+                ], 
+                "cc8_ppc64le_gcc9": [
+                    {
+                        "hash": "ac4d09ea5bf783efe55aa7402edce2cea7e94b9f", 
+                        "title": "[12.0.X] Use same soruces for jemalloc and jemalloc-debug", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/7399", 
+                        "number": "7399", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "cms-sw"
+                    }
+                ], 
+                "slc7_amd64_gcc10": [
+                    {
+                        "hash": "ac4d09ea5bf783efe55aa7402edce2cea7e94b9f", 
+                        "title": "[12.0.X] Use same soruces for jemalloc and jemalloc-debug", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/7399", 
+                        "number": "7399", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "cms-sw"
+                    }
+                ], 
+                "slc7_amd64_gcc900": [
+                    {
+                        "hash": "ac4d09ea5bf783efe55aa7402edce2cea7e94b9f", 
+                        "title": "[12.0.X] Use same soruces for jemalloc and jemalloc-debug", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/7399", 
+                        "number": "7399", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }
+                ], 
+                "slc7_ppc64le_gcc9": [
+                    {
+                        "hash": "ac4d09ea5bf783efe55aa7402edce2cea7e94b9f", 
+                        "title": "[12.0.X] Use same soruces for jemalloc and jemalloc-debug", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/7399", 
+                        "number": "7399", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }
+                ]
             }, 
             "cmsdist_compared_tags": {
                 "cc8_amd64_gcc9": "IB/CMSSW_12_0_X_2021-10-17-0000/cc8_amd64_gcc9..IB/CMSSW_12_0_X/cc8", 
@@ -178,23 +248,23 @@
                 {
                     "done": false, 
                     "arch": "slc7_aarch64_gcc9", 
-                    "passed": true, 
+                    "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/tue/12.0-tue-23/CMSSW_12_0_X_2021-10-19-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1134, 
-                        "known_failed": 26, 
-                        "num_failed": 0
+                        "num_passed": 1316, 
+                        "known_failed": 0, 
+                        "num_failed": 26
                     }
                 }, 
                 {
                     "done": false, 
                     "arch": "slc7_ppc64le_gcc9", 
-                    "passed": true, 
+                    "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/tue/12.0-tue-23/CMSSW_12_0_X_2021-10-19-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 180, 
-                        "known_failed": 7, 
-                        "num_failed": 0
+                        "num_passed": 358, 
+                        "known_failed": 0, 
+                        "num_failed": 7
                     }
                 }, 
                 {
