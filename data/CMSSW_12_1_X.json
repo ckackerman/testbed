@@ -278,6 +278,15 @@
                     "author_login": "CTPPS"
                 }, 
                 {
+                    "hash": "2dfe916ae461de4a0441c352690e22efbba8f892", 
+                    "title": "Bug Fix for CLUE in BH section of HGCAL", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35727", 
+                    "number": "35727", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "rovere"
+                }, 
+                {
                     "hash": "fb520703be3526eaf1ae40e65ce99465bd66c784", 
                     "title": "Add multiprocess support into compareHistograms", 
                     "url": "https://github.com/cms-sw/cmssw/pull/35728", 
@@ -478,7 +487,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/cc8_amd64_gcc9/www/tue/12.1-tue-23/CMSSW_12_1_X_2021-10-19-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 3211, 
+                        "num_passed": 3262, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }

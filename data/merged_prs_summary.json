@@ -23066,7 +23066,17 @@
                 "comp_baseline": "inprogress", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "a76962154b54235bc30537515768c363f48ace6c", 
+                        "title": "[backport] Set equivalence of first/last bx labels used by different subsystems in ECAL DQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35674", 
+                        "number": "35674", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "alejands"
+                    }
+                ], 
                 "fwlite": [], 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -23203,7 +23213,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/tue/12.0-tue-23/CMSSW_12_0_X_2021-10-19-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1358, 
+                            "num_passed": 1412, 
                             "known_failed": 28, 
                             "num_failed": 0
                         }
@@ -23214,7 +23224,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/tue/12.0-tue-23/CMSSW_12_0_X_2021-10-19-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 442, 
+                            "num_passed": 536, 
                             "known_failed": 7, 
                             "num_failed": 0
                         }
@@ -26518,6 +26528,15 @@
                         "author_login": "perrotta"
                     }, 
                     {
+                        "hash": "2dfe916ae461de4a0441c352690e22efbba8f892", 
+                        "title": "Bug Fix for CLUE in BH section of HGCAL", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35727", 
+                        "number": "35727", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
+                    }, 
+                    {
                         "hash": "5e695933ef86cc84b3a925d0306d42d1b7061394", 
                         "title": "Change config files to include new metadata files needed for the new PCL devs", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35720", 
@@ -27596,6 +27615,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "2dfe916ae461de4a0441c352690e22efbba8f892", 
+                        "title": "Bug Fix for CLUE in BH section of HGCAL", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35727", 
+                        "number": "35727", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
                     }, 
                     {
                         "hash": "5e695933ef86cc84b3a925d0306d42d1b7061394", 
@@ -29022,6 +29050,15 @@
                         "author_login": "perrotta"
                     }, 
                     {
+                        "hash": "2dfe916ae461de4a0441c352690e22efbba8f892", 
+                        "title": "Bug Fix for CLUE in BH section of HGCAL", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35727", 
+                        "number": "35727", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
+                    }, 
+                    {
                         "hash": "5e695933ef86cc84b3a925d0306d42d1b7061394", 
                         "title": "Change config files to include new metadata files needed for the new PCL devs", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35720", 
@@ -30037,6 +30074,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "2dfe916ae461de4a0441c352690e22efbba8f892", 
+                        "title": "Bug Fix for CLUE in BH section of HGCAL", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35727", 
+                        "number": "35727", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
                     }, 
                     {
                         "hash": "5e695933ef86cc84b3a925d0306d42d1b7061394", 
@@ -31417,6 +31463,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "2dfe916ae461de4a0441c352690e22efbba8f892", 
+                        "title": "Bug Fix for CLUE in BH section of HGCAL", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35727", 
+                        "number": "35727", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
                     }, 
                     {
                         "hash": "5e695933ef86cc84b3a925d0306d42d1b7061394", 
@@ -33128,6 +33183,15 @@
                         "author_login": "perrotta"
                     }, 
                     {
+                        "hash": "2dfe916ae461de4a0441c352690e22efbba8f892", 
+                        "title": "Bug Fix for CLUE in BH section of HGCAL", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35727", 
+                        "number": "35727", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
+                    }, 
+                    {
                         "hash": "5e695933ef86cc84b3a925d0306d42d1b7061394", 
                         "title": "Change config files to include new metadata files needed for the new PCL devs", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35720", 
@@ -34272,6 +34336,15 @@
                         "author_login": "perrotta"
                     }, 
                     {
+                        "hash": "2dfe916ae461de4a0441c352690e22efbba8f892", 
+                        "title": "Bug Fix for CLUE in BH section of HGCAL", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35727", 
+                        "number": "35727", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
+                    }, 
+                    {
                         "hash": "5e695933ef86cc84b3a925d0306d42d1b7061394", 
                         "title": "Change config files to include new metadata files needed for the new PCL devs", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35720", 
@@ -34920,6 +34993,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "2dfe916ae461de4a0441c352690e22efbba8f892", 
+                        "title": "Bug Fix for CLUE in BH section of HGCAL", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35727", 
+                        "number": "35727", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
                     }, 
                     {
                         "hash": "5e695933ef86cc84b3a925d0306d42d1b7061394", 
@@ -36309,6 +36391,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "2dfe916ae461de4a0441c352690e22efbba8f892", 
+                        "title": "Bug Fix for CLUE in BH section of HGCAL", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35727", 
+                        "number": "35727", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
                     }, 
                     {
                         "hash": "5e695933ef86cc84b3a925d0306d42d1b7061394", 
@@ -39278,6 +39369,15 @@
                         "author_login": "perrotta"
                     }, 
                     {
+                        "hash": "2dfe916ae461de4a0441c352690e22efbba8f892", 
+                        "title": "Bug Fix for CLUE in BH section of HGCAL", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35727", 
+                        "number": "35727", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
+                    }, 
+                    {
                         "hash": "5e695933ef86cc84b3a925d0306d42d1b7061394", 
                         "title": "Change config files to include new metadata files needed for the new PCL devs", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35720", 
@@ -39814,6 +39914,15 @@
                         "author_login": "perrotta"
                     }, 
                     {
+                        "hash": "2dfe916ae461de4a0441c352690e22efbba8f892", 
+                        "title": "Bug Fix for CLUE in BH section of HGCAL", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35727", 
+                        "number": "35727", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
+                    }, 
+                    {
                         "hash": "5e695933ef86cc84b3a925d0306d42d1b7061394", 
                         "title": "Change config files to include new metadata files needed for the new PCL devs", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35720", 
@@ -40313,6 +40422,15 @@
                         "author_login": "perrotta"
                     }, 
                     {
+                        "hash": "2dfe916ae461de4a0441c352690e22efbba8f892", 
+                        "title": "Bug Fix for CLUE in BH section of HGCAL", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35727", 
+                        "number": "35727", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
+                    }, 
+                    {
                         "hash": "5e695933ef86cc84b3a925d0306d42d1b7061394", 
                         "title": "Change config files to include new metadata files needed for the new PCL devs", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35720", 
@@ -40756,6 +40874,15 @@
                         "author_login": "CTPPS"
                     }, 
                     {
+                        "hash": "2dfe916ae461de4a0441c352690e22efbba8f892", 
+                        "title": "Bug Fix for CLUE in BH section of HGCAL", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35727", 
+                        "number": "35727", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
+                    }, 
+                    {
                         "hash": "fb520703be3526eaf1ae40e65ce99465bd66c784", 
                         "title": "Add multiprocess support into compareHistograms", 
                         "url": "https://github.com/cms-sw/cmssw/pull/35728", 
@@ -40956,7 +41083,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/cc8_amd64_gcc9/www/tue/12.1-tue-23/CMSSW_12_1_X_2021-10-19-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 3211, 
+                            "num_passed": 3262, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
