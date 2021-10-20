@@ -23018,22 +23018,26 @@
                 "python3_tests": [], 
                 "tests_archs": [
                     "cc8_amd64_gcc9", 
+                    "slc7_aarch64_gcc9", 
                     "slc7_amd64_gcc10", 
                     "slc7_amd64_gcc900"
                 ], 
                 "cmsdist_merged_prs": {
                     "cc8_amd64_gcc9": [], 
+                    "slc7_aarch64_gcc9": [], 
                     "slc7_amd64_gcc10": [], 
                     "slc7_amd64_gcc900": []
                 }, 
                 "cmsdist_compared_tags": {
                     "cc8_amd64_gcc9": "IB/CMSSW_12_0_X_2021-10-17-0000/cc8_amd64_gcc9..IB/CMSSW_12_0_X_2021-10-17-0000/cc8_amd64_gcc9", 
+                    "slc7_aarch64_gcc9": "IB/CMSSW_12_0_X_2021-10-14-2300/slc7_aarch64_gcc9..IB/CMSSW_12_0_X_2021-10-14-2300/slc7_aarch64_gcc9", 
                     "slc7_amd64_gcc10": "IB/CMSSW_12_0_X_2021-10-17-2300/slc7_amd64_gcc10..IB/CMSSW_12_0_X_2021-10-17-2300/slc7_amd64_gcc10", 
                     "slc7_amd64_gcc900": "IB/CMSSW_12_0_X_2021-10-17-0000/slc7_amd64_gcc900..IB/CMSSW_12_0_X_2021-10-17-0000/slc7_amd64_gcc900"
                 }, 
                 "static_checks_failures": "not-found", 
                 "cmsdistTags": {
                     "cc8_amd64_gcc9": "IB/CMSSW_12_0_X_2021-10-17-0000/cc8_amd64_gcc9", 
+                    "slc7_aarch64_gcc9": "IB/CMSSW_12_0_X_2021-10-14-2300/slc7_aarch64_gcc9", 
                     "slc7_amd64_gcc10": "IB/CMSSW_12_0_X_2021-10-17-2300/slc7_amd64_gcc10", 
                     "slc7_amd64_gcc900": "IB/CMSSW_12_0_X_2021-10-17-0000/slc7_amd64_gcc900"
                 }, 
@@ -23077,6 +23081,12 @@
                         "details": {
                             "num_fails": "0"
                         }
+                    }, 
+                    {
+                        "arch": "slc7_aarch64_gcc9", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc7_aarch64_gcc9/www/tue/12.0-tue-23/CMSSW_12_0_X_2021-10-19-2300/new/logAnalysis.pkl']", 
+                        "details": {}
                     }
                 ], 
                 "ib_date": "2021-10-19-2300-0000", 
@@ -23087,7 +23097,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/tue/12.0-tue-23/CMSSW_12_0_X_2021-10-19-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 3350, 
+                            "num_passed": 3392, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -23098,7 +23108,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc10/www/tue/12.0-tue-23/CMSSW_12_0_X_2021-10-19-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 3247, 
+                            "num_passed": 3308, 
                             "known_failed": 0, 
                             "num_failed": 2
                         }
@@ -23153,6 +23163,14 @@
                         "details": {}
                     }, 
                     {
+                        "arch": "slc7_aarch64_gcc9", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/tue/12.0-tue-23/CMSSW_12_0_X_2021-10-19-2300/new/logAnalysis.pkl", 
+                        "details": {
+                            "ignoreWarning": 19
+                        }
+                    }, 
+                    {
                         "arch": "cc8_amd64_gcc9", 
                         "passed": "passed", 
                         "file": "/data/sdt/buildlogs/cc8_amd64_gcc9/www/tue/12.0-tue-23/CMSSW_12_0_X_2021-10-19-2300/new/logAnalysis.pkl", 
@@ -23167,6 +23185,10 @@
                 "dupDict": [
                     {
                         "arch": "cc8_amd64_gcc9", 
+                        "passed": "passed"
+                    }, 
+                    {
+                        "arch": "slc7_aarch64_gcc9", 
                         "passed": "passed"
                     }, 
                     {
