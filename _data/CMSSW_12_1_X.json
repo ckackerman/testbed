@@ -122,44 +122,7 @@
                     }
                 ], 
                 "slc7_amd64_gcc10": [], 
-                "slc7_amd64_gcc900": [
-                    {
-                        "hash": "6957c29e09eeb1d81bd6ecc55e797003257c2e0b", 
-                        "title": "Update zipp to 3.6.0", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/7397", 
-                        "number": "7397", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "cms-sw"
-                    }, 
-                    {
-                        "hash": "17e868943632a48641102e55a998e6ac9cd1f953", 
-                        "title": "Use same soruces for jemalloc and jemalloc-debug", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/7396", 
-                        "number": "7396", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "cms-sw"
-                    }, 
-                    {
-                        "hash": "5aedf41d9d9bd38e7368d8d89185c1ccf8fd2ff7", 
-                        "title": "Update tag for RecoTracker-MkFit to V00-06-00", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/7398", 
-                        "number": "7398", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "cms-sw"
-                    }, 
-                    {
-                        "hash": "43e60ab1e12d99238322801b66b57c1263b2ff2a", 
-                        "title": "Update mkFit to V3.4.0-0", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/7387", 
-                        "number": "7387", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "mmasciov"
-                    }
-                ], 
+                "slc7_amd64_gcc900": [], 
                 "cc8_ppc64le_gcc9": [
                     {
                         "hash": "6957c29e09eeb1d81bd6ecc55e797003257c2e0b", 
@@ -206,7 +169,7 @@
                 "slc7_aarch64_gcc9": "IB/CMSSW_12_1_X_2021-10-19-2300/slc7_aarch64_gcc9..IB/CMSSW_12_1_X/master", 
                 "slc7_amd64_gcc11": "IB/CMSSW_12_1_X_2021-10-18-1100/slc7_amd64_gcc11..IB/CMSSW_12_1_X/gcc11", 
                 "slc7_amd64_gcc10": "IB/CMSSW_12_1_X_2021-10-19-2300/slc7_amd64_gcc10..IB/CMSSW_12_1_X/gcc10", 
-                "slc7_amd64_gcc900": "IB/CMSSW_12_1_X_2021-10-18-2300/slc7_amd64_gcc900..IB/CMSSW_12_1_X/master", 
+                "slc7_amd64_gcc900": "IB/CMSSW_12_1_X_2021-10-19-2300/slc7_amd64_gcc900..IB/CMSSW_12_1_X/master", 
                 "cc8_ppc64le_gcc9": "IB/CMSSW_12_1_X_2021-10-18-2300/cc8_ppc64le_gcc9..IB/CMSSW_12_1_X/cc8", 
                 "slc7_ppc64le_gcc9": "IB/CMSSW_12_1_X_2021-10-19-2300/slc7_ppc64le_gcc9..IB/CMSSW_12_1_X/master"
             }, 
@@ -300,7 +263,8 @@
                 "slc7_ppc64le_gcc9", 
                 "cc8_amd64_gcc9", 
                 "slc7_aarch64_gcc9", 
-                "slc7_amd64_gcc10"
+                "slc7_amd64_gcc10", 
+                "slc7_amd64_gcc900"
             ], 
             "cmsdist_merged_prs": {
                 "slc7_ppc64le_gcc9": [
@@ -417,6 +381,44 @@
                         "author_login": "mmasciov"
                     }
                 ], 
+                "slc7_amd64_gcc900": [
+                    {
+                        "hash": "6957c29e09eeb1d81bd6ecc55e797003257c2e0b", 
+                        "title": "Update zipp to 3.6.0", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/7397", 
+                        "number": "7397", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }, 
+                    {
+                        "hash": "17e868943632a48641102e55a998e6ac9cd1f953", 
+                        "title": "Use same soruces for jemalloc and jemalloc-debug", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/7396", 
+                        "number": "7396", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }, 
+                    {
+                        "hash": "5aedf41d9d9bd38e7368d8d89185c1ccf8fd2ff7", 
+                        "title": "Update tag for RecoTracker-MkFit to V00-06-00", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/7398", 
+                        "number": "7398", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }, 
+                    {
+                        "hash": "43e60ab1e12d99238322801b66b57c1263b2ff2a", 
+                        "title": "Update mkFit to V3.4.0-0", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/7387", 
+                        "number": "7387", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmasciov"
+                    }
+                ], 
                 "slc7_amd64_gcc10": [
                     {
                         "hash": "6957c29e09eeb1d81bd6ecc55e797003257c2e0b", 
@@ -460,6 +462,7 @@
                 "slc7_ppc64le_gcc9": "IB/CMSSW_12_1_X_2021-10-18-2300/slc7_ppc64le_gcc9..IB/CMSSW_12_1_X_2021-10-19-2300/slc7_ppc64le_gcc9", 
                 "slc7_aarch64_gcc9": "IB/CMSSW_12_1_X_2021-10-18-2300/slc7_aarch64_gcc9..IB/CMSSW_12_1_X_2021-10-19-2300/slc7_aarch64_gcc9", 
                 "cc8_amd64_gcc9": "IB/CMSSW_12_1_X_2021-10-18-2300/cc8_amd64_gcc9..IB/CMSSW_12_1_X_2021-10-19-2300/cc8_amd64_gcc9", 
+                "slc7_amd64_gcc900": "IB/CMSSW_12_1_X_2021-10-18-2300/slc7_amd64_gcc900..IB/CMSSW_12_1_X_2021-10-19-2300/slc7_amd64_gcc900", 
                 "slc7_amd64_gcc10": "IB/CMSSW_12_1_X_2021-10-18-2300/slc7_amd64_gcc10..IB/CMSSW_12_1_X_2021-10-19-2300/slc7_amd64_gcc10"
             }, 
             "static_checks_failures": "not-found", 
@@ -467,7 +470,8 @@
                 "cc8_amd64_gcc9": "IB/CMSSW_12_1_X_2021-10-19-2300/cc8_amd64_gcc9", 
                 "slc7_ppc64le_gcc9": "IB/CMSSW_12_1_X_2021-10-19-2300/slc7_ppc64le_gcc9", 
                 "slc7_aarch64_gcc9": "IB/CMSSW_12_1_X_2021-10-19-2300/slc7_aarch64_gcc9", 
-                "slc7_amd64_gcc10": "IB/CMSSW_12_1_X_2021-10-19-2300/slc7_amd64_gcc10"
+                "slc7_amd64_gcc10": "IB/CMSSW_12_1_X_2021-10-19-2300/slc7_amd64_gcc10", 
+                "slc7_amd64_gcc900": "IB/CMSSW_12_1_X_2021-10-19-2300/slc7_amd64_gcc900"
             }, 
             "piechart": "inprogress", 
             "flawfinder": "inprogress", 
@@ -495,6 +499,12 @@
                     "details": {
                         "num_fails": "0"
                     }
+                }, 
+                {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": "unknown", 
+                    "file": "['/data/sdt/buildlogs/slc7_amd64_gcc900/www/tue/12.1-tue-23/CMSSW_12_1_X_2021-10-19-2300/new/logAnalysis.pkl']", 
+                    "details": {}
                 }, 
                 {
                     "arch": "slc7_amd64_gcc10", 
@@ -606,6 +616,14 @@
             "invalid_includes": [], 
             "builds": [
                 {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/tue/12.1-tue-23/CMSSW_12_1_X_2021-10-19-2300/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 19
+                    }
+                }, 
+                {
                     "arch": "slc7_amd64_gcc10", 
                     "passed": "passed", 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc10/www/tue/12.1-tue-23/CMSSW_12_1_X_2021-10-19-2300/new/logAnalysis.pkl", 
@@ -658,6 +676,10 @@
                 }, 
                 {
                     "arch": "slc7_amd64_gcc10", 
+                    "passed": "passed"
+                }, 
+                {
+                    "arch": "slc7_amd64_gcc900", 
                     "passed": "passed"
                 }
             ], 
